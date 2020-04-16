@@ -6,7 +6,7 @@
 Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 
 
-#### Temario 📄
+### 👀 Temario
 
 - Kotlin
 - GUI
@@ -16,7 +16,7 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 - API's & Firebase
 - Maps
 
-#### Criterio de evaluación 🤭
+### 🐢 Criterio de evaluación 
 
 |  Criterio   | Porcentaje |
 |:----------: |:----------:|
@@ -24,10 +24,37 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 |  Proyecto   |    50 %    |
 |   Reporte   |    30 %    |
 
-### Reportes válidos ⚽️:
 
-- **Un mundo CHIDO de Maicra🐢:** No valen autogenerados pero pueden decir si usaron semilla y tienen que poner unos letreros de qué hicieron. Si usan RedStone de una forma cool como compuertas lógicas que hagan algo (sí, si se puede) +1 punto. 🔺
+### Formato de entrega
 
-- **Una redacción 📝:** Consiste en un texto de tamaño que tu elijas donde explique todo lo que aprendiste en el curso de Android, como estamos en cuarentena en algún rato lo leeré. Entre más fácil de leer, le pongas dibujos diagramas y sea más fácil de leer, más puntos. En media cuartilla te puede quedar y valdrá más si no aburre :v
+Para **TODAS** sus entregas hacer dentro de la carpeta correspondiente (Proyecto,Reportes) una carpeta que tenga su nombre o nombres en caso que trabajen en equipo con el siguiente formato:
 
-- **Un documento:** Describa el proceso de publicación de aplicaciones en la App Store (Apple) y en la Play Store (Google) y las reglas (como el copyright) que hay que seguir para que nos las acepten. Esto es importante porque a veces tienen sus apps hechas y nunca llegan a publicarse, ya que no pasan el área de revisión para la mejora de la experiencia de usuario (o tienen código malicioso).
+Apellido Paterno, luego su nombre, si hay más integrantes separarlos por un guión.
+
+```
+Carpeta/ApellidoPaternoNombre1_ApellidoPaternoNombre2
+```
+
+Ejemplo:
+
+```
+Proyectos/GarridoSamuel-GatellHugo
+```
+
+Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-2/tree/master/tareas/2)
+
+## 📚Calificaciones 
+
+Fulanito de Tal 
+
+|  Criterio   | Puntos Obtenidos   |  Observaciones |
+|:----------: |:----------:|:-------: |
+|   Examen    |    20    |          |
+|  Proyecto   |    45    |    Se cerró en Activity 7      |
+|   Reporte   |    25    |  Te falló la Red Stone  |
+
+#### Calificación: 9
+
+Para más información: [ANDROID DEVELOPERS](https://developer.android.com)
+
+
