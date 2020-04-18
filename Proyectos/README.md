@@ -1,22 +1,19 @@
 # ⚽️ Proyectos 
 
-Para fines del curso, es necesario que el día que se les indique realicen las entregas de sus proyectos abriendo un pull request. Para eso es necesario realizar un fork a éste repositorio, subir su respectivo proyecto a su repositorio y luego realizar la petición. 
+```
+Fecha de límite de entrega: 2020.05.14
+```
+
+
+Para fines del curso, es necesario que el antes del día que se les indique, realicen las entregas de sus proyectos abriendo un pull request. Para eso es necesario realizar un fork a éste repositorio, subir su respectivo proyecto a su repositorio y luego realizar la petición. 
 
 La carpeta de su proyecto tendrá que tener la siguiente nomenclatura:
 
 ```
-NumPrebecario-ApellidopatAptmatNombre
+Proyectos/ApellidoPatAptMatNombre
 ```
 
-Para el día de la entrega debe haber al menos 1 pull request. La entrega es presencial el día establecido en el calendario de actividades, o en algún día acordado. 
 
-**Si realizan un manual de cómo publicar apps en Play Store se agregará +1 a su calificación.**
+Pueden hacerlo en equipo de max 3 personas. Recomendable que usen Git en este tiempo de contingencia para evitar la frase: "¿Ay, cuál era el bueno?".
 
-#### Calificaciones
-
-|  Nombre | Calificación |
-|:---------:|:----------:|
-|           |         0    |
-|         |         0    |
-|         |         0    |
 

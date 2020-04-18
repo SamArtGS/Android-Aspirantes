@@ -45,15 +45,27 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 ## 📚Calificaciones 
 
-Fulanito de Tal 
 
-|  Criterio   | Puntos Obtenidos   |  Observaciones |
-|:----------: |:----------:|:-------: |
-|   Examen    |    20    |          |
-|  Proyecto   |    45    |    Se cerró en Activity 7      |
-|   Reporte   |    25    |  Te falló la Red Stone  |
 
-#### Calificación: 9
+| #PB|  Nombre   | Examen|  Proyecto  | Reporte |Calificación|
+|:-:|:----------: |:----------:|:-------: |:-------:|:-------:|
+|**1**|Zarco Muñoz Gabriel        | 0 | 0 | 0 | 0 |
+|**3**|Espinosa Guadarrama Arturo | 0 | 0 | 0 | 0 |
+|**5**|Laguna Parra Ana           | 0 | 0 | 0 | 0 |
+|**6**|Chilpa Navarro Martín          | 0 | 0 | 0 | 0 |
+|**7**|Álvares Lorán Juan         | 0 | 0 | 0 | 0 |
+|**8**|Barreiro Valdez Alejandro  | 0 | 0 | 0 | 0 |
+|**11**|Arriola Hernández Daniel  | 0 | 0 | 0 | 0 |
+|**12**|Arvizu Flores Tomás       | 0 | 0 | 0 | 0 |
+|**13**|Álvares Salmerón Mario    | 0 | 0 | 0 | 0 |
+
+> Importante para las entregas:
+
+```
+Fecha de límite de entregas: 2020.05.15
+```
+
+
 
 Para más información: [ANDROID DEVELOPERS](https://developer.android.com)
 
