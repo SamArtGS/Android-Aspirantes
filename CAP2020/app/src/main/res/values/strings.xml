@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Proteco Classroom</string>
+    <string name="tab_text_1">Resumen</string>
+    <string name="tab_text_2">Agenda</string>
+    <string name="tab_text_3">Mapa</string>
+    <string name="tab_text_4">Puntaje</string>
+
+    <!-- Estos Strings son para la pantalla de inicio-->
+    <string name="correo">Ingresa tu correo</string>
+    <string name="contrasena">Ingresa tu contraseña</string>
+    <string name="ingresarBoton">Ingresar</string>
+    <string name="olvidoContrasena">¿Olvidaste tu contraseña?</string>
+    <string name="registro">Registro</string>
+
+
+
+    <string name="hello_blank_fragment">Hola de un fragment vacío</string>
+</resources>

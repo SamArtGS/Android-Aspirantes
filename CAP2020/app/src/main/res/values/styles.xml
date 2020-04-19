@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Tema básico de la aplicación, deriva de AppCompat Activity, Una aplicación clara con action bar de color -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#1074C0</item>
+    </style>
+     <!-- Quita el action bar definido por defecto para colocar el de plantilla de Tabbed Activity -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="PrimaryColoredButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/verde</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+</resources>
