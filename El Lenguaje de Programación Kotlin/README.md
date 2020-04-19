@@ -33,7 +33,7 @@ Kotlin hace una distinción entre tipos nullables y no-nullables (aquellos que p
 
 
 
-```
+```kotlin
 fun decirHola(talVez : String?, jamasNulo : Int) {
    // uso del operador Elvis
    val nombre : String = talVez ?: "extraño"
