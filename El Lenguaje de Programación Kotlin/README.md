@@ -1,6 +1,7 @@
 <p>
-  <img src="img/kotlin-logo.png" align = "right"  width="60"/>
+  <img src="img/Kotlin-logo.png" align = "right"  width="60"/>
 </p>
+
 # 🖥 Nuestro lenguaje de programación Kotlin ☭ 🤖
 
 **La versión soviética de Swift 🕊** 
