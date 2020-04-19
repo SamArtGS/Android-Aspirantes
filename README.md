@@ -51,6 +51,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |:-:|:----------: |:----------:|:-------: |:-------:|:-------:|
 |**1**|Zarco Muñoz Gabriel        | 0 | 0 | 0 | 0 |
 |**3**|Espinosa Guadarrama Arturo | 0 | 0 | 0 | 0 |
+|**4**|Flores Salinas Ana           | 0 | 0 | 0 | 0 |
 |**5**|Laguna Parra Ana           | 0 | 0 | 0 | 0 |
 |**6**|Chilpa Navarro Martín          | 0 | 0 | 0 | 0 |
 |**7**|Álvares Lorán Juan         | 0 | 0 | 0 | 0 |
