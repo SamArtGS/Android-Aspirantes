@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dia1</string>
+    <string name="botonString">Presionar</string>
+    <string name="BienvenidoString">Bienvenido al curso Android</string>
+    <string name="nombreString">Ingrese su nombre</string>
+    <string name="edadString">Ingrese su edad</string>
+</resources>
