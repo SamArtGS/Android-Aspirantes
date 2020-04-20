@@ -16,13 +16,7 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 - API's & Firebase
 - Maps
 
-### 🐢 Criterio de evaluación 
 
-|  Criterio   | Porcentaje |
-|:----------: |:----------:|
-|   Examen    |    20 %    |
-|  Proyecto   |    50 %    |
-|   Reporte   |    30 %    |
 
 
 ### Formato de entrega
