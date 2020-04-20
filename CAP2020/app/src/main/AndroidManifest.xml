@@ -19,8 +19,11 @@
         <activity android:name=".OlvidoContrasena">
 
         </activity>
-        <activity android:name=".Registro">
-            android:label="@string/app_name"
+        <activity
+            android:name=".Registro"
+            android:label="jajaja"
+            >
+
         </activity>
         <activity android:name=".Ingresa"
             android:label="@string/app_name">
