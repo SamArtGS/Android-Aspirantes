@@ -14,7 +14,7 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 - Vistas Dinámicas
 - Fragments
 - API's & Firebase
-- Maps
+- Ma
 
 ### 🐢 Criterio de evaluación 
 
