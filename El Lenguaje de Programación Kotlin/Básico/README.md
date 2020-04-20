@@ -1,6 +1,7 @@
 # Kotlin Básico ☕️👱🏼‍♀️💅👢📱
 
-##Variables 🐠
+## Variables 🐠
+
 Como en cualquier lenguaje de programación necesitamos variables, estas en Kotlin se declaran de la siguiente manera:
 
 Kotlin utiliza dos palabras clave diferentes para declarar variables: **val y var.**
@@ -61,7 +62,7 @@ Es posible omitir el tipo de dato ya que Kotlin hace la inferencia con base al v
 
 ## Colecciones
 
-##Condicionales
+## Condicionales
 
 ### Declaración if-else
 Como en otros lenguajes, si una expresión entre paréntesis junto con palabra if evalua true se ejecuta el código dentro de esa rama.
@@ -164,7 +165,7 @@ when {
 }
 ```
 
-##Ciclos
+## Ciclos
 
 ### FOR
 For itera a través de todo lo que proporciona un iterador. Esto es equivalente al bucle foreach en lenguajes como C #.
