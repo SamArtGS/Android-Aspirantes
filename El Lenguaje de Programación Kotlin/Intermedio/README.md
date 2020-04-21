@@ -30,10 +30,10 @@ val junta2Strings: (String, String) -> String = String::plus
 val suma: Int.(Int) -> Int = Int::plus
 
 //Usando invoke
-println(junta2Strings.invoke("Hola a", "todos!"))
+println(junta2Strings.invoke("Hola a", " todos!"))
 
 //No usando invoke
-println(junta2Strings("Hola, ", "a todos!")) 
+println(junta2Strings("Hola, ", " a todos!")) 
 
 //Usando invoke
 println(intPlus.invoke(1, 1))
@@ -53,7 +53,7 @@ Las expresiones lambda y las funciones anónimas son "literales de función", es
 val suma: (Int, Int) -> Int = { x: Int, y: Int -> x + y }
 ```
 #### Tipos de funciones y referencias
-Las funciones en Kotlin son de los tipos, tomando String como cualquier elemento:
+Las funciones en Kotlin son de 2 tipos, tomando String como cualquier elemento:
 
 ```
 () -> String : es un tipo que no toma parámetros y devuelve una cadena.
@@ -93,8 +93,8 @@ Una expresión lambda o una función anónima (así como una función local y un
 //Suma de una lista
 var ints = listOf(1,2,3,4,5)
 var suma = 0
-ints.filter { cadaNumero > 0 }.forEach {
-    suma += cadaNumero
+ints.filter { it > 0 }.forEach {
+    suma += it
 }
 println(suma)
 ```
