@@ -1,4 +1,4 @@
-# Kotlin Básico ☕️👱🏼‍♀️💅👢📱
+# Kotlin Básico ☕️ 🏝 📱
 
 ## Variables 🐠
 
@@ -395,6 +395,112 @@ for (i in 1..10) {
 	}
     println(i)
 }
+```
+
+## Funciones 🐮
+
+Las funciones en Kotlin son expresadas con la palabra reservada fun.
+
+**Ejercicio: ¿Que hará la siguiente función?**
+
+```kotlin
+fun nose(x: Int): Int {
+    return 2 * x
+}
+val resultado = nose(2)
+```
+
+### Parámetros:
+
+Los parámetros se enpresan de la siguiente manera, donde entre los paréntesis de la función
+
+**Ejercicio: Corregir la siguiente función para que saque la potencia de un número**
+
+```kotlin
+fun potencia(numero: Int, exponente: Int) { 
+	//println(numero**exponente)  //Error
+	Math.pow(Double,Double) //Pista
+	.toDouble() //Otra pista
+}
+```
+**Parámetros predeterminados**
+
+También podemos establecer parámetros por defecto, los cuáles tendrán un valor en los parámetros en caso que no se los asignemos.
+
+```kotlin
+fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size) { 
+	println("Lee algo")
+}
+
+//¿Por qué puedo colocar Array<Byte>?
+```
+
+
+**Parámetros nombrados**
+
+Los parámetros de función se pueden nombrar cuando se llaman funciones. Esto es muy conveniente cuando una función tiene una gran cantidad de parámetros o parámetros predeterminados.
+
+```kotlin
+fun reformat(str: String,
+             normalizeCase: Boolean = true,
+             upperCaseFirstLetter: Boolean = true,
+             divideByCamelHumps: Boolean = false,
+             wordSeparator: Char = ' ') {
+println(str)
+}
+
+//Llamada de la función
+reformat("Hola", wordSeparator = '_')
+```
+
+
+### Valores de retorno
+
+Cuando la función finaliza se devuelve un valor. Esto quiere decir que podremos utiliza la devolución de una función para otros fines, como asignarlo a una variable. Para indicar qué valor se devuelve se utiliza la palabra reservada return.
+
+```kolin
+fun regresaSaludo(nombre: String?): String {
+	return "Hola $nombre!"
+}
+println(regresaSaludo("Samuel"))
+// o también
+val saludo:String = regresaSaludo("Samuel")
+println(saludo)
+```
+
+
+Si una función no devuelve ningún valor útil, su tipo de retorno es Unidad. Unidad es un tipo con un solo valor: Unidad. Este valor no tiene que devolverse explícitamente.
+
+```kotlin
+fun impremeHolaLaaargo(nombre: String?): Unit {
+    if (nombre != null)
+        println("Hola ${nombre}!")
+    else
+        println("Hola!")
+    return Unit
+}
+impremeHolaLaaargo("Samuel")
+
+fun imprimeHola(nombre: String?) {
+	println("Hola ${nombre}")
+}
+imprimeHola("Samuel")
+```
+
+### Funciones de una sola expresión:
+
+Cuando una función devuelve una sola expresión, las llaves se pueden omitir y el cuerpo se especifica después de un símbolo =
+
+```kotlin
+fun por2(x: Int): Int = x * 2
+println(por2(2))
+```
+
+La declaración explícita del tipo de retorno es opcional cuando el compilador puede inferir el tipo de dato.
+
+```kotlin
+fun doble(x: Int) = x * 2
+println(doble(2))
 ```
 
 
