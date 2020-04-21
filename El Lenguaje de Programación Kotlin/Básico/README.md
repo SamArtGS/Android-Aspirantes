@@ -40,7 +40,7 @@ numero = 15 //Bien
 
 
 //No podrá cambiar
-var saludo:String = "Hola Mundo!"
+val saludo:String = "Hola Mundo!"
 
 saludo = "Hola!" //Error
 ```
