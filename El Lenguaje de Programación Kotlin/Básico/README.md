@@ -40,7 +40,7 @@ numero = 15 //Bien
 
 
 //No podrá cambiar
-var saludo:String = "Hola Mundo!"
+val saludo:String = "Hola Mundo!"
 
 saludo = "Hola!" //Error
 ```
@@ -113,7 +113,7 @@ val personas2 = listOf<Persona>(Persona("Adam", 20), Persona("Bob", 31), bob)
 println(personas == personas2)
 //TRUE
 bob.age = 32
-println(people == people2)
+println(personas == personas2)
 //FALSE
 ```
 **Ejercicio: ¿Por qué es TRUE o FALSE?**
