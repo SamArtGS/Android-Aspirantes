@@ -27,8 +27,7 @@ class Ingresa : AppCompatActivity() {
 
 
         botonIngreso.setOnClickListener {
-            val intent = Intent(this,MainActivity::class.java)
-            startActivity(intent)
+            ingresar()
         }
     }
     private lateinit var mAuth: FirebaseAuth
@@ -42,7 +41,8 @@ class Ingresa : AppCompatActivity() {
                 .addOnCompleteListener(this) {
                         task ->
                     if (task.isSuccessful) {
-
+                        val intent = Intent(this,MainActivity::class.java)
+                        startActivity(intent)
                     } else {
                         // sino le avisamos el usuairo que orcurrio un problema
                         Toast.makeText(this, "Nombre de usuario/contraseña incorrecto",
@@ -54,4 +54,5 @@ class Ingresa : AppCompatActivity() {
             Toast.makeText(this, "No has capturado todos los campos", Toast.LENGTH_SHORT).show()
         }
     }
+
 }

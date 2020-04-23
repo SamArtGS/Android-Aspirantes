@@ -16,12 +16,12 @@
 
 
 
-        <activity android:name=".OlvidoContrasena">
+        <activity android:name=".OlvidoContrasena" android:label="@string/Nombre">
 
         </activity>
         <activity
             android:name=".Registro"
-            android:label="jajaja"
+            android:label="@string/Nombre"
             >
 
         </activity>
@@ -33,9 +33,9 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".Email" />
+        <activity android:name=".Email" android:label="@string/Nombre"/>
 
-        <activity android:name=".Tarea" />
+        <activity android:name=".Tarea" android:label="@string/Nombre"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

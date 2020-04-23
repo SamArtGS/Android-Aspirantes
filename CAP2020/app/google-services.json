@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "452346200914",
-    "firebase_url": "https://cap2020-84471.firebaseio.com",
-    "project_id": "cap2020-84471",
-    "storage_bucket": "cap2020-84471.appspot.com"
+    "project_number": "1015453416804",
+    "firebase_url": "https://cap20202.firebaseio.com",
+    "project_id": "cap20202",
+    "storage_bucket": "cap20202.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:452346200914:android:037fc3cc60b39ecac1f08b",
+        "mobilesdk_app_id": "1:1015453416804:android:450548a76428945bdbce71",
         "android_client_info": {
           "package_name": "com.example.cap2020"
         }
       },
       "oauth_client": [
         {
-          "client_id": "452346200914-7jq0aidokatk1eic4m56d7fnnh2odjjh.apps.googleusercontent.com",
+          "client_id": "1015453416804-i192dr5ln6j65qp7clq8mjkdm6009k62.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCm8-wkpzJF3gOtUZbGyoieREl0F5K1dDY"
+          "current_key": "AIzaSyD3JZ_NgUQ-5Y2w38TyPwJLEElBYfdyRtA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "452346200914-7jq0aidokatk1eic4m56d7fnnh2odjjh.apps.googleusercontent.com",
+              "client_id": "1015453416804-i192dr5ln6j65qp7clq8mjkdm6009k62.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

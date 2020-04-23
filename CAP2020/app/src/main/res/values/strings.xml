@@ -13,7 +13,8 @@
     <string name="olvidoContrasena">¿Olvidaste tu contraseña?</string>
     <string name="registro">Registro</string>
 
-
+    <string name="Nombre">Ingresa tu(s) nombre(s)</string>
+    <string name="Apellido">Ingresa tu(s) apellido(s)</string>
 
     <string name="hello_blank_fragment">Hola de un fragment vacío</string>
 </resources>
