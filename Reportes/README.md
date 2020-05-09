@@ -2,7 +2,7 @@
 
 ```
 Planteamiento: 2020.04.16
-Fecha de límite de entrega: 2020.05.15
+Fecha de límite de entrega: 2020.05.30 11:59 pm
 ```
 
 ### Elige uno 🥞
