@@ -63,7 +63,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 > Importante para las entregas:
 
 ```
-Fecha de límite de entregas: 2020.05.15
+Fecha de límite de entregas: 2020.05.30 11:59 pm
 ```
 
 
