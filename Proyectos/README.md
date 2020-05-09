@@ -1,7 +1,7 @@
 # ⚽️ Proyectos 
 
 ```
-Fecha de límite de entrega: 2020.05.14
+Fecha de límite de entrega: 2020.05.30 11:59 pm
 ```
 
 
