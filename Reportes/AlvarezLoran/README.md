@@ -1,6 +1,9 @@
 # ¿Como publicar una aplicación en Play Store y Appstore?
 
-## Appstore
+## App Store
+
+<img src="https://www.aboutespanol.com/thmb/jvMJbYDFhfx4woK1Ia8su_M16uc=/640x640/smart/filters:no_upscale()/App-Store-Icon_large-56b964693df78c0b1367e278.png" width="200px"/>
+
 
 El primer paso para publicar una aplicación dentro de la tienda de aplicaciones moviles de Appke es contar con un ordenador Mac para poder convertir tu aplicación en un archivo binario utilizando Xcode.
 Después de esto en necesario adquirir una membresía anual de 99 dolares para poder publicar una aplicación.
@@ -33,3 +36,31 @@ En iTunes Connect se debe proporcionar toda la información necesaria para la Ap
 
 ### Proceso de revisión
 Una vez hecho todo esto la aplicación debe pasar por un proceso de revisión por parte de Apple para comprobar que no haya malware, que el contenido sea legítimo, entre otras cosas. Este proceso se hace de manera manual y toma alrededor de dos días.
+
+
+## Playstore 
+
+<img src="https://i.blogs.es/b6aa6b/playstore/1366_2000.jpg" width="200px"/>
+
+### Crear una cuenta de desarrollador
+Se debe crear una cuenta de desarrollador en Google Play, una vez aceptado el acuerdo de distribución para desarrolladores se debe hacer un único pago de 25 dolares. A los usuarios siempre se les mostrará el nombre de desarrollador.
+Si la app incluye pagos se debe configurar un perfil de pagos.
+
+### Crear aplicación 
+En el menú se debe seleccionar "Todas las aplicaciones" y dar clic en "Crear Aplicación" y configurar el título que tendrá la aplicación que aparecerá en la tienda.
+
+### Completar la ficha de Play Store 
+Aquí se deben llenar todos los campos sobre la descripición capturas de pantalla de la aplicación, política de privacidad, datos contacto, categoría, etc.
+
+### Subir la APK
+Se debe subir el codigo fuente de la aplicación antes de esto crear una versión de la aplicación. 
+Se puede lanzar una prueba interna, una versión cerrada, una versión abierta o crear una versión de producción.
+
+### Clasifiación de contenido 
+Las aplicaciones de Google Play deben dar información a los usuarios de su clasificación por edades, es importante llenar esto, de lo contrario se mostrará como "Sin clasificar" y podría acabar siendo eliminada.
+
+### Precio y distribución 
+Se debe establecer si la app es gratuita o de pago. Se puede convertir una app de pago en gratuita pero no a la inversa. También se puede seleccionar en qué países estará disponible la aplicación. 
+
+### Revisión
+Google Playstore revisará el contenido de la aplicación, si es la primera vez que se subes una aplicación la revisión tomará un de días, si ya tienes varias aplicaciones subidas la revisión tomará unas horas.
