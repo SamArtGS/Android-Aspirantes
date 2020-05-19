@@ -14,7 +14,7 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 - Vistas Dinámicas
 - Fragments
 - API's & Firebase
-- Ma
+- Maps
 
 ### 🐢 Criterio de evaluación 
 
@@ -51,10 +51,10 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |:-:|:----------: |:----------:|:-------: |:-------:|:-------:|
 |**1**|Zarco Muñoz Gabriel        | 0 | 0 | 0 | 0 |
 |**3**|Espinosa Guadarrama Arturo | 0 | 0 | 0 | 0 |
-|**4**|Flores Salinas Ana           | 0 | 0 | 0 | 0 |
+|**4**|Flores Salinas Ana         | 0 | 0 | 0 | 0 |
 |**5**|Laguna Parra Ana           | 0 | 0 | 0 | 0 |
-|**6**|Chilpa Navarro Martín          | 0 | 0 | 0 | 0 |
-|**7**|Álvares Lorán Juan         | 0 | 0 | 0 | 1 |
+|**6**|Chilpa Navarro Martín      | 0 | 0 | 0 | 0 |
+|**7**|Álvares Lorán Juan         | 0 | 0 | 2.9 | 3.9 |
 |**8**|Barreiro Valdez Alejandro  | 0 | 0 | 0 | 0 |
 |**11**|Arriola Hernández Daniel  | 0 | 0 | 0 | 0 |
 |**12**|Arvizu Flores Tomás       | 0 | 0 | 0 | 0 |
