@@ -13,14 +13,14 @@ class AdaptadorAgenda() : RecyclerView.Adapter<AdaptadorAgenda.ViewHolderCelda>(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdaptadorAgenda.ViewHolderCelda {
         val celda = LayoutInflater.from(parent.context)
-            .inflate(R.layout.adaptadorfilagenda, null, false)
+            .inflate(R.layout.adaptadorfilagenda, parent, false)
         return ViewHolderCelda(celda)
     }
 
     override fun onBindViewHolder(holder: ViewHolderCelda, position: Int) {
-        holder.Titulo.text = "Hola"
-        holder.Descripcion.text = "JAJAJAJA"
-        holder.foto.setImageResource(R.drawable.ic_launcher_foreground)
+        holder?.Titulo?.text = "Hola"
+        holder?.Descripcion?.text = "JAJAJAJA"
+        //holder?.foto?.setImageResource(R.drawable.ic_launcher_foreground)
 
     }
 

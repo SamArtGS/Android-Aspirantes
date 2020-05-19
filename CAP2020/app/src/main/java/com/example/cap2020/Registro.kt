@@ -12,8 +12,8 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_registro.*
 
-class Registro : AppCompatActivity() {
 
+class Registro : AppCompatActivity() {
     private lateinit var databaseReference: DatabaseReference
     private lateinit var database: FirebaseDatabase
     private lateinit var auth: FirebaseAuth
@@ -25,6 +25,7 @@ class Registro : AppCompatActivity() {
         }
 
     }
+
     private fun nuevaCuenta() {
         var progressBar = ProgressDialog(this)
         database = FirebaseDatabase.getInstance()

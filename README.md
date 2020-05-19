@@ -3,8 +3,8 @@
 </p>
 
 # El desarrollo de aplicaciones Android con Kotlin 📱
-Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 
+Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 
 ### 👀 Temario
 
@@ -14,7 +14,6 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 - Vistas Dinámicas
 - Fragments
 - API's & Firebase
-- Maps
 
 ### 🐢 Criterio de evaluación 
 
@@ -24,6 +23,22 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 |  Proyecto   |    50 %    |
 |   Reporte   |    30 %    |
 
+### EXAMEN
+
+```
+Fecha de límite: 2020.05.24 11:59 pm
+```
+
+
+URL Formulario de Google: [Examen Android 2020-2](https://forms.gle/sH8ffmCZmMgepsSd6)
+
+**ATENCIÓN:** No colocar respuestas copiadas a la brava de internet. Si es así, (busco sus respuestas en Google y veo copias chafonas) no tendrán derecho a calificación en Android. No está prohibido buscar, pero al menos reescriban lo que entiendan. Si tienen duda de la redacción de alguna pregunta, contáctenme. 
+
+Y finalmente, respuestas idénticas entre sus compañeros es anulación de examen para ambos. Al menos cambien el nombre a las variables o redacten algo diferente 👀.  **(Soy menos compasivo que Adriana 😔)**
+
+> Puntaje total: 10 + 1
+
+##### Que la fuerza los acompañe ⚽️
 
 ### Formato de entrega
 

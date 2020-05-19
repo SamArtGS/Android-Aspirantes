@@ -30,11 +30,14 @@ class Ingresa : AppCompatActivity() {
             ingresar()
         }
     }
+
     private lateinit var mAuth: FirebaseAuth
+
     fun ingresar(){
         mAuth = FirebaseAuth.getInstance()
         val email = correoIngresa.text.toString()
         val password = contrasenaIngresa.text.toString()
+
         if (!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)) {
             //Iniciamos sesión con el método signIn y enviamos usuario y contraseña
             mAuth.signInWithEmailAndPassword(email, password)

@@ -1,94 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
 
-    <TextView
-        android:id="@+id/saludo1"
+<Button
+    android:id="@+id/iniciarSesion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="asjnsanadsjnads">
+
+</Button>
+    <Button
+        android:id="@+id/boton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/saludo1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
-
-    <TextView
-        android:id="@+id/saludo2"
+        android:text="Boton1"
+        >
+    </Button>
+    <Button
+        android:id="@+id/boton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/saludo1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.758"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        android:text="Boton1"
+        >
+    </Button>
 
-    <TextView
+    <Button
+        android:id="@+id/boton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/saludo1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
+        android:text="Boton1"></Button>
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/boton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/saludo1"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="141dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
+        android:text="Boton1"
+        >
+    </Button>
+    <Button
+        android:id="@+id/boton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="52dp" />
-
-    <TextView
-        android:id="@+id/textView2"
+        android:text="Boton1"
+        >
+    </Button>
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="306dp" />
+        android:text="@string/saludo1">
+
+    </EditText>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="490dp" />
+        android:text="Button" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:text="Button" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="204dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
