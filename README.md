@@ -2,8 +2,6 @@
   <img src="img/s.png" align = "right"  width="90" height="90"/>
 </p>
 
-HOLSAAAAAAS
-
 # El desarrollo de aplicaciones Android con Kotlin 📱
 Curso para aspirantes del Programa de Tecnología en Cómputo, generación 40.
 
