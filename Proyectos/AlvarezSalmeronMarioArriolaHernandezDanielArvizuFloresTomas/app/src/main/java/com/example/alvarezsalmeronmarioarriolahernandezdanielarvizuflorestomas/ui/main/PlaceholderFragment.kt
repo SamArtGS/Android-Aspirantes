@@ -1,4 +1,4 @@
-package com.example.alvarezsalmeronmario_arriolahernandezdaniel_arvizuflorestomas.ui.main
+package com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,34 +10,18 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas.R
 
-import android.media.AudioManager
-import android.media.SoundPool
-import android.widget.Toast
 /**
  * A placeholder fragment containing a simple view.
  */
-@Suppress("DEPRECATION")
-@SuppressWarnings("unused")
 class PlaceholderFragment : Fragment() {
 
     private lateinit var pageViewModel: PageViewModel
-
-    private var soundPool: SoundPool? = null
-    private val soundId = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         pageViewModel = ViewModelProviders.of(this).get(PageViewModel::class.java).apply {
             setIndex(arguments?.getInt(ARG_SECTION_NUMBER) ?: 1)
         }
-
-        soundPool = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool!!.load(context, R.raw.latigazo, 1)
-    }
-
-    fun playSound(view: View) {
-        soundPool?.play(soundId, 1F, 1F, 0, 0, 1F)
-        Toast.makeText(context, "Playing sound. . . .", Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreateView(

@@ -1,4 +1,4 @@
-package com.example.alvarezsalmeronmario_arriolahernandezdaniel_arvizuflorestomas.ui.main
+package com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas.ui.main
 
 import android.content.Context
 import androidx.fragment.app.Fragment

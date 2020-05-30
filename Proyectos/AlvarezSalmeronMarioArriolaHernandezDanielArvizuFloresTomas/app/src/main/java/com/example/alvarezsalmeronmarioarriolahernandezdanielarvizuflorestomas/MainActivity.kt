@@ -1,17 +1,23 @@
-package com.example.alvarezsalmeronmario_arriolahernandezdaniel_arvizuflorestomas
+package com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import com.example.alvarezsalmeronmario_arriolahernandezdaniel_arvizuflorestomas.ui.main.SectionsPagerAdapter
-import com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas.R
+import com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas.ui.main.SectionsPagerAdapter
+import android.media.AudioManager
+import android.media.SoundPool
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
+
+    private var soundPool: SoundPool? = null
+    private val soundId = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +31,15 @@ class MainActivity : AppCompatActivity() {
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+                    .setAction("Action", null).show()
         }
+
+        soundPool = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
+        soundPool!!.load(baseContext, R.raw.latigazo, 1)
+
+    }
+
+    fun zurrar(view: View) {
+        soundPool?.play(soundId, 1F, 1F, 0, 0, 1F)
     }
 }
