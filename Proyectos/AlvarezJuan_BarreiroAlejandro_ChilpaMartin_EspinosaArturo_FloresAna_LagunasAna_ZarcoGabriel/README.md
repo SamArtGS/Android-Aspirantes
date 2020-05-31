@@ -33,6 +33,21 @@ ___
 
 # Secciones que contiene la app
 
+<p align=" justify">
+  La aplicación contendrá diversas secciones las cuales servirán como una guía para que el usuario pueda interactuar con dicha 
+  aplicación, no necesariamente se deberán cumplir las secciones de manera líneal, si no que tiene el propósito de servir como guía 
+  para que el usuario conozca todas las funcionalidades de dicha aplicación.
+</p>
+
+## App lista para probarse
+
+<p align=" justify">
+  Cuando la app se encuentre instalada en el dispositivo, en el aparecerá un icono con el logo principal de la aplicación, lo cual 
+  indica que la app se encuentra lista para ser ejecutada.
+</p>
+
+<img src="Imagenes/imagen-appInstalada.jpg" alt="App instalada en el dispositivo móvil" width="300"/>
+
 ## Splash Screen
 
 <p align=" justify">
@@ -41,6 +56,47 @@ ___
 </p>
 
 <img src="Imagenes/splashScreen.jpg" alt="Ventana Splash Screen" width="300"/>
+
+## Ventana de login
+
+<p align=" justify">
+  Una vez cargada la app en primer plano en el dispositivo móvil, se mostrará una ventana la cual contendrá dos vistas de texto para 
+  que el usuario pueda ingresar sus datos para poder iniciar sesión, además de contar con dos botones, los cuales serán utilizados 
+  para confirmar el inicio de sesión o registrar a un nuevo usuario en caso de no existir (todos los usuarios creados serán
+  almacenados en una base de datos empleando la plataforma Firebase, más adelante se explica sus usos).
+</p>
+ 
+<p align=" justify">
+  Tambien es posible registrarse o iniciar sesión con los tres botones que aparen debajo de estos últimos, los cuales se 
+  redireccionaran a la red social dependiendo del botón escogido (siendo Facebook, Google y Twitter las opciones), obteniendo la 
+  información del usuario con la ayuda de Firebase.
+</p>
+
+<img src="Imagenes/ventana-inicio.jpg" alt="Ventana de inicio de sesión" width="300"/>
+
+## Ventana emergente 1: Error de autenticación
+
+<p align=" justify">
+  Cuando el usuario a ingresa sus datos dentro la app (Correo y contraseña), si el usuario oprime el botón de 'login' y este no está 
+  registrado, entonces se mostrará una ventana emergente la cual envía un mensaje de error de autenticación, por lo cual el usuario 
+  no podrá acceder a las funcionalidades de la app.
+</p>
+
+<img src="Imagenes/ventana-emergente1.jpg" alt="Ventana emergente 1 - Error de autenticación" width="300"/>
+
+
+## Ventana de acceso
+
+<p align=" justify">
+  Se espera que cuando el usuario haya accedido a su cuenta, se muestre un menú iterativo el cual muestre las opciones que el usuario 
+  puede realizar, como redactar y recibir correos, ver un calendario o jugar algún juego como el famoso juego del gato.
+</p>
+
+<p align=" justify">
+  Además de esto, se cuenta con un botón logout el cual permite al usuario cerrar la sesión con la que ingreso a la app.
+</p>
+
+<img src="Imagenes/ventana-acceso.jpg" alt="Ventana de acceso a la app" width="300"/>
 
 ## Ventana para redactar un correo  
 
