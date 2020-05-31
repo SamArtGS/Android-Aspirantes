@@ -9,16 +9,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="191dp"
-        android:layout_height="174dp"
+        android:layout_width="312dp"
+        android:layout_height="195dp"
 
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toTopOf="@+id/correoIngresa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.414"
-        app:srcCompat="@drawable/proteco" />
+        app:layout_constraintVertical_bias="0.653"
+        app:srcCompat="@drawable/salud" />
 
     <EditText
         android:id="@+id/correoIngresa"
@@ -37,7 +37,7 @@
         android:id="@+id/contrasenaIngresa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="248dp"
+        android:layout_marginBottom="208dp"
         android:ems="13"
         android:hint="@string/contrasena"
         android:importantForAutofill="no"
@@ -48,7 +48,8 @@
 
     <Button
         android:id="@+id/botonIngreso"
-        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/PrimaryColoredButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
@@ -65,7 +66,7 @@
         android:id="@+id/botonOlvidoContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="112dp"
 
         android:text="@string/olvidoContrasena"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,7 +81,7 @@
         android:layout_marginEnd="202dp"
         android:layout_marginBottom="248dp"
         android:text="@string/registro"
-        android:theme="@style/PrimaryColoredButton"
+        style="@style/Widget.AppCompat.Button.Colored"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/contrasenaIngresa"
         app:layout_constraintStart_toStartOf="parent"

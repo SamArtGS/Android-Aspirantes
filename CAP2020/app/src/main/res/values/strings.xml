@@ -1,10 +1,10 @@
 <resources>
 
-    <string name="app_name">Proteco Classroom</string>
-    <string name="tab_text_1">Resumen</string>
-    <string name="tab_text_2">Agenda</string>
+    <string name="app_name">Logística Almacenes SSA</string>
+    <string name="tab_text_1">General</string>
+    <string name="tab_text_2">Encuesta</string>
     <string name="tab_text_3">Mapa</string>
-    <string name="tab_text_4">Puntaje</string>
+    <string name="tab_text_4">Perfil</string>
 
     <!-- Estos Strings son para la pantalla de inicio-->
     <string name="correo">Ingresa tu correo</string>
@@ -13,8 +13,6 @@
     <string name="olvidoContrasena">¿Olvidaste tu contraseña?</string>
     <string name="registro">Registro</string>
 
-    <string name="Nombre">Ingresa tu(s) nombre(s)</string>
+    <string name="Nombre">Ingresa tus datos</string>
     <string name="Apellido">Ingresa tu(s) apellido(s)</string>
-
-    <string name="hello_blank_fragment">Hola de un fragment vacío</string>
 </resources>

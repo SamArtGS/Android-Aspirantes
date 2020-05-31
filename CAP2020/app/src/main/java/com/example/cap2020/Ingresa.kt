@@ -27,7 +27,8 @@ class Ingresa : AppCompatActivity() {
 
 
         botonIngreso.setOnClickListener {
-            ingresar()
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
         }
     }
 
