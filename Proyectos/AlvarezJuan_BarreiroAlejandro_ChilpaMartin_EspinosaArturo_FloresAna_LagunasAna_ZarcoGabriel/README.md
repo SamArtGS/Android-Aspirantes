@@ -33,6 +33,14 @@ ___
 
 # Secciones que contiene la app
 
+## Splash Screen
+
+<p align=" justify">
+  Mientras la app este inicializando y cargando su contenido, se mostrará momentaneamente un imagen con el logo principal de la app, 
+  conocida como 'Splash Screen', la cual solo se mostrará un par de segundos cuando la app apenas sea abierta.
+</p>
+
+<img src="Imagenes/splashScreen.jpg" alt="Ventana Splash Screen" width="300"/>
 
 ## Ventana para redactar un correo  
 
