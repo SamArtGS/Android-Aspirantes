@@ -71,7 +71,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**6**|Chilpa Navarro Martín      | 2.18 | 0 | 3 | 5.18 |5
 |**7**|Álvares Lorán Juan         | 1.81 | 0 | 3 | 4.81 |6*
 |**8**|Barreiro Valdez Alejandro  | 2 | 0 | 0 | 2 |2
-|**11**|Arriola Hernández Daniel  | 1.6 | 0 | 0 | 1.6 |1
+|**11**|Arriola Hernández Daniel  | 1.6 | 0 | 0 | 1.6 |2
 |**12**|Arvizu Flores Tomás       | 1.85 | 0 | 0 | 1.85 |2
 |**13**|Álvares Salmerón Mario    | 1.58 | 0 | 0 | 1.58 |2
 
