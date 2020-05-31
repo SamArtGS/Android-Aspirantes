@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProyectoRelampago</string>
+
+    <string name="h_email">Email</string>
+    <string name="h_password">Password</string>
+    <string name="h_provider">Provider</string>
+
+    <string name="b_logIn">Login</string>
+    <string name="b_signIn">Sign In</string>
+    <string name="b_logOut">Logout</string>
+
+    <string name="d_logoApp">Logo principal de la app</string>
+    <string name="d_logoFacebook">Logo de Facebook</string>
+    <string name="d_logoGoogle">Logo de Google</string>
+    <string name="d_logoTwitter">Logo de Twitter</string>
+</resources>

@@ -1,9 +1,0 @@
-[core]
-	repositoryformatversion = 0
-	filemode = false
-	bare = true
-	ignorecase = true
-[remote "origin"]
-	url = https://github.com/ReusHarper/AlvarezJuan_BarreiroAlejandro_ChilpaMartin_EspinosaArturo_FloresAna_LagunasAna_ZarcoGabriel.git
-	fetch = +refs/*:refs/*
-	mirror = true
