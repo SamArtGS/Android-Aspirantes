@@ -1,4 +1,4 @@
-﻿# Proyecto 1 de Android 📱
+# Proyecto 1 de Android 📱
 
 ### Integrantes
 
@@ -142,7 +142,7 @@ ___
 	defecto será el de X. Sera solo cuestion de tocar la casilla para marcarla con el turno correspondiente. Habrá un botón de reset para volver a inicial el juego. En la parte de arriba se mostraran los turnos y los ganadores
 
 <div align="center">
-	<img src="Imagenes/primerTurno.png" alt="Ventana de acceso a la app" width="300"/>
+	<img src="Imagenes/primerTurno.jpg" alt="Ventana del juego del gato" width="300"/>
 </div>
 
 ## Ganador O
@@ -153,7 +153,7 @@ ___
 </p>
 
 <div align="center">
-	<img src="Imagenes/Ganador0.png" alt="Ventana de acceso a la app" width="300"/>
+	<img src="Imagenes/Ganador0.jpg" alt="Ventana de acceso a la app" width="300"/>
 </div>
 
 ## Ganador X
@@ -163,7 +163,7 @@ ___
 </p>
 
 <div align="center">
-	<img src="Imagenes/GanadorX.png" alt="Ventana de acceso a la app" width="300"/>
+	<img src="Imagenes/GanadorX.jpg" alt="Ventana de ganador X de gato" width="300"/>
 </div>
 
 ## Empate 
@@ -173,7 +173,7 @@ ___
 </p>
 
 <div align="center">
-	<img src="Imagenes/Empate.png" alt="Ventana de acceso a la app" width="300"/>
+	<img src="Imagenes/Empate.jpg" alt="Ventana de empate de gato" width="300"/>
 </div>
 
   
