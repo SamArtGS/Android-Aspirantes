@@ -20,13 +20,26 @@
             android:padding="@dimen/appbar_padding"
             android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/azotar"
+            android:onClick="zurrar"/>
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary" />
+<<<<<<< HEAD:Proyectos/AlvarezSalmeronMarioArriolaHernandezDanielArvizuFloresTomas/app/src/main/res/layout/activity_main.xml
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+=======
     </android.support.design.widget.AppBarLayout>
+>>>>>>> upstream/master:Clases/SSAlmacenes/app/src/main/res/layout/activity_main.xml
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

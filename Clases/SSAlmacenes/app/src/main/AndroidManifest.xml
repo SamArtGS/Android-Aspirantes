@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD:Proyectos/AlvarezSalmeronMarioArriolaHernandezDanielArvizuFloresTomas/app/src/main/AndroidManifest.xml
+    package="com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas">
+=======
     package="com.example.ssalmacenes">
+>>>>>>> upstream/master:Clases/SSAlmacenes/app/src/main/AndroidManifest.xml
 
     <application
         android:allowBackup="true"
