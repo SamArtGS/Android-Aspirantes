@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#7572f4">
+    android:background="#7572f4"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/logo_app"
@@ -40,11 +41,11 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
+        android:hint="@string/h_password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        android:hint="@string/h_password" />
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/button"
@@ -67,11 +68,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
+        android:background="@drawable/button_rounded_border"
         android:text="@string/b_signIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        android:background="@drawable/button_rounded_border" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -83,7 +84,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.132"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/googleButton"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:srcCompat="@drawable/icono_twitter" />
 
@@ -95,14 +96,14 @@
         android:layout_marginEnd="10dp"
         android:background="@drawable/background_social"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/googleButton"
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:srcCompat="@drawable/icono_facebook" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/googleButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
