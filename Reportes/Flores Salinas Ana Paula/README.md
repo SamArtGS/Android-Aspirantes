@@ -5,20 +5,17 @@ Por: Flores Salinas Ana Paula
 Trabajo de Investigación
 ```
 ## Cómo subir una app a Play Store ✅
-<p align=" justify">
-  Una vez que te registres y obtengas una cuenta de desarrollador de Google Play, podrás subir apps a esta plataforma mediante Play    Console.
-</p>
+
+Una vez que te registres y obtengas una cuenta de desarrollador de Google Play, podrás subir apps a esta plataforma mediante Play    Console.
 
 
-### Cómo crear una app ☝🏻
-<p align=" justify">
-  1. Accede a Play Console.
+### Cómo crear una app ☝
+
+1. Accede a Play Console.
 2. Selecciona Todas las aplicaciones Todas las aplicaciones > Crear aplicación.
-3. Selecciona un idioma predeterminado y agrega un título para la app. 
+3. Selecciona un idioma predeterminado y agrega un título para la app.
 4. Escribe el nombre de la aplicación como quieras que aparezca en Google Play.
 5. Crea la ficha de Play Store, responde el cuestionario de clasificación del contenido y configura el precio y la distribución.
-
-</p>
 
 
 ### Archivo APK 📁🗃️
