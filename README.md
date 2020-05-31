@@ -67,7 +67,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**1**|Zarco Muñoz Gabriel        | 1.24 | 0 | 0 | 1.24 | 1
 |**3**|Espinosa Guadarrama Arturo | 2.04 | 0 | 3 | 5.04 |5
 |**4**|Flores Salinas Ana         | 1.27 | 0 | 0 | 1.27 |1
-|**5**|Laguna Parra Ana           | 2 | 0 | 0 | 2 |2
+|**5**|Lagunas Parra Ana           | 2 | 0 | 0 | 2 |2
 |**6**|Chilpa Navarro Martín      | 2.18 | 0 | 3 | 5.18 |5
 |**7**|Álvares Lorán Juan         | 1.81 | 0 | 3 | 4.81 |6*
 |**8**|Barreiro Valdez Alejandro  | 2 | 0 | 0 | 2 |2
