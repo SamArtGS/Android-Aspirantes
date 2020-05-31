@@ -135,5 +135,45 @@ ___
   <img src="Imagenes/bandejasCorreo.png" alt="Ventana de acceso a la app" width="300"/>
 </div>
 
+## Vista del juego de Gato
+
+<p align=" justify">
+  Se creó el diseño del tradicional guejo de gato hecho con botones apilados en filas y columnas de 3x3. El primer turno por 
+	defecto será el de X. Sera solo cuestion de tocar la casilla para marcarla con el turno correspondiente. Habrá un botón de reset para volver a inicial el juego. En la parte de arriba se mostraran los turnos y los ganadores
+
+<div align="center">
+	<img src="Imagenes/primerTurno.png" alt="Ventana de acceso a la app" width="300"/>
+</div>
+
+## Ganador O
+
+<p align=" justify">
+  En caso de que tres casillas seguidas en el juego ya sea de manera vertical horizontal o diagonal esten marcadas con O el ganador será 
+	el jugador O
+</p>
+
+<div align="center">
+	<img src="Imagenes/Ganador0.png" alt="Ventana de acceso a la app" width="300"/>
+</div>
+
+## Ganador X
+
+<p align=" justify">
+   En caso de que tres casillas seguidas en el juego ya sea de manera vertical horizontal o diagonal esten marcadas con X el ganador será el jugador X
+</p>
+
+<div align="center">
+	<img src="Imagenes/GanadorX.png" alt="Ventana de acceso a la app" width="300"/>
+</div>
+
+## Empate 
+
+<p align=" justify">
+  Si en ninguna casilla esta 3 veces marcada con las dos opciones de simbolos de manera vertical horizontal o diagonal entonces habrá un empate
+</p>
+
+<div align="center">
+	<img src="Imagenes/Empate.png" alt="Ventana de acceso a la app" width="300"/>
+</div>
 
   
