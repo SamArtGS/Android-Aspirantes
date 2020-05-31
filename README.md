@@ -62,18 +62,18 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 
 
-| #PB|  Nombre   | Examen|  Proyecto  | Reporte |Calificación|
-|:-:|:----------: |:----------:|:-------: |:-------:|:-------:|
-|**1**|Zarco Muñoz Gabriel        | 0 | 0 | 0 | 0 |
-|**3**|Espinosa Guadarrama Arturo | 0 | 0 | 3 | 3 |
-|**4**|Flores Salinas Ana         | 0 | 0 | 0 | 0 |
-|**5**|Laguna Parra Ana           | 0 | 0 | 0 | 0 |
-|**6**|Chilpa Navarro Martín      | 0 | 0 | 3 | 3 |
-|**7**|Álvares Lorán Juan         | 0 | 0 | 3 | 4 |
-|**8**|Barreiro Valdez Alejandro  | 0 | 0 | 0 | 0 |
-|**11**|Arriola Hernández Daniel  | 0 | 0 | 0 | 0 |
-|**12**|Arvizu Flores Tomás       | 0 | 0 | 0 | 0 |
-|**13**|Álvares Salmerón Mario    | 0 | 0 | 0 | 0 |
+| #PB|  Nombre   | Examen|  Proyecto  | Reporte |Calificación|Final|
+|:-:|:----------: |:----------:|:-------: |:-------:|:-------:|:-------:|
+|**1**|Zarco Muñoz Gabriel        | 1.24 | 0 | 0 | 1.24 | 1
+|**3**|Espinosa Guadarrama Arturo | 2.04 | 0 | 3 | 5.04 |5
+|**4**|Flores Salinas Ana         | 1.27 | 0 | 0 | 1.27 |1
+|**5**|Laguna Parra Ana           | 2 | 0 | 0 | 2 |2
+|**6**|Chilpa Navarro Martín      | 2.18 | 0 | 3 | 5.18 |5
+|**7**|Álvares Lorán Juan         | 1.81 | 0 | 3 | 4.81 |6*
+|**8**|Barreiro Valdez Alejandro  | 2 | 0 | 0 | 2 |2
+|**11**|Arriola Hernández Daniel  | 1.6 | 0 | 0 | 1.6 |1
+|**12**|Arvizu Flores Tomás       | 1.85 | 0 | 0 | 1.85 |2
+|**13**|Álvares Salmerón Mario    | 1.58 | 0 | 0 | 1.58 |2
 
 > Importante para las entregas:
 
