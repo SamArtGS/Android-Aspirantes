@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProyectoRelampago</string>
+    <string name="prefs_file">com.example.proyectorelampago.PREFERENCE_FILE_KEY"</string>
+    <string name="h_email">Email</string>
+    <string name="h_password">Password</string>
+    <string name="h_provider">Provider</string>
+
+    <string name="b_logIn">Login</string>
+    <string name="b_signIn">Sign In</string>
+    <string name="b_logOut">Logout</string>
+    <string name="b_buzon">Buzón</string>
+    <string name="b_camara">Cámara</string>
+    <string name="b_calendario">Calendario</string>
+    <string name="b_juegos">Juegos</string>
+
+
+    <string name="d_logoApp">Logo principal de la app</string>
+    <string name="d_logoFacebook">Logo de Facebook</string>
+    <string name="d_logoGoogle">Logo de Google</string>
+    <string name="d_logoTwitter">Logo de Twitter</string>
+    <string name="calendario_relampago_2_0">Calendario mensual</string>
+    <string name="m_bienvenida">Bienvenidos a Proyecto-Relampago</string>
+    <string name="facebook_app_id">2705394969728640</string>
+    <string name="fb_login_protocol_scheme">fb2705394969728640</string>
+
+</resources>
