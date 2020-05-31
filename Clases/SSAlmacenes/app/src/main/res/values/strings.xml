@@ -1,5 +1,12 @@
 <resources>
+<<<<<<< HEAD:Proyectos/AlvarezSalmeronMarioArriolaHernandezDanielArvizuFloresTomas/app/src/main/res/values/strings.xml
+    <string name="app_name">AlvarezSalmeronMarioArriolaHernandezDanielArvizuFloresTomas</string>
+=======
     <string name="app_name">SS Almacenes</string>
+>>>>>>> upstream/master:Clases/SSAlmacenes/app/src/main/res/values/strings.xml
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_text_4">Tab 4</string>
+    <string name="azotar">Flagelar</string>
 </resources>

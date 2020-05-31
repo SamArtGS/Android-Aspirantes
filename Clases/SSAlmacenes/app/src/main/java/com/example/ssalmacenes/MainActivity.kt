@@ -8,7 +8,12 @@ import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+<<<<<<< HEAD:Proyectos/AlvarezSalmeronMarioArriolaHernandezDanielArvizuFloresTomas/app/src/main/java/com/example/alvarezsalmeronmario_arriolahernandezdaniel_arvizuflorestomas/MainActivity.kt
+import com.example.alvarezsalmeronmario_arriolahernandezdaniel_arvizuflorestomas.ui.main.SectionsPagerAdapter
+import com.example.alvarezsalmeronmarioarriolahernandezdanielarvizuflorestomas.R
+=======
 import com.example.ssalmacenes.ui.main.SectionsPagerAdapter
+>>>>>>> upstream/master:Clases/SSAlmacenes/app/src/main/java/com/example/ssalmacenes/MainActivity.kt
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+                .setAction("Action", null).show()
         }
     }
 }
