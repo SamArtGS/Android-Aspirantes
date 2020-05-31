@@ -6,7 +6,7 @@ Tomas T. Arvizu Flores
 
     -Son irresolubles deterministicamente en un tiempo práctico
     -El comportamiento estadístico es difícil de determinar con presición 
-    -Pueden ser parcialmente resueltos por interpretación «humana»
+
 
 ### 1) Powered by TensorFlow: helping paleographers transcribe medieval text using machine learning
 
