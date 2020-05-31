@@ -72,17 +72,18 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**7**|Álvares Lorán Juan         | 1.81 | 0 | 3 | 4.81 |6~
 |**8**|Barreiro Valdez Alejandro  | 2 | 0 | 3 | 5 |5
 |**11**|Arriola Hernández Daniel  | 1.6 | 0 | - | 1.6 |2
-|**12**|Arvizu Flores Tomás       | 1.85 | 3* | 3 | 7.85 |8
+|**12**|Arvizu Flores Tomás       | 1.85 | 3* | 3 | 7.85 |9~
 |**13**|Álvares Salmerón Mario    | 1.58 | 0 | - | 1.58 |2
 
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
+- ~Con puntos extra
 
 > Importante para las entregas:
 
 ```
-Fecha de límite de entregas: 2020.05.30 11:59 pm
+Fecha de límite de entregas: 2020.05.31 18:00 pm
 ```
 
 
