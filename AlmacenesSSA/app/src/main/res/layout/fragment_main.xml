@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="Buscar por CLUES"
+        android:padding="10dp"
+        android:importantForAutofill="no"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:inputType="text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <Spinner
+        android:id="@+id/regiones"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:entries="@array/Region"
+        />
+
+    <Spinner
+        android:id="@+id/estados"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:entries="@array/Estado"
+        />
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/lista_almacenes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Region">
+        <item>TODAS LAS REGIONES</item>
+        <item>REGIÓN 1</item>
+        <item>REGIÓN 2</item>
+        <item>REGIÓN 3</item>
+        <item>REGIÓN 4</item>
+        <item>REGIÓN 5</item>
+        <item>REGIÓN 6</item>
+        <item>REGIÓN 7</item>
+        <item>REGIÓN 8</item>
+        <item>REGIÓN 9</item>
+        <item>REGIÓN 10</item>
+    </string-array>
+
+    <string-array name="EstratoNom">
+        <item>RURAL</item>
+        <item>URBANO</item>
+    </string-array>
+    <string-array name="Subrogada">
+        <item>Propia</item>
+        <item>Subrogada</item>
+    </string-array>
+
+    <string-array name="Estado">
+        <item>AGUASCALIENTES</item>
+        <item>B. CALIFORNIA</item>
+        <item>B. CALIFORNIA SUR</item>
+        <item>CAMPECHE</item>
+        <item>CDMX</item>
+        <item>CHIAPAS</item>
+        <item>CHIHUAHUA</item>
+        <item>COAHUILA</item>
+        <item>COLIMA</item>
+        <item>DURANGO</item>
+        <item>GUANAJUATO</item>
+        <item>GUERRERO</item>
+        <item>HIDALGO</item>
+        <item>JALISCO</item>
+        <item>EDOMEX</item>
+        <item>MICHOACÁN</item>
+        <item>MORELOS</item>
+        <item>NAYARIT</item>
+        <item>NUEVO LEÓN</item>
+        <item>OAXACA</item>
+        <item>PUEBLA</item>
+        <item>QUERÉTARO</item>
+        <item>QUINTANA ROO</item>
+        <item>SAN LUIS POTOSÍ</item>
+        <item>SINALOA</item>
+        <item>SONORA</item>
+        <item>TABASCO</item>
+        <item>TAMAULIPAS</item>
+        <item>TLAXCALA</item>
+        <item>VERACRUZ</item>
+        <item>YUCATÁN</item>
+        <item>ZACATECAS</item>
+    </string-array>
+</resources>

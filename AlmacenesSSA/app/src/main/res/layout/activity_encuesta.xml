@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Encuesta">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="right"
+            tools:context=".ui.main.PagInicio"
+            >
+            <Switch
+                android:id="@+id/datosCorrectos"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Datos correctos?"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:checked="true"
+                />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Último Movimiento"
+                />
+            <TextView
+
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Inicio Operación"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fechaultimoTE"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="01/01/2000" />
+
+            <TextView
+
+                android:id="@+id/fechainicioTE"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="01/01/2000"
+                android:gravity="right"
+                />
+
+        </LinearLayout>
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos generales"
+                android:textStyle="bold"
+                />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="CLUES"
+                />
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="RFC"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/cluesTE"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+            <EditText
+                android:id="@+id/rfcTE"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+
+        </LinearLayout>
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre Unidad"
+                />
+            <EditText
+                android:id="@+id/NombreUnidadTE"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                />
+
+
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirección"
+                />
+            <EditText
+                android:id="@+id/direccionTE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="17dp"
+                android:paddingBottom="20dp"
+                />
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Localidad"
+                />
+            <EditText
+                android:textSize="17dp"
+                android:id="@+id/localidadTE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="20dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Municipio"
+                    />
+
+                <TextView
+                    android:paddingTop="20dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Entidad Federativa"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:textSize="17dp"
+                    android:id="@+id/municipioTE"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    />
+                <EditText
+                    android:textSize="17dp"
+                    android:id="@+id/entidadTE"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    />
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Código Postal"
+                />
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Estrato"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/cpostalTE"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <Spinner
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:id="@+id/spinner"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:entries="@array/EstratoNom"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Latitud"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Longitud"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/latitudTE"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                />
+
+            <EditText
+                android:id="@+id/longitudTE"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                />
+            <Button
+                android:id="@+id/localizacionGPS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:textColor="@android:color/background_light"
+                android:drawableStart="@android:drawable/ic_menu_mylocation"
+                android:textSize="15dp"
+                >
+            </Button>
+        </LinearLayout>
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre encargado almacen"
+                />
+            <EditText
+                android:textSize="17dp"
+                android:id="@+id/encargadoTE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/telefonoTE"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/emailTE"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número de empleados"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Administrativo"
+                    />
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Surtimiento"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Recibo y acomodo"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/numEmpleadosAdmin"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/numEmpleadosSurti"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/numEmpleadosRecAcom"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dimensiones en m²"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie total del almacén"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie del patio maniobras"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/metrosCuadradosTE"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:id="@+id/metrosPatio"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie almacén seco"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Altura almacén seco"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/metrosSupSeco"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:id="@+id/metrosAltSeco"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie cámara fría"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Altura cámara fría"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/metrosSupFria"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:id="@+id/metrosAltFria"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie almacenaje en piso"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Altura almacenaje en piso"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/metrosSupPiso"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:id="@+id/metrosAltPiso"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inventario"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Racks Selectivos"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Racks Cantilever"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/rackSelectivo"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/rackCantilever"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Racks doble profundidad"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Plataformas"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/rackDProf"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/plataformas"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Cortinas de carga"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Cortinas de descarga"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/cortinaCarga"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/cortinaDescarga"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Camiones propios"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Camiones tercerizados"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/camionesPropios"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/camionesTerceros"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Patines"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="# Montacargas"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/patines"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/montacargas"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Unidad Respaldo"
+                    />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Tipo de unidad"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <CheckBox
+                    android:id="@+id/respaldo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Planta de Energía" />
+
+                <Spinner
+                    android:paddingTop="10dp"
+                    android:textSize="17dp"
+                    android:id="@+id/subrogada"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/Subrogada"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotografías"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                />
+
+            <Button
+
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center"
+                android:id="@+id/foto1"
+                android:layout_width="250dp"
+                android:drawableLeft="@android:drawable/ic_menu_camera"
+                android:layout_height="wrap_content"
+                android:text="Fotografía: Fachada" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/icons8warehouse"/>
+
+
+            <Button
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center"
+                android:id="@+id/foto2"
+                android:layout_width="250dp"
+                android:drawableLeft="@android:drawable/ic_menu_camera"
+                android:layout_height="match_parent"
+                android:text="FOTO: Interior" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/icons8robot"/>
+
+            <Button
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center"
+                android:id="@+id/foto3"
+                android:drawableLeft="@android:drawable/ic_menu_camera"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="FOTO: Personal"
+
+                />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/icons8people"/>
+
+            
+
+
+            <CheckBox
+                android:id="@+id/checkBoxFin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:text="Acepto que estos son los cambios finales" />
+
+
+            <Button
+                android:id="@+id/enviar"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:textColor="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enviar" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979536640225",
+    "firebase_url": "https://almacenes-ssa.firebaseio.com",
+    "project_id": "almacenes-ssa",
+    "storage_bucket": "almacenes-ssa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979536640225:android:0365c4f8619674328e5fa0",
+        "android_client_info": {
+          "package_name": "com.proteco.almacenesssa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979536640225-0iivtrqdktvv9e1fvbhbdgq1oavnob3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proteco.almacenesssa",
+            "certificate_hash": "154edba12ccce5bee04672e49b140ce0c4633aff"
+          }
+        },
+        {
+          "client_id": "979536640225-tq1vroq7jov4k7vvpno50efe83j62mqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv2-LBnRuJiO5OcjmUiROPUZtm1i0AvsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979536640225-tq1vroq7jov4k7vvpno50efe83j62mqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
