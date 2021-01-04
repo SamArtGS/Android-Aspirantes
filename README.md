@@ -75,6 +75,10 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**17**|             | 0 | 0 | 0 | 0 | 0
 |**19**|             | 0 | 0 | 0 | 0 | 0
 
+
+Erick Rodrigo Minero Pineda
+
+
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
