@@ -75,6 +75,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**17**|             | 0 | 0 | 0 | 0 | 0
 |**19**|             | 0 | 0 | 0 | 0 | 0
 
+
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
@@ -91,3 +92,8 @@ Fecha de límite de entregas: 2021.01.20 11:59 pm
 Para más información: [ANDROID DEVELOPERS](https://developer.android.com)
 
 
+
+
+
+
+Angeles Hernández Juan
