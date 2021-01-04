@@ -79,6 +79,8 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 Abraham Galindo Ruiz
 
+Bautista Pérez Brian Jassiel
+
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
