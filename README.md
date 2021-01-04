@@ -84,6 +84,8 @@ Erick Rodrigo Minero Pineda
 
 Mario Huarte Nolasco
 
+Uriel Pérez Delgado
+
 
 - *Aún si calificar
 - +Pendiente
