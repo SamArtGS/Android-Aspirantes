@@ -6,6 +6,10 @@
 
 Curso para aspirantes del Programa de Tecnología en Cómputo, generación 41.
 
+
+Calderon Guevara Cesar Yair
+
+
 ### 👀 Temario
 
 - Kotlin
