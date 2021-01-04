@@ -89,6 +89,16 @@ Abraham Galindo Ruiz
 Bautista Pérez Brian Jassiel
 
 
+Isaac Alejandro Sanabria Mendoza 
+
+
+
+
+Carrichi de la Cruz Roberto Carlos
+
+Ortega Lujano Conic aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
