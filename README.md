@@ -77,6 +77,12 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 Isaac Alejandro Sanabria Mendoza 
 
+
+
+
+Carrichi de la Cruz Roberto Carlos
+
+
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
