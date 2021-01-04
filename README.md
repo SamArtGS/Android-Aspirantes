@@ -73,7 +73,11 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**13**|             | 0 | 0 | 0 | 0 | 0
 |**15**|             | 0 | 0 | 0 | 0 | 0
 |**17**|             | 0 | 0 | 0 | 0 | 0
-|**19**|             | 0 | 0 | 0 | 0 | 0
+|**19**|Abraham Galindo Ruiz | 0 | 0 | 0 | 0 | 0
+
+
+
+Abraham Galindo Ruiz
 
 - *Aún si calificar
 - +Pendiente
