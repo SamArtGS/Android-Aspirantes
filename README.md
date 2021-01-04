@@ -40,6 +40,10 @@ Y finalmente, respuestas idénticas entre sus compañeros es anulación de exame
 
 ##### Que la fuerza los acompañe ⚽️
 
+
+García Miranda Athenas Marlene
+
+
 ### Formato de entrega
 
 Para **TODAS** sus entregas hacer dentro de la carpeta correspondiente (Proyecto,Reportes) una carpeta que tenga su nombre o nombres en caso que trabajen en equipo con el siguiente formato:
