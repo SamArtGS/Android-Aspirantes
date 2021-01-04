@@ -76,7 +76,13 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**19**|             | 0 | 0 | 0 | 0 | 0
 
 
+<<<<<<< HEAD
+
 Juan Arturo Lira Navarro
+=======
+Erick Rodrigo Minero Pineda
+
+>>>>>>> 467c23d94f784b833fda901c298961f128c1f41c
 
 - *Aún si calificar
 - +Pendiente
