@@ -75,18 +75,14 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**17**|             | 0 | 0 | 0 | 0 | 0
 |**19**|             | 0 | 0 | 0 | 0 | 0
 
-
-
-
-
-
-
-
-
+<<<<<<< HEAD
 
 Diego Galnares Ruíz
 
 
+=======
+Merino Hernández Ailyn
+>>>>>>> 425e0eb139b23269d34ee2cd3f21453f6df461f2
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
