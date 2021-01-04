@@ -82,7 +82,8 @@ Isaac Alejandro Sanabria Mendoza
 
 Carrichi de la Cruz Roberto Carlos
 
-Ortega Lujano Conic 
+Ortega Lujano Conic aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 - *Aún si calificar
 - +Pendiente
