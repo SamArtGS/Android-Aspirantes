@@ -78,6 +78,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 Erick Rodrigo Minero Pineda
 
+Mario Huarte Nolasco
 
 - *Aún si calificar
 - +Pendiente
