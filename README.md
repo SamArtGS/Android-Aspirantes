@@ -15,6 +15,8 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 41.
 - Fragments
 - API's & Firebase
 
+*********************** Eyssautier Hernández Michel Karina *********************** 
+
 ### 🐢 Criterio de evaluación 
 
 |  Criterio   | Porcentaje |
