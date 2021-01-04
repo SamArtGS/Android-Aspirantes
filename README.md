@@ -79,7 +79,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 
 Juan Arturo Lira Navarro
-=======
+
 Erick Rodrigo Minero Pineda
 
 
