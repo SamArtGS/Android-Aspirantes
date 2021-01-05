@@ -42,6 +42,10 @@ Y finalmente, respuestas idénticas entre sus compañeros es anulación de exame
 
 ##### Que la fuerza los acompañe ⚽️
 
+
+García Miranda Athenas Marlene
+
+
 ### Formato de entrega
 
 Para **TODAS** sus entregas hacer dentro de la carpeta correspondiente (Proyecto,Reportes) una carpeta que tenga su nombre o nombres en caso que trabajen en equipo con el siguiente formato:
@@ -99,6 +103,14 @@ Carrichi de la Cruz Roberto Carlos
 Ortega Lujano Conic aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
+<<<<<<< HEAD
+
+Diego Galnares Ruíz
+
+
+=======
+Merino Hernández Ailyn
+>>>>>>> 425e0eb139b23269d34ee2cd3f21453f6df461f2
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
