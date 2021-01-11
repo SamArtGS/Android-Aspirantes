@@ -1,5 +1,6 @@
 package com.example.juegosbpvaj
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_juego1.*
@@ -58,6 +59,26 @@ class juego1 : AppCompatActivity() {
                     imageView2.setImageResource(R.mipmap.cara)}
                 1->{modalidad.text="Personajes Comics"
                     imageView2.setImageResource(R.mipmap.ic_launcher)
+                }
+            }
+        }
+
+        jugar.setOnClickListener {
+            when(dif){
+                0->{
+                    val intento1: Intent = Intent(this,dificultad_Facil::class.java)
+                    intento1.putExtra("tema",tem)
+                    startActivity(intento1)
+                }
+                1->{
+                    val intento1: Intent = Intent(this,difMedia::class.java)
+                    intento1.putExtra("tema",tem)
+                    startActivity(intento1)
+                }
+                2->{
+                    val intento1: Intent = Intent(this,Dificultad3::class.java)
+                    intento1.putExtra("tema",tem)
+                    startActivity(intento1)
                 }
             }
         }
