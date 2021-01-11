@@ -13,7 +13,7 @@ class Dificultad3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dificultad3)
 
-        val images: MutableList<Int> = mutableListOf(camel, coala, fox, lion, monkey, wolf, camel, coala, fox, lion, monkey, wolf, , , ,)
+        val images: MutableList<Int> = mutableListOf(, , , , , , , , , , , , , , ,)
 
         val buttons = arrayOf(button1, button2, button3, button4, button5, button6, button7, button8,
             button9, button10, button11, button12,button13,button14,button15,button16)
