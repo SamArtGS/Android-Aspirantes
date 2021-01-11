@@ -10,10 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        juego1.setOnClickListener {
-            val intento1= Intent(this,juego1::class.java)
-                startActivity(intento1)
-            }
+        memorama.setOnClickListener {
+            val intento1: Intent= Intent(this,juego1::class.java)
+            startActivity(intento1)
+
         }
 
     }
