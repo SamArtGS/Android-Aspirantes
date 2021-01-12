@@ -192,12 +192,14 @@
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="392dp"
-        android:layout_height="325dp"
-        android:background="@color/transparent"
-        android:drawableTop="@drawable/androide"
+        android:layout_width="181dp"
+        android:layout_height="159dp"
+        android:backgroundTint="@color/transparent"
+        app:icon="@drawable/androide"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="364dp" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
