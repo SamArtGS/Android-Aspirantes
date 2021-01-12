@@ -67,17 +67,14 @@ class juego1 : AppCompatActivity() {
             when(dif){
                 0->{
                     val intento1: Intent = Intent(this,dificultad_Facil::class.java)
-                    intento1.putExtra("tema",tem)
                     startActivity(intento1)
                 }
                 1->{
                     val intento1: Intent = Intent(this,difMedia::class.java)
-                    intento1.putExtra("tema",tem)
                     startActivity(intento1)
                 }
                 2->{
                     val intento1: Intent = Intent(this,Dificultad3::class.java)
-                    intento1.putExtra("tema",tem)
                     startActivity(intento1)
                 }
             }

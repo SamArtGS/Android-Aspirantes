@@ -1,12 +1,10 @@
 package com.example.juegosbpvaj
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 
 import android.os.Bundle
 import com.example.juegosbpvaj.R.drawable.*
 import kotlinx.android.synthetic.main.activity_dificultad3.*
-import kotlinx.android.synthetic.main.activity_main.*
 
 class Dificultad3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
