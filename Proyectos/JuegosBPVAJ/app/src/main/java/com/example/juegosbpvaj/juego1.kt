@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_juego1.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class juego1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,10 +23,14 @@ class juego1 : AppCompatActivity() {
         medio.setOnClickListener {
             dif=1
             dificultad.text="Medio"
+            var dificultadMedia = Intent(this, difMedia::class.java)
+            startActivity(dificultadMedia)
         }
         dificil.setOnClickListener {
             dif=2
             dificultad.text="Dificil"
+            var dificultadDificil = Intent(this, Dificultad3::class.java)
+            startActivity(dificultadDificil)
         }
 
         modalidad.text="Animales"
