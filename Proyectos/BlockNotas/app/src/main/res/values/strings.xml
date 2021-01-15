@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Block Notas</string>
+    <string name="str_ingresar">ingresar</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
 </resources>

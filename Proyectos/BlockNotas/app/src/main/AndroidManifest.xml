@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BlockNotas">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ListTaskActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            scree
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
