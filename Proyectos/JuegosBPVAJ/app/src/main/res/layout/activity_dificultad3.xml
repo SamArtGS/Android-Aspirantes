@@ -24,10 +24,11 @@
         android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="14dp"
-        android:background="@drawable/code"
+        android:backgroundTint="#FFFFFF"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:background="@drawable/code"/>
 
     <Button
         android:layout_width="80dp"
@@ -72,16 +73,18 @@
         android:background="@drawable/code"/>
 
     <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:id="@+id/button6"
-        android:layout_marginTop="14dp"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintStart_toEndOf="@+id/button5"
         android:layout_marginStart="8dp"
-        android:background="@drawable/code"/>
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/code"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:rippleColor="#FFFFFF" />
     <Button
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -187,10 +190,6 @@
         android:layout_marginTop="14dp"
         app:layout_constraintTop_toBottomOf="@+id/button12"
         android:background="@drawable/code"/>
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
