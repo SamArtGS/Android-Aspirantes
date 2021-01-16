@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JuegosBPVAJ">
-        <activity android:name=".difMedia"></activity>
+        <activity android:name=".Juego2"></activity>
+        <activity android:name=".difMedia" />
         <activity android:name=".juego1" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -18,8 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Dificultad3"/>
-
+        <activity android:name=".Dificultad3" />
     </application>
 
 </manifest>

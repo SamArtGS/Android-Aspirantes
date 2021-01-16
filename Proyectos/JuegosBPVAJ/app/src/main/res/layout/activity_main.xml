@@ -27,12 +27,12 @@
         android:layout_marginBottom="252dp"
         android:text="Memorama"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/juego2"
+        app:layout_constraintEnd_toStartOf="@+id/gato"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/juego2"
+        android:id="@+id/gato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="252dp"
