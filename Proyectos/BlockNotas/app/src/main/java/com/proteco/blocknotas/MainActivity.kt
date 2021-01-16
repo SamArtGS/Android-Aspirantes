@@ -1,10 +1,11 @@
 package com.proteco.blocknotas
 
-import android.app.ListActivity
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.proteco.blocknotas.tareas.ListTaskActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
