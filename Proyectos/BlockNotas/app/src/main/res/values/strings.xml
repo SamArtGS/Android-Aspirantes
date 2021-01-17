@@ -12,4 +12,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="str_nombre_de_la_tarea">Nombre de la tarea</string>
+    <string name="str_agregar">Agregar</string>
 </resources>

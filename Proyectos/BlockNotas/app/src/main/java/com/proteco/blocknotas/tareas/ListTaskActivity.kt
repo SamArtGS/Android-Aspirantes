@@ -1,11 +1,12 @@
 package com.proteco.blocknotas.tareas
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.proteco.blocknotas.R
+import com.proteco.blocknotas.modelos.Task
 
 class ListTaskActivity : AppCompatActivity() {
 
@@ -28,10 +29,15 @@ class ListTaskActivity : AppCompatActivity() {
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
             
-            listTask.add(Task("Tarea ${contador}","Descripción de la tarea"))
-            contador++
-            taskAdapter?.notifyDataSetChanged()
+            startActivityForResult(Intent(this, AddTaskActivity::class.java), 25)
 
+        }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (resultCode == RESULT_OK && requestCode == 25){
+            taskAdapter?.notifyDataSetChanged()
         }
     }
 }

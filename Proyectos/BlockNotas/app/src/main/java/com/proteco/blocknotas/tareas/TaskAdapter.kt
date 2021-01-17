@@ -7,6 +7,7 @@ import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.proteco.blocknotas.R
+import com.proteco.blocknotas.modelos.Task
 import java.util.ArrayList
 
 
