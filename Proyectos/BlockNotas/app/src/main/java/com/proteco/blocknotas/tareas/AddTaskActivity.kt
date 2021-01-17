@@ -1,5 +1,6 @@
 package com.proteco.blocknotas.tareas
 
+import android.app.DatePickerDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -7,6 +8,7 @@ import android.widget.DatePicker
 import android.widget.EditText
 import android.widget.Toast
 import androidx.core.view.isEmpty
+import com.proteco.blocknotas.Fecha.DatePickerFragment
 import com.proteco.blocknotas.R
 import com.proteco.blocknotas.modelos.Task
 import com.proteco.blocknotas.modelos.User
@@ -42,15 +44,20 @@ class AddTaskActivity : AppCompatActivity() {
             Toast.makeText(this,"Ingresa una fecha limite para la tarea",Toast.LENGTH_SHORT).show()
         }
         else{
-
-            User.addTask(Task(nameTask.text.toString(), descTask.text.toString()))
+            var newTask: Task= Task(nameTask.text.toString(), descTask.text.toString())
+            newTask.fecha = datePicker?.text.toString()
+            User.addTask(newTask)
             setResult(RESULT_OK)
             finish()
         }
     }
 
     fun onClickFecha(view: View) {
-
-
+        var dateFragment = DatePickerFragment.newInstance(this,
+            DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth ->
+                val dateSelected = "${dayOfMonth.toString()}/${month+1}/${year}"
+                datePicker.setText(dateSelected)
+            })
+        dateFragment.show(supportFragmentManager, "datePicker")
     }
 }

@@ -7,10 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.proteco.blocknotas.R
 import com.proteco.blocknotas.modelos.Task
+import com.proteco.blocknotas.modelos.User
 
 class ListTaskActivity : AppCompatActivity() {
 
-    var listTask: ArrayList<Task> = ArrayList()
+    //var listTask: ArrayList<Task> = ArrayList()
     var taskAdapter: TaskAdapter? = null
     var contador: Int = 1
 
@@ -19,10 +20,12 @@ class ListTaskActivity : AppCompatActivity() {
         setContentView(R.layout.activity_list_task2)
         setSupportActionBar(findViewById(R.id.toolbar))
 
+        //listTask = User.tasks
+
         var rvTask: RecyclerView = findViewById(R.id.rv_list)
         rvTask.setHasFixedSize(true)
 
-        taskAdapter = TaskAdapter(listTask)
+        taskAdapter = TaskAdapter(User.tasks)
         rvTask.adapter =taskAdapter
 
 

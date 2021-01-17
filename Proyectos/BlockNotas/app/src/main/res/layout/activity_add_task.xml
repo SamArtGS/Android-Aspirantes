@@ -13,12 +13,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp">
 
         <EditText
+            android:background="@android:color/transparent"
             android:id="@+id/edtxt_add_name"
             android:hint="@string/str_nombre_de_la_tarea"
             android:layout_width="match_parent"
@@ -38,6 +40,7 @@
         android:layout_height="wrap_content">
 
         <EditText
+            android:background="@android:color/transparent"
             android:id="@+id/edtxt_add_desc"
             android:hint="Descripcion de la tarea"
             android:layout_width="match_parent"
@@ -57,22 +60,26 @@
         android:layout_height="wrap_content">
 
         <EditText
+            android:background="@android:color/transparent"
             android:id="@+id/edtxt_add_fecha"
-            android:hint="Descripcion de la tarea"
+            android:hint="Selecciona la fecha"
             android:inputType="date"
             android:onClick="onClickFecha"
+            android:clickable="true"
+            android:focusable="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        app:layout_constraintTop_toBottomOf="@+id/til_fecha"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/str_agregar"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClickAddTask"/>
