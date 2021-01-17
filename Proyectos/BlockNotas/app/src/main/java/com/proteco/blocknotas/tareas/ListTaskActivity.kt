@@ -27,8 +27,7 @@ class ListTaskActivity : AppCompatActivity() {
 
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            
             listTask.add(Task("Tarea ${contador}","Descripción de la tarea"))
             contador++
             taskAdapter?.notifyDataSetChanged()

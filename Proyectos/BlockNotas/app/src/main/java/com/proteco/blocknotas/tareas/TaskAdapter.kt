@@ -40,6 +40,9 @@ class TaskAdapter(var list_task: ArrayList<Task>) :
         holder.nameTask?.text=currentItem?.nameTask
         holder.descTask?.text =currentItem?.decTask
         holder.check?.isChecked=currentItem?.taskComplete!!
+        holder.check?.setOnCheckedChangeListener { buttonView, isChecked ->
+            currentItem.taskComplete=isChecked
+        }
     }
 
     override fun getItemCount(): Int {
