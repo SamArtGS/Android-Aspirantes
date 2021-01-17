@@ -21,6 +21,7 @@ class ListTaskActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 
         //listTask = User.tasks
+        title="Lista de tareas"
 
         var rvTask: RecyclerView = findViewById(R.id.rv_list)
         rvTask.setHasFixedSize(true)
