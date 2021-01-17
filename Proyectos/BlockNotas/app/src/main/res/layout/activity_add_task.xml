@@ -44,19 +44,29 @@
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <DatePicker
-        android:id="@+id/date_picker"
-        app:layout_constraintTop_toBottomOf="@+id/til_desc"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_fecha"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_desc"
+
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtxt_add_fecha"
+            android:hint="Descripcion de la tarea"
+            android:inputType="date"
+            android:onClick="onClickFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        app:layout_constraintTop_toBottomOf="@+id/date_picker"
+        app:layout_constraintTop_toBottomOf="@+id/til_fecha"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -15,7 +15,7 @@ class AddTaskActivity : AppCompatActivity() {
 
     lateinit var nameTask: EditText
     lateinit var descTask: EditText
-    lateinit var datePicker: DatePicker
+    lateinit var datePicker: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,7 @@ class AddTaskActivity : AppCompatActivity() {
     fun initComponents(){
         nameTask=findViewById(R.id.edtxt_add_name)
         descTask=findViewById(R.id.edtxt_add_desc)
-        datePicker=findViewById(R.id.date_picker)
+        datePicker=findViewById(R.id.edtxt_add_fecha)
 
     }
 
@@ -38,7 +38,7 @@ class AddTaskActivity : AppCompatActivity() {
         }else if (descTask.text.toString().isEmpty()){
             Toast.makeText(this,"Ingresa una descripcion para la tarea",Toast.LENGTH_SHORT).show()
         }
-        else if (datePicker.isEmpty()){
+        else if (datePicker.text.toString().isEmpty()){
             Toast.makeText(this,"Ingresa una fecha limite para la tarea",Toast.LENGTH_SHORT).show()
         }
         else{
@@ -47,5 +47,10 @@ class AddTaskActivity : AppCompatActivity() {
             setResult(RESULT_OK)
             finish()
         }
+    }
+
+    fun onClickFecha(view: View) {
+
+
     }
 }
