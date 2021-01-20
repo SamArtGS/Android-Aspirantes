@@ -9,7 +9,7 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 41.
 ### 👀 Temario
 
 - Kotlin
-- GUI
+- GUI Héctor Mauricio García Serrano
 - Actividades e Intents
 - Vistas Dinámicas
 - Fragments
@@ -74,7 +74,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**15**|             | 0 | 0 | 0 | 0 | 0
 |**17**|             | 0 | 0 | 0 | 0 | 0
 |**19**|             | 0 | 0 | 0 | 0 | 0
-Héctor Mauricio García Serrano
+
 
 
 
