@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.example.juegosbpvaj.R.drawable.*
 import kotlinx.android.synthetic.main.activity_dificultad3.*
 
-class Dificultad3 : AppCompatActivity() {
+class   Dificultad3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dificultad3)
