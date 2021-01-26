@@ -1,4 +1,4 @@
-# Acerca de esta App
+# Acerca de esta App. 📱
 <img src="Proyectos/BlockNotas/app/src/main/res/drawable/icons8-android.svg" alt="My cool logo"/>
 Check Task es una aplicación móvil que facilita la administración de tus actividades diarias a través de tu correo.
 
