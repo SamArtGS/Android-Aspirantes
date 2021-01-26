@@ -1,8 +1,8 @@
-# Acerca de esta App :fa-android:
-
+# Acerca de esta App
+<i class="las la-battery-three-quarters"></i>
 Check Task es una aplicación móvil que facilita la administración de tus actividades diarias a través de tu correo.
 
-##  ¿Cómo funciona? :tw-1f62e:
+##  ¿Cómo funciona?
 
 ###  1. Autentificación a través de una cuenta
 
