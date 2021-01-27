@@ -1,9 +1,9 @@
 # Proceso de publicación de aplicaciones
 
-## App Store (Apple) 🍎
-### Pre-requisitos 📋
+# App Store (Apple) 🍎
+## Pre-requisitos 📋
 
-### Reglas 📐
+## Reglas 📐
 1. Seguridad
     - La aplicación **no** debe tener:  
     Contenido difamatorio, discriminatorio o violento, material abiertamente sexual o pornográfico, comentarios o citas inexactas o engañosas e información y características falsas. 🚫
@@ -15,9 +15,9 @@
     Revelar claramente los datos y la metodología para respaldar la precisión de las mediciones de salud y siempre recordar a los 👩‍💼🙎‍♂️👨‍💼 que consulten con un médico además de usar la aplicación y antes de tomar cualquier decisión.
 2. 
 
-## Play Store (Google) 🤖
-### Proceso ⚙
-1. Crear una cuenta de desarrollador de Google:  
+# Play Store (Google) 🤖
+## Proceso ⚙
+### 1. Crear una cuenta de desarrollador de Google:  
     Puedes utilizar cualquiera de tus cuentas de Google actuales o crear una nueva. 
     El proceso incluye firmar el acuerdo de distribución para desarrolladores de Google Play, agregar información personal y pagar una tarifa de registro única de aproximadamente $25 dólares. 💵 
     Por lo general, no se necesitan más de dos días para obtener la aprobación de Google. 
@@ -61,18 +61,18 @@
 7. Store Listing:  
     Primero, preparemos la ficha de Play Store. Contiene la información más importante útil para la optimización de la tienda de aplicaciones (ASO) y brinda a los usuarios más detalles sobre su aplicación antes de descargarla. Las secciones obligatorias están marcadas con *.
 
-Es posible que necesite algunos esfuerzos de diseñador y redactor, por lo que es mejor comenzar a preparar los siguientes materiales con anticipación.
+    Es posible que necesite algunos esfuerzos de diseñador y redactor, por lo que es mejor comenzar a preparar los siguientes materiales con anticipación.
 
-Descripción del producto
-Contiene un título de su aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos). Contrólate y no exageres con las palabras clave. 
-...
+    Descripción del producto
+    Contiene un título de su aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos). Contrólate y no exageres con las palabras clave. 
+    ...
 8. Calificación del contenido 💯:  
     Para no ser marcado como una aplicación sin clasificar (que puede llevar a la eliminación de la app), realiza un cuestionario de calificación.  
     La información proporcionada en el cuestionario debe ser precisa. Cualquier tergiversación del contenido de la aplicación puede dar lugar a la suspensión o eliminación de la cuenta de Play Store.
     - Haz clic en Guardar cuestionario una vez que completes la encuesta
     - Haz clic en Calcular calificación
     - Al final, haz clic en Aplicar calificación para confirmar la calificación
-### Reglas 📐
+## Reglas 📐
 1. Definición de contenido restringido
 2. Ficha de la tienda y promoción
 3. Suplantación de identidad y propiedad intelectual
