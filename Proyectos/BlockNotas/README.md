@@ -28,17 +28,79 @@ Check task proporciona un calendario para que el usuario defina una fecha de exp
 
 <img src="app/src/main/res/drawable/check.png"  width="30%"/> 
 
-## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="30"/> 
+## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="100"/> 
 
 Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores
 
-## ¿Qué aprendimos con este proyecto?  <img src="app/src/main/res/drawable/icons8-learning.svg" align = "right"  width="40"/> 
+## ¿Qué aprendimos con este proyecto?  <img src="app/src/main/res/drawable/icons8-learning.svg" align = "right"  width="100"/> 
 
 ### 1. Etiquetas flotantes
 
-```
+Nos ayudaron a optimizar el espacio en los campos de texto para que no se pierda la noción de los datos que se van a ingresar
+
+```kotlin
 android:hint="@string/nombre_de_usuario"
 android:background="@android:color/transparent"
 android:inputType="text"
-``` 
+```
+```kotlin
+android:hint="@string/nombre_de_usuario"
+android:background="@android:color/transparent"
+android:inputType="text"
+```
 
+### 2. Visibilidad para contraseñas
+
+El atributo passwordtoggleenabled nos ayuda a la visibilidad de la contraseña
+
+```kotlin
+<com.google.android.material.textfield.TextInputLayout
+  app:passwordToggleEnabled="true"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+```
+
+### 3. Validación de datos
+
+Usamos una estructura de flujo y la palabra reservada Toast para mostrar mensajes de avisos de datos iválidos
+
+```kotlin
+if(!nameLogin.text.toString().equals(User.nameUser)){
+            Toast.makeText(this, "Usuario incorrecto", Toast.LENGTH_LONG).show()
+        }else if(!passLogin.text.toString().equals(User.pass)){
+            Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_LONG).show()
+        }else{
+            startActivity(Intent(this,ListTaskActivity::class.java))
+            finish()
+        }
+```
+### 4. Calendarios
+El codigo siguiente es para leer la fecha a partir de un calendario, de esta forma las pasamos como parametros a una funcion para la creacion de la tarea.
+```kotlin
+val c = Calendar.getInstance()
+val year = c.get(Calendar.YEAR)
+val month = c.get(Calendar.MONTH)
+val day = c.get(Calendar.DAY_OF_MONTH)
+```
+
+### 5. Agregar tareas
+Esta funcion es la encargada de agregar una nueva tarea.
+```kotlin
+var newTask: Task= Task(nameTask.text.toString(), descTask.text.toString())
+newTask.fecha = datePicker?.text.toString()
+User.addTask(newTask)
+setResult(RESULT_OK)
+finish()
+```
+### 6. Toast
+Si el usuarios no llena un campo para crear la tarea, sale un mensaje que indica que ingrese el campo.
+```kotlin
+if (nameTask.text.toString().isEmpty()){
+	Toast.makeText(this,"Ingresa un nombre para la tarea",Toast.LENGTH_SHORT).show()
+}else if (descTask.text.toString().isEmpty()){
+	Toast.makeText(this,"Ingresa una descripcion para la tarea",Toast.LENGTH_SHORT).show()
+}
+else if (datePicker.text.toString().isEmpty()){
+	Toast.makeText(this,"Ingresa una fecha limite para la tarea",Toast.LENGTH_SHORT).show()
+}
+```
