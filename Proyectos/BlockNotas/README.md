@@ -28,7 +28,7 @@ Check task proporciona un calendario para que el usuario defina una fecha de exp
 
 <img src="app/src/main/res/drawable/check.png"  width="30%"/> 
 
-## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="100"/> 
+## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="60"/> 
 
 Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores
 
@@ -104,3 +104,9 @@ else if (datePicker.text.toString().isEmpty()){
 	Toast.makeText(this,"Ingresa una fecha limite para la tarea",Toast.LENGTH_SHORT).show()
 }
 ```
+
+### Integrantes: <img src="app/src/main/res/drawable/icons8-team.svg" align = "right"  width="70"/> 
+
+Galnares Ruiz Diego <br>
+García Miranda Athenas <br>
+Merino Hernández Ailyn  <br>
