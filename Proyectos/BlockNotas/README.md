@@ -42,7 +42,7 @@ Identifica la app con su característico ícono.
 
 ## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="60"/> 
 
-Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores 
+Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores.<br>
 Debido a que no se agregó el registro del usuario, este por defecto es Proteco y la contaseña proteco123
 
 ## ¿Qué aprendimos con este proyecto?  <img src="app/src/main/res/drawable/icons8-learning.svg" align = "right"  width="100"/> 
@@ -97,7 +97,7 @@ val day = c.get(Calendar.DAY_OF_MONTH)
 ```
 
 ### 5. Agregar tareas
-Se creó un modelo "usuario" que tiene como función realizar la inserción de tareas y un modelo Task que es que representa a nuestro item de tareas.
+Se creó un modelo "usuario" que tiene como función realizar la inserción de tareas y un modelo Task que es que representa a nuestro item de tareas.<br>
 Esta funcion es la encargada de agregar una nueva tarea.
 ```kotlin
 var newTask: Task= Task(nameTask.text.toString(), descTask.text.toString())
@@ -119,7 +119,7 @@ else if (datePicker.text.toString().isEmpty()){
 }
 ```
 ### 7.CardViev
-El apartado de listas se hizo utilizando CardView utilizando margenes para diferenciar cada Card que representa una tarea.
+El apartado de listas se hizo utilizando CardView utilizando margenes para diferenciar cada Card que representa una tarea.<br>
 (Dentro del CardView se incluyen otros elementos que acontinuación no son mostrados).
 ```kotlin
 <androidx.cardview.widget.CardView
