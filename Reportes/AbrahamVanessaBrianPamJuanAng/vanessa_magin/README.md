@@ -58,26 +58,62 @@
     - Agrega una breve descripción de la aplicación
     - Y toca Crear  
     Después de esto, serás llevado a la página de entrada de la tienda, donde deberas agregar los datos completos sobre la aplicación.
-7. Store Listing:  
-    Primero, preparemos la ficha de Play Store. Contiene la información más importante útil para la optimización de la tienda de aplicaciones (ASO) y brinda a los usuarios más detalles sobre su aplicación antes de descargarla. Las secciones obligatorias están marcadas con *.
-
-    Es posible que necesite algunos esfuerzos de diseñador y redactor, por lo que es mejor comenzar a preparar los siguientes materiales con anticipación.
-
-    Descripción del producto
-    Contiene un título de su aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos). Contrólate y no exageres con las palabras clave. 
-    ...
+7. Store Listing 📊:  
+    Contiene la información más importante para la optimización de la tienda de aplicaciones (ASO) y brinda a los usuarios más detalles sobre la aplicación antes de descargarla.  
+    - Descripción del producto:  
+    Contiene el título de la aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos).
+    - Capturas de pantalla:  
+    Puede agregar de 2 a 8 capturas de pantalla. Con las siguientes características: JPEG o PNG de 24 bits y de 320px a 3840 px.
+    - Icono:  
+    512 px por 512 px, PNG de 32 bits (con alfa) y tamaño máximo de archivo: 1024 KB.
+    - Video promocional:  
+    Si tienes algún video promocional, puedes agregar un enlace a tu canal de YouTube.
+    - Etiquetas:  
+    Puedes elegir de la lista las palabras clave más relevantes para tu aplicación para un mejor ASO.
+    - Localización:  
+    Si la aplicación admite varios idiomas, menciónalos todos y agrega traducciones de la información de la aplicación. Se recomienda incluir capturas de pantalla e imágenes localizadas. 
+    - Tipo de aplicación y categorización:  
+    Primero, a través del menú desplegable, selecciona el tipo de aplicación: juego o aplicación. Luego, elije la categoría a la que pertenece tu aplicación.
+    - Detalles de contacto:  
+    Proporciona los contactos del servicio de soporte: URL del sitio web, correo electrónico y teléfono.
+    - Política de privacidad:  
+    Google requiere que se agregue un enlace a la Política de privacidad de la applicación.
 8. Calificación del contenido 💯:  
     Para no ser marcado como una aplicación sin clasificar (que puede llevar a la eliminación de la app), realiza un cuestionario de calificación.  
     La información proporcionada en el cuestionario debe ser precisa. Cualquier tergiversación del contenido de la aplicación puede dar lugar a la suspensión o eliminación de la cuenta de Play Store.
     - Haz clic en Guardar cuestionario una vez que completes la encuesta
     - Haz clic en Calcular calificación
     - Al final, haz clic en Aplicar calificación para confirmar la calificación
-## Reglas 📐
-1. Definición de contenido restringido
-    [![Alt text for your video](https://www.youtube.com/watch?v=5vzrsCbHIOQ&feature=emb_title/0.jpg)](https://www.youtube.com/watch?v=5vzrsCbHIOQ&feature=emb_title)
-2. Ficha de la tienda y promoción
-3. Suplantación de identidad y propiedad intelectual
-4. Reglas de monetización y anuncios
-5. Regulación de privacidad, seguridad y engaño
-6. Spam y funcionalidad mínima  
+9. Precio de la aplicación 💰:  
+    En la sección Precios y distribución, debes completar la siguiente información sobre la app:
+    - Si es gratuita o de pago
+    - Países en los que estará disponible
+    - Si estará disponible solo en dispositivos específicos
+    - Si tiene contenido sensible y no es adecuada para niños menores de 13 años
+    - Si contiene anuncios
+10. Cargar el APK y enviarlo para revisión ✉:  
+    Ve a la sección Lanzamientos de aplicaciones en el panel izquierdo. Aquí encontraras tres opciones para publicar la aplicación: producción, beta y alfa.  
+    Una vez que elijas el tipo de lanzamiento, sigue estos pasos:
+    - Elije Administrar (Producción / Beta / Alfa)
+    - Haz clic en Editar versión
+    - Carga un APK o paquete de aplicaciones. El nombre de la versión se agregará automáticamente.
+    - Haz clic en Revisar para confirmar los cambios y envia la aplicación a revisión presionando Iniciar lanzamiento a producción.  
+    La aplicación se lanzará inmediatamente después de que pase la revisión. Por lo general, demora hasta 2 días. Google dice que el proceso de revisión podría demorar hasta 7 días o incluso más.  
+    Una vez que se revisa la aplicación, recibiras una notificación en el Panel de la consola de Google. 
+
+## Reglas 📏
+1. Definición de contenido restringido  
+    https://www.youtube.com/watch?v=5vzrsCbHIOQ&feature=emb_title
+2. Store Listing y promoción  
+    https://www.youtube.com/watch?v=DgZWhWBfsXc&feature=emb_title
+3. Suplantación de identidad
+    https://www.youtube.com/watch?v=tkfIRg0ZTYY&feature=emb_title
+4. Propiedad intelectual  
+    https://www.youtube.com/watch?v=x_kJ8Ye107k&feature=emb_title
+5. Reglas de monetización y anuncios  
+    https://www.youtube.com/watch?v=qxQU9a0VYp8&feature=emb_title
+6. Regulación de privacidad, seguridad y engaño  
+    https://www.youtube.com/watch?v=zMHv1yH7C4E&feature=emb_title
+7. Spam y funcionalidad mínima  
+    https://www.youtube.com/watch?v=0PGBqQWgBEA&feature=emb_title
 Para conocer más visita: https://play.google.com/about/developer-content-policy/
