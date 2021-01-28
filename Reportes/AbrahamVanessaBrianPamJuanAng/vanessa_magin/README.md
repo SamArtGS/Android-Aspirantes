@@ -1,7 +1,7 @@
 # Proceso de publicación de aplicaciones
 
 # App Store (Apple) 🍎
-## Pre-requisitos 📋
+## Proceso ⚙
 
 ## Reglas 📐
 1. Seguridad
@@ -60,24 +60,15 @@
     Después de esto, serás llevado a la página de entrada de la tienda, donde deberas agregar los datos completos sobre la aplicación.
 7. Store Listing 📊:  
     Contiene la información más importante para la optimización de la tienda de aplicaciones (ASO) y brinda a los usuarios más detalles sobre la aplicación antes de descargarla.  
-    - Descripción del producto:  
-    Contiene el título de la aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos).
-    - Capturas de pantalla:  
-    Puede agregar de 2 a 8 capturas de pantalla. Con las siguientes características: JPEG o PNG de 24 bits y de 320px a 3840 px.
-    - Icono:  
-    512 px por 512 px, PNG de 32 bits (con alfa) y tamaño máximo de archivo: 1024 KB.
-    - Video promocional:  
-    Si tienes algún video promocional, puedes agregar un enlace a tu canal de YouTube.
-    - Etiquetas:  
-    Puedes elegir de la lista las palabras clave más relevantes para tu aplicación para un mejor ASO.
-    - Localización:  
-    Si la aplicación admite varios idiomas, menciónalos todos y agrega traducciones de la información de la aplicación. Se recomienda incluir capturas de pantalla e imágenes localizadas. 
-    - Tipo de aplicación y categorización:  
-    Primero, a través del menú desplegable, selecciona el tipo de aplicación: juego o aplicación. Luego, elije la categoría a la que pertenece tu aplicación.
-    - Detalles de contacto:  
-    Proporciona los contactos del servicio de soporte: URL del sitio web, correo electrónico y teléfono.
-    - Política de privacidad:  
-    Google requiere que se agregue un enlace a la Política de privacidad de la applicación.
+    **- Descripción del producto:** Contiene el título de la aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos).
+    **- Capturas de pantalla:** Puede agregar de 2 a 8 capturas de pantalla. Con las siguientes características: JPEG o PNG de 24 bits y de 320px a 3840 px.
+    **- Icono:** 512 px por 512 px, PNG de 32 bits (con alfa) y tamaño máximo de archivo: 1024 KB.
+    **- Video promocional:** Si tienes algún video promocional, puedes agregar un enlace a tu canal de YouTube.
+    **- Etiquetas:** Puedes elegir de la lista las palabras clave más relevantes para tu aplicación para un mejor ASO.
+    **- Localización:** Si la aplicación admite varios idiomas, menciónalos todos y agrega traducciones de la información de la aplicación. Se recomienda incluir capturas de pantalla e imágenes localizadas. 
+    **- Tipo de aplicación y categorización:** Primero, a través del menú desplegable, selecciona el tipo de aplicación: juego o aplicación. Luego, elije la categoría a la que pertenece tu aplicación.
+    **- Detalles de contacto:** Proporciona los contactos del servicio de soporte: URL del sitio web, correo electrónico y teléfono.
+    **- Política de privacidad:** Google requiere que se agregue un enlace a la Política de privacidad de la applicación.
 8. Calificación del contenido 💯:  
     Para no ser marcado como una aplicación sin clasificar (que puede llevar a la eliminación de la app), realiza un cuestionario de calificación.  
     La información proporcionada en el cuestionario debe ser precisa. Cualquier tergiversación del contenido de la aplicación puede dar lugar a la suspensión o eliminación de la cuenta de Play Store.
@@ -106,7 +97,7 @@
     https://www.youtube.com/watch?v=5vzrsCbHIOQ&feature=emb_title
 2. Store Listing y promoción  
     https://www.youtube.com/watch?v=DgZWhWBfsXc&feature=emb_title
-3. Suplantación de identidad
+3. Suplantación de identidad  
     https://www.youtube.com/watch?v=tkfIRg0ZTYY&feature=emb_title
 4. Propiedad intelectual  
     https://www.youtube.com/watch?v=x_kJ8Ye107k&feature=emb_title
@@ -115,5 +106,5 @@
 6. Regulación de privacidad, seguridad y engaño  
     https://www.youtube.com/watch?v=zMHv1yH7C4E&feature=emb_title
 7. Spam y funcionalidad mínima  
-    https://www.youtube.com/watch?v=0PGBqQWgBEA&feature=emb_title
+    https://www.youtube.com/watch?v=0PGBqQWgBEA&feature=emb_title  
 Para conocer más visita: https://play.google.com/about/developer-content-policy/
