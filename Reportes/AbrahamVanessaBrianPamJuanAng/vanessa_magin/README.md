@@ -17,8 +17,7 @@
 
 # Play Store (Google) 🤖
 ## Proceso ⚙
-### 1. Crear una cuenta de desarrollador de Google:  
-    
+1. Crear una cuenta de desarrollador de Google:  
     Puedes utilizar cualquiera de tus cuentas de Google actuales o crear una nueva. 
     El proceso incluye firmar el acuerdo de distribución para desarrolladores de Google Play, agregar información personal y pagar una tarifa de registro única de aproximadamente $25 dólares. 💵 
     Por lo general, no se necesitan más de dos días para obtener la aprobación de Google. 
@@ -75,6 +74,7 @@
     - Al final, haz clic en Aplicar calificación para confirmar la calificación
 ## Reglas 📐
 1. Definición de contenido restringido
+    [![Alt text for your video](https://www.youtube.com/watch?v=5vzrsCbHIOQ&feature=emb_title/0.jpg)](https://www.youtube.com/watch?v=5vzrsCbHIOQ&feature=emb_title)
 2. Ficha de la tienda y promoción
 3. Suplantación de identidad y propiedad intelectual
 4. Reglas de monetización y anuncios
