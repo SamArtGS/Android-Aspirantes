@@ -38,7 +38,7 @@ Check task proporciona un calendario para que el usuario defina una fecha de exp
 ### 5. Icono 
 Identifica la app con su característico ícono.
 
-<img src="app/src/main/res/drawable/ic_app_screanshoot.jpg"  width="80%"/> 
+<img src="app/src/main/res/drawable/ic_app_screanshoot.jpg"  width="30%"/> 
 
 ## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="60"/> 
 
