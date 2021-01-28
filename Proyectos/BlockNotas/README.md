@@ -1,3 +1,10 @@
+#Proyecto Android-Aspirantes
+
+### Integrantes: <img src="app/src/main/res/drawable/icons8-team.svg" align = "right"  width="70"/> 
+
+Galnares Ruiz Diego <br>
+García Miranda Athenas <br>
+Merino Hernández Ailyn  <br>
 # Acerca de esta App. <img src="app/src/main/res/drawable/icons8-android.svg" alt="My cool logo" align = "right"  width="100"/> 
 
 Check Task es una aplicación móvil que facilita la administración de tus actividades diarias a través de tu correo.
@@ -28,9 +35,15 @@ Check task proporciona un calendario para que el usuario defina una fecha de exp
 
 <img src="app/src/main/res/drawable/check.png"  width="30%"/> 
 
+### 5. Icono 
+Identifica la app con su característico ícono.
+
+<img src="app/src/main/res/drawable/ic_app_screanshoot.jpg"  width="80%"/> 
+
 ## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="60"/> 
 
-Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores
+Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores 
+Debido a que no se agregó el registro del usuario, este por defecto es Proteco y la contaseña proteco123
 
 ## ¿Qué aprendimos con este proyecto?  <img src="app/src/main/res/drawable/icons8-learning.svg" align = "right"  width="100"/> 
 
@@ -84,6 +97,7 @@ val day = c.get(Calendar.DAY_OF_MONTH)
 ```
 
 ### 5. Agregar tareas
+Se creó un modelo "usuario" que tiene como función realizar la inserción de tareas y un modelo Task que es que representa a nuestro item de tareas.
 Esta funcion es la encargada de agregar una nueva tarea.
 ```kotlin
 var newTask: Task= Task(nameTask.text.toString(), descTask.text.toString())
@@ -104,9 +118,27 @@ else if (datePicker.text.toString().isEmpty()){
 	Toast.makeText(this,"Ingresa una fecha limite para la tarea",Toast.LENGTH_SHORT).show()
 }
 ```
+### 7.CardViev
+El apartado de listas se hizo utilizando CardView utilizando margenes para diferenciar cada Card que representa una tarea.
+(Dentro del CardView se incluyen otros elementos que acontinuación no son mostrados).
+```kotlin
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_height="100dp">
+</androidx.cardview.widget.CardView>
 
-### Integrantes: <img src="app/src/main/res/drawable/icons8-team.svg" align = "right"  width="70"/> 
+```
+### 8.TaskAdapter
+Esta función es la encargada de crear el nuevo CardView
 
-Galnares Ruiz Diego <br>
-García Miranda Athenas <br>
-Merino Hernández Ailyn  <br>
+```kotlin
+override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemTaskViewHolder {
+        var view = LayoutInflater.from(parent.context).inflate(R.layout.task_item,parent,false)
+        return ItemTaskViewHolder(view)
+    }
+```
+
