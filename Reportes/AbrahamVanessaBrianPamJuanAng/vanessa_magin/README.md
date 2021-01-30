@@ -11,41 +11,19 @@
     Posteriormente deberas hacer clic en "Join the Apple Developer Program", despues en "Inscribirse" y por último pagar $99 dólares por una membresía de suscripción de un año.  
     Nota: Después de enviar y pagar su registro de desarrollador de iOS, deberá esperar a que Apple procese su pedido.
 
+3. Crea un perfil de aprovisionamiento de distribución de iOS y un certificado de distribución  
+    La forma más sencilla de hacerlo es a través de Xcode. Si la firma automática está habilitada, Xcode creará y administrará certificados, firmará identidades y manejará el registro del dispositivo por ti.  
+    - ¿Cómo firmar manualmente tu aplicación?  
+        - Primero, agrega tu cuenta del Programa de desarrollador a Xcode si aún no lo haz hecho.  
+        - En el menú superior, seleccione Xcode, luego elije Preferencias.  
+        - Haz clic en Cuentas. En la esquina inferior izquierda de la ventana, presione el signo + , luego Agregar ID de Apple… .  
+        - Ingresa el ID de Apple y la contraseña que usas para el Programa de desarrolladores de Apple, luego haz clic en Iniciar sesión.  
+        - A continuación, habilita la firma automática. En el Editor de proyectos, elije un destino y selecciona General.  
+        - Desplázate hacia abajo hasta la sección "Firma" y haz clic en el ícono del triángulo para expandir la configuración.  
+        - Haz clic en la casilla para administrar la firma automáticamente y selecciona tu equipo.  
+    Cuando conectes un nuevo dispositivo a tu Mac, Xcode lo detectará y lo registrará automáticamente en el perfil de aprovisionamiento de tu equipo. Ten en cuenta que para iniciar tu aplicación en un dispositivo, el dispositivo debe estar registrado en el perfil de aprovisionamiento de tu equipo.
 
-1. Firma de código: cree un perfil de aprovisionamiento de distribución de iOS y un certificado de distribución
- 
-
-El perfil de aprovisionamiento de desarrollo y el certificado de desarrollo que ha estado usando son solo para dispositivos específicos. Para distribuir su aplicación a los probadores beta o a los usuarios a través de la App Store, necesitará un perfil de suministro de distribución y un certificado de distribución independientes.
-
-La forma más sencilla de hacerlo es a través de Xcode. Si la firma automática está habilitada, Xcode creará y administrará certificados, firmará identidades y manejará el registro del dispositivo por usted. Si la firma automática ya está habilitada o si no necesita ayuda para firmar, puede pasar al paso dos .
-
-(En algunos casos, es posible que prefiera la firma manual. A continuación , le ofrecemos un tutorial detallado sobre cómo firmar manualmente su aplicación. Tenga en cuenta que todos los destinos de un paquete deben utilizar el mismo método de firma).
-
-Primero, agregue su cuenta del Programa de desarrollador a Xcode si aún no lo ha hecho. En el menú superior, seleccione Xcode , luego elija Preferencias .
-
-Haga clic en Cuentas . En la esquina inferior izquierda de la ventana, presione el signo + , luego Agregar ID de Apple… .
-
-Ingrese el ID de Apple y la contraseña que usa para el Programa de desarrolladores de Apple, luego haga clic en Iniciar sesión .
-
-A continuación, habilite la firma automática. En el Editor de proyectos, elija un destino y seleccione General .
-
-Desplácese hacia abajo hasta la sección "Firma" y haga clic en el ícono del triángulo para expandir la configuración.
-
-Haga clic en la casilla para administrar la firma automáticamente . Selecciona tu equipo.
-
- 
-
-cómo enviar la aplicación a la tienda de aplicaciones
-
- 
-
-Cuando conecte un nuevo dispositivo a su Mac, Xcode lo detectará y lo registrará automáticamente en el perfil de aprovisionamiento de su equipo. Tenga en cuenta que para iniciar su aplicación en un dispositivo, el dispositivo debe estar registrado en el perfil de aprovisionamiento de su equipo.
-
- 
-
- 
-
-2. Crea un registro de App Store Connect para tu aplicación
+4. Crea un registro de App Store Connect para tu aplicación
     - Para obtener una cuenta de App Store Connect puedes:  
         - Crear tu propia organización de App Store Connect y ser el agente del equipo. Para ello inicia sesión con el ID de Apple que utilizaste para inscribirse en el Programa de desarrolladores de Apple.  
         - O ser invitado por una organización existente como usuario con una función de administrador, técnico o administrador de aplicaciones.    
@@ -56,7 +34,7 @@ Cuando conecte un nuevo dispositivo a su Mac, Xcode lo detectará y lo registrar
     - Para aplicaciones de paga:  
     Si tienes una aplicación de paga, deberás firmar un contrato que cubra las condiciones de pago.
 
-3. Archiva y carga tu aplicación usando Xcode  
+5. Archiva y carga tu aplicación usando Xcode  
     Antes de que puedas enviar tu aplicación para revisión a través de App Store Connect, debes cargar la compilación a través de Xcode.  
     Para ello:  
     - En Xcode, selecciona Dispositivo iOS genérico como destino de implementación.  
@@ -67,7 +45,7 @@ Cuando conecte un nuevo dispositivo a su Mac, Xcode lo detectará y lo registrar
     - En la siguiente ventana que aparece, haz clic en Cargar.  
     - Aparecerá un mensaje de éxito cuando se complete la carga. Haz clic en Listo.
 
-4. Configura los metadatos de tu aplicación y más detalles en el registro de App Store Connect.  
+6. Configura los metadatos de tu aplicación y más detalles en el registro de App Store Connect.  
     En la pestaña "App Store" en App Store Connect, en la página "Información de la aplicación" puedes agregar idiomas, categorías y la URL de la Política de privacidad de tu aplicación.  
     Configura tu aplicación como gratuita o selecciona su nivel de precio en la página "Precios y disponibilidad".  
     En la pestaña "Funciones", puedes agregar configuraciones a cualquier tecnología de la App Store en tu aplicación, como Game Center y compras dentro de la aplicación.  
@@ -85,14 +63,14 @@ Cuando conecte un nuevo dispositivo a su Mac, Xcode lo detectará y lo registrar
         - En la sección "Información de revisión de la aplicación", ingresa tu información de contacto, cualquier nota que tengas para el revisor, configura la fecha de publicación de la versión y guarda los cambios.  
         Para los primeros lanzamientos, normalmente debes dejar la fecha de lanzamiento de la versión como automática.
 
-5. Envía tu aplicación para su revisión  
+7. Envía tu aplicación para su revisión  
     Desplázate a la sección "Crear" en el registro de App Store Connect de tu aplicación.  
     Haz clic en "Seleccione una compilación antes de enviar su aplicación".  
     Elije la compilación que cargaste a través de Xcode. Haz clic en Listo, Guardar y luego en Enviar para revisión.  
     Por último, responde las preguntas sobre cumplimiento de exportaciones, derechos de contenido e identificador de publicidad y haz clic en Enviar.  
     El estado de su aplicación ahora es "Esperando revisión".
 
-6. Verifique el estado de su aplicación  
+8. Verifique el estado de su aplicación  
     En App Store Connect, seleccione Actividad en el menú horizontal superior, luego App Store Versions en el panel de la izquierda.  
     - ¿Cuánto tiempo se tarda en obtener la aprobación de la App Store?  
     En la mayoría de los casos, se tarda entre uno y tres días en recibir la aprobación, y su aplicación puede tardar hasta 24 horas en aparecer en la App Store después de la aprobación.  
