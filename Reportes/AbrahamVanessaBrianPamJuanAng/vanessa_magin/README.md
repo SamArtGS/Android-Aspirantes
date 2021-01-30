@@ -5,18 +5,18 @@
     Para ello necesitaras una dirección de correo electrónico válida, y puedes hacerlo de diferentes formas:  
     - Durante la configuración de tu nuevo iPhone o MacBook
     - Al usar AppStore o iTunes por primera vez
-    - Registrarte en el sitio de Apple.com (https://appleid.apple.com/account/)
+    - O registrandote en el sitio de Apple.com (https://appleid.apple.com/account/)
 2. Unete al programa de desarrolladores de Apple  
     Primero registrate en https://developer.apple.com/, acepta el Acuerdo de desarrollador de Apple y listo, entrarás en el portal del Desarrollador.  
     Posteriormente deberas hacer clic en "Join the Apple Developer Program", despues en "Inscribirse" y por último pagar $99 dólares por una membresía de suscripción de un año.  
-    Nota: Después de enviar y pagar su registro de desarrollador de iOS, deberá esperar a que Apple procese su pedido.
+    Nota: Después de enviar y pagar tu registro de desarrollador de iOS, deberás esperar a que Apple procese tu pedido.
 
 3. Crea un perfil de aprovisionamiento de distribución de iOS y un certificado de distribución  
     La forma más sencilla de hacerlo es a través de Xcode. Si la firma automática está habilitada, Xcode creará y administrará certificados, firmará identidades y manejará el registro del dispositivo por ti.  
-    - ¿Cómo firmar manualmente tu aplicación?  
+    ¿Cómo firmar manualmente tu aplicación?  
         - Primero, agrega tu cuenta del Programa de desarrollador a Xcode si aún no lo haz hecho.  
-        - En el menú superior, seleccione Xcode, luego elije Preferencias.  
-        - Haz clic en Cuentas. En la esquina inferior izquierda de la ventana, presione el signo + , luego Agregar ID de Apple… .  
+        - En el menú superior, selecciona Xcode, luego elije Preferencias.  
+        - Haz clic en Cuentas. En la esquina inferior izquierda de la ventana, presiona el signo + , luego Agregar ID de Apple… .  
         - Ingresa el ID de Apple y la contraseña que usas para el Programa de desarrolladores de Apple, luego haz clic en Iniciar sesión.  
         - A continuación, habilita la firma automática. En el Editor de proyectos, elije un destino y selecciona General.  
         - Desplázate hacia abajo hasta la sección "Firma" y haz clic en el ícono del triángulo para expandir la configuración.  
