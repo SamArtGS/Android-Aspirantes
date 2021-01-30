@@ -14,13 +14,13 @@
 3. Crea un perfil de aprovisionamiento de distribución de iOS y un certificado de distribución  
     La forma más sencilla de hacerlo es a través de Xcode. Si la firma automática está habilitada, Xcode creará y administrará certificados, firmará identidades y manejará el registro del dispositivo por ti.  
     ¿Cómo firmar manualmente tu aplicación?  
-        - Primero, agrega tu cuenta del Programa de desarrollador a Xcode si aún no lo haz hecho.  
-        - En el menú superior, selecciona Xcode, luego elije Preferencias.  
-        - Haz clic en Cuentas. En la esquina inferior izquierda de la ventana, presiona el signo + , luego Agregar ID de Apple… .  
-        - Ingresa el ID de Apple y la contraseña que usas para el Programa de desarrolladores de Apple, luego haz clic en Iniciar sesión.  
-        - A continuación, habilita la firma automática. En el Editor de proyectos, elije un destino y selecciona General.  
-        - Desplázate hacia abajo hasta la sección "Firma" y haz clic en el ícono del triángulo para expandir la configuración.  
-        - Haz clic en la casilla para administrar la firma automáticamente y selecciona tu equipo.  
+    - Primero, agrega tu cuenta del Programa de desarrollador a Xcode si aún no lo haz hecho  
+    - En el menú superior, selecciona Xcode, luego elije Preferencias  
+    - Haz clic en Cuentas. En la esquina inferior izquierda de la ventana, presiona el signo + , luego Agregar ID de Apple…   
+    - Ingresa el ID de Apple y la contraseña que usas para el Programa de desarrolladores de Apple, luego haz clic en Iniciar sesión  
+    - A continuación, habilita la firma automática. En el Editor de proyectos, elije un destino y selecciona General  
+    - Desplázate hacia abajo hasta la sección "Firma" y haz clic en el ícono del triángulo para expandir la configuración  
+    - Haz clic en la casilla para administrar la firma automáticamente y selecciona tu equipo  
     Cuando conectes un nuevo dispositivo a tu Mac, Xcode lo detectará y lo registrará automáticamente en el perfil de aprovisionamiento de tu equipo. Ten en cuenta que para iniciar tu aplicación en un dispositivo, el dispositivo debe estar registrado en el perfil de aprovisionamiento de tu equipo.
 
 4. Crea un registro de App Store Connect para tu aplicación
