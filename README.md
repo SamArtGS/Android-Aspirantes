@@ -78,19 +78,19 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 
 
-Juan Arturo Lira Navarro
-
-Erick Rodrigo Minero Pineda
-
-Mario Huarte Nolasco
-
-Uriel Pérez Delgado
 
 
-- *Aún si calificar
-- +Pendiente
-- -No se aceptan más envíos
-- ~Con puntos extra
+
+
+
+
+
+
+
+- *Aún si calificar Juan Arturo Lira Navarro
+- +Pendiente Erick Rodrigo Minero Pineda
+- -No se aceptan más envíos Mario Huarte Nolasco
+- ~Con puntos extra Uriel Pérez Delgado
 
 > Importante para las entregas:
 
