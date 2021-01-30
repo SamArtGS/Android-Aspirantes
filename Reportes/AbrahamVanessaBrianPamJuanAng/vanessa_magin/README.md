@@ -21,7 +21,7 @@
     - A continuación, habilita la firma automática. En el Editor de proyectos, elije un destino y selecciona General  
     - Desplázate hacia abajo hasta la sección "Firma" y haz clic en el ícono del triángulo para expandir la configuración  
     - Haz clic en la casilla para administrar la firma automáticamente y selecciona tu equipo  
-      
+
     Cuando conectes un nuevo dispositivo a tu Mac, Xcode lo detectará y lo registrará automáticamente en el perfil de aprovisionamiento de tu equipo. Ten en cuenta que para iniciar tu aplicación en un dispositivo, el dispositivo debe estar registrado en el perfil de aprovisionamiento de tu equipo.
 
 4. Crea un registro de App Store Connect para tu aplicación
@@ -30,21 +30,21 @@
         - O ser invitado por una organización existente como usuario con una función de administrador, técnico o administrador de aplicaciones.    
     - Agregar una nueva aplicación:  
     Para crear un nuevo registro de App Store Connect, necesitarás estos detalles: plataforma, nombre de la aplicación, idioma predeterminado, ID de paquete y SKU.  
-    Utiliza palabras clave en el nombre de tu aplicación para optimizar el descubrimiento.  
-    El ID del paquete debe coincidir exactamente con el identificador del paquete en el archivo Info.plist del proyecto Xcode (en la sección General> Identidad del objetivo).  
+    - Utiliza palabras clave en el nombre de tu aplicación para optimizar el descubrimiento.  
+    - El ID del paquete debe coincidir exactamente con el identificador del paquete en el archivo Info.plist del proyecto Xcode (en la sección General> Identidad del objetivo).  
     - Para aplicaciones de paga:  
     Si tienes una aplicación de paga, deberás firmar un contrato que cubra las condiciones de pago.
 
 5. Archiva y carga tu aplicación usando Xcode  
     Antes de que puedas enviar tu aplicación para revisión a través de App Store Connect, debes cargar la compilación a través de Xcode.  
     Para ello:  
-    - En Xcode, selecciona Dispositivo iOS genérico como destino de implementación.  
-    - Elije Producto en el menú superior y haz clic en Archivar.  
-    - El organizador de Xcode se iniciará y mostrará los archivos que hayas creado en el pasado.  
-    - Asegúrete de que la compilación actual esté seleccionada y haz clic en Subir a App Store en el panel de la derecha.  
-    - Selecciona las credenciales y haz clic en Elegir.  
-    - En la siguiente ventana que aparece, haz clic en Cargar.  
-    - Aparecerá un mensaje de éxito cuando se complete la carga. Haz clic en Listo.
+    - En Xcode, selecciona Dispositivo iOS genérico como destino de implementación  
+    - Elije Producto en el menú superior y haz clic en Archivar  
+    - El organizador de Xcode se iniciará y mostrará los archivos que hayas creado en el pasado  
+    - Asegúrete de que la compilación actual esté seleccionada y haz clic en Subir a App Store en el panel de la derecha  
+    - Selecciona las credenciales y haz clic en Elegir  
+    - En la siguiente ventana que aparece, haz clic en Cargar  
+    - Aparecerá un mensaje de éxito cuando se complete la carga. Haz clic en Listo
 
 6. Configura los metadatos de tu aplicación y más detalles en el registro de App Store Connect.  
     En la pestaña "App Store" en App Store Connect, en la página "Información de la aplicación" puedes agregar idiomas, categorías y la URL de la Política de privacidad de tu aplicación.  
@@ -64,23 +64,23 @@
         - En la sección "Información de revisión de la aplicación", ingresa tu información de contacto, cualquier nota que tengas para el revisor, configura la fecha de publicación de la versión y guarda los cambios.  
         Para los primeros lanzamientos, normalmente debes dejar la fecha de lanzamiento de la versión como automática.
 
-7. Envía tu aplicación para su revisión  
-    Desplázate a la sección "Crear" en el registro de App Store Connect de tu aplicación.  
-    Haz clic en "Seleccione una compilación antes de enviar su aplicación".  
-    Elije la compilación que cargaste a través de Xcode. Haz clic en Listo, Guardar y luego en Enviar para revisión.  
-    Por último, responde las preguntas sobre cumplimiento de exportaciones, derechos de contenido e identificador de publicidad y haz clic en Enviar.  
-    El estado de su aplicación ahora es "Esperando revisión".
+7. Envía tu aplicación para su revisión ✉  
+    - Desplázate a la sección "Crear" en el registro de App Store Connect de tu aplicación.  
+    - Haz clic en "Seleccione una compilación antes de enviar su aplicación".  
+    - Elije la compilación que cargaste a través de Xcode. Haz clic en Listo, Guardar y luego en Enviar para revisión.  
+    - Por último, responde las preguntas sobre cumplimiento de exportaciones, derechos de contenido e identificador de publicidad y haz clic en Enviar.  
+    - El estado de su aplicación ahora es "Esperando revisión".⌛
 
-8. Verifique el estado de su aplicación  
-    En App Store Connect, seleccione Actividad en el menú horizontal superior, luego App Store Versions en el panel de la izquierda.  
+8. Verifica el estado de tu aplicación 🩺  
+    En App Store Connect, selecciona Actividad en el menú horizontal superior, luego App Store Versions en el panel de la izquierda.  
     - ¿Cuánto tiempo se tarda en obtener la aprobación de la App Store?  
-    En la mayoría de los casos, se tarda entre uno y tres días en recibir la aprobación, y su aplicación puede tardar hasta 24 horas en aparecer en la App Store después de la aprobación.  
+    En la mayoría de los casos, se tarda entre uno y tres días en recibir la aprobación, y la aplicación puede tardar hasta 24 horas en aparecer en la App Store después de la aprobación.  
     - Si la aplicación es rechazada:  
-        - Deberás realizar las correcciones necesarias antes de poder enviar tu aplicación nuevamente para su revisión. Utiliza el Centro de resoluciones en App Store Connect para comunicarte con Apple sobre cualquier pregunta que puedas tener. 
+        Deberás realizar las correcciones necesarias antes de poder enviar tu aplicación nuevamente para su revisión. Utiliza el Centro de resoluciones en App Store Connect para comunicarte con Apple sobre cualquier pregunta que puedas tener. 
         Y no olvides revisar las reglas para asegurarte que no inflijas ninguna, puedes revisarles de manera general en el siguiente apartado o en este link: https://developer.apple.com/app-store/review/guidelines/  
-        Una de las razones más comunes de rechazo de la App Store es el rendimiento. Asegúrete de que tu aplicación esté completa, la hayas probado a fondo y hayas corregido todos los errores. El uso de una herramienta de informe de errores durante las pruebas beta ayudará a reducir las posibilidades de que tu aplicación sea rechazada debido a problemas de rendimiento.  
+        Una de las razones más comunes de rechazo de la App Store es el rendimiento. Asegúrete de que tu aplicación esté completa, la hayas probado a fondo y hayas corregido todos los errores.  
     - Si la aplicación es aprobada:  
-        ¡Felicidades! Ahora estás en la App Store. Puede ver descargas, ventas, calificaciones y reseñas directamente en App Store Connect. 🎉🥳
+        ¡Felicidades! Ahora estás en la App Store. Puedes ver descargas, ventas, calificaciones y reseñas directamente en App Store Connect. 🎉🥳
 ## Reglas 📐
 1. Seguridad
     - La aplicación **no** debe tener:  
