@@ -1,8 +1,22 @@
 # Proceso de publicación de aplicaciones
-
 # App Store (Apple) 🍎
 ## Proceso ⚙
-
+1. Crea un ID de Apple  
+    Para ello necesitaras una dirección de correo electrónico válida, y puedes hacerlo de diferentes formas:  
+    - Durante la configuración de tu nuevo iPhone o MacBook
+    - Al usar AppStore o iTunes por primera vez
+    - Registrarte en el sitio de Apple.com (https://appleid.apple.com/account/)
+2. Unete al programa de desarrolladores de Apple  
+    Primero registrate en https://developer.apple.com/, acepta el Acuerdo de desarrollador de Apple y listo, entrarás en el portal del Desarrollador.  
+    Posteriormente deberas hacer clic en "Join the Apple Developer Program", despues en "Inscribirse" y por último pagar $99 dólares por una membresía de suscripción de un año.  
+    Nota: Después de enviar y pagar su registro de desarrollador de iOS, deberá esperar a que Apple procese su pedido.
+3. Crea y construye tu aplicación en Xcode
+4. Crea un archivo de tu solicitud firmada
+5. Registra tu aplicación en App Store Connect
+6. Carga o exporta la aplicación
+7. Envía tu solicitud para revisión
+8. Su aplicación será verificada y publicada en la App Store.
+https://www.raywenderlich.com/120-how-to-submit-an-app-to-apple-from-no-account-to-app-store-part-1
 ## Reglas 📐
 1. Seguridad
     - La aplicación **no** debe tener:  
@@ -13,7 +27,36 @@
     Enlaces fuera de la aplicación, oportunidades de compra, publicidad ni enviar información de identificación personal o información del dispositivo a terceros. ❌
     -  Las aplicaciones médicas **deben**:  
     Revelar claramente los datos y la metodología para respaldar la precisión de las mediciones de salud y siempre recordar a los 👩‍💼🙎‍♂️👨‍💼 que consulten con un médico además de usar la aplicación y antes de tomar cualquier decisión.
-2. 
+2. Desempeño  
+    - Completitud de la aplicación:  
+    Los envíos a Revisión de aplicaciones deben ser versiones finales con todos los metadatos necesarios y URL completamente funcionales incluidas; El texto del marcador de posición, los sitios web vacíos y otros contenidos temporales deben eliminarse antes de enviarlos. 
+ 
+    - Prueba Beta:  
+    Demostraciones, betas y versiones de prueba de la aplicación no pertenecen a la App Store, use TestFlight en su lugar. 
+ 
+    - Metadatos precisos:  
+    La descripción, capturas de pantalla y vistas previas de la aplicación deben reflejar con precisión la experiencia principal de la aplicación y se deben actualizar con las nuevas versiones. Adicionalmente deben ser apropiadas para todo el público (clasificación de edad de 4+), incluso si la aplicación tiene una clasificación más alta. 
+ 
+    - Compatibilidad de hardware:  
+    Es recomendable crear aplicaciones universales que los clientes puedan usar en todos sus dispositivos.  
+    Las aplicaciones no deben agotar rápidamente la batería, generar calor excesivo o ejecutar procesos en segundo plano no relacionados, como la minería de criptomonedas.  
+    Las aplicaciones distribuidas a través de Mac App Store tiene algunos requisitos adicionales, consultelos aquí: https://developer.apple.com/app-store/review/guidelines/#hardware-compatibility
+
+    - Requisitos de software:  
+    Las aplicaciones deben ser independientes en sus paquetes y no pueden leer ni escribir datos fuera del área de contenedor designada, ni pueden descargar, instalar o ejecutar código que introduzca o cambie características o funcionalidad de la aplicación, incluidas otras aplicaciones.  
+    Se rechazarán las aplicaciones que transmitan virus, archivos, códigos informáticos o programas que puedan dañar o interrumpir el funcionamiento normal del sistema operativo y / o las funciones del hardware.  
+    Para más información consulte: https://developer.apple.com/app-store/review/guidelines/#software-requirements
+
+3. Negocios
+    Asegúrate de explicar tu modelo de negocios en tus metadatos y notas de revisión de aplicaciones.  
+    Serán rechazadas las aplicaciones caras que intenten engañar a los usuarios con precios irracionalmente altos.  
+    
+    Si se descubre que has intentado manipular reseñas, se tomarán medidas para preservar la integridad de la App Store, lo que puede incluir la expulsión del Programa para desarrolladores.
+
+4. Diseño
+    Los clientes de Apple valoran mucho los productos que son simples, refinados, innovadores y fáciles de usar, es por ello que debes asegurarte de respetar los siguientes puntos: https://developer.apple.com/app-store/review/guidelines/#design
+5. Legal
+    Es tu responsabilidad comprender y asegurarte de que tu aplicación cumpla con todas las leyes locales, y por supuesto, se rechazarán las aplicaciones que soliciten, promuevan o fomenten un comportamiento delictivo o claramente imprudente. En casos extremos, como aplicaciones que faciliten la trata de personas y / o la explotación de niños, se notificará a las autoridades correspondientes.
 
 # Play Store (Google) 🤖
 ## Proceso ⚙
@@ -60,14 +103,15 @@
     Después de esto, serás llevado a la página de entrada de la tienda, donde deberas agregar los datos completos sobre la aplicación.
 7. Store Listing 📊:  
     Contiene la información más importante para la optimización de la tienda de aplicaciones (ASO) y brinda a los usuarios más detalles sobre la aplicación antes de descargarla.  
-    **- Descripción del producto:** Contiene el título de la aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos).
-    **- Capturas de pantalla:** Puede agregar de 2 a 8 capturas de pantalla. Con las siguientes características: JPEG o PNG de 24 bits y de 320px a 3840 px.
-    **- Icono:** 512 px por 512 px, PNG de 32 bits (con alfa) y tamaño máximo de archivo: 1024 KB.
-    **- Video promocional:** Si tienes algún video promocional, puedes agregar un enlace a tu canal de YouTube.
-    **- Etiquetas:** Puedes elegir de la lista las palabras clave más relevantes para tu aplicación para un mejor ASO.
-    **- Localización:** Si la aplicación admite varios idiomas, menciónalos todos y agrega traducciones de la información de la aplicación. Se recomienda incluir capturas de pantalla e imágenes localizadas. 
-    **- Tipo de aplicación y categorización:** Primero, a través del menú desplegable, selecciona el tipo de aplicación: juego o aplicación. Luego, elije la categoría a la que pertenece tu aplicación.
-    **- Detalles de contacto:** Proporciona los contactos del servicio de soporte: URL del sitio web, correo electrónico y teléfono.
+    
+    **- Descripción del producto:** Contiene el título de la aplicación (hasta 50 símbolos), una breve descripción (hasta 80 símbolos) y una descripción completa (hasta 4000 símbolos).  
+    **- Capturas de pantalla:** Puede agregar de 2 a 8 capturas de pantalla. Con las siguientes características: JPEG o PNG de 24 bits y de 320px a 3840 px.  
+    **- Icono:** 512 px por 512 px, PNG de 32 bits (con alfa) y tamaño máximo de archivo: 1024 KB.  
+    **- Video promocional:** Si tienes algún video promocional, puedes agregar un enlace a tu canal de YouTube.  
+    **- Etiquetas:** Puedes elegir de la lista las palabras clave más relevantes para tu aplicación para un mejor ASO.  
+    **- Localización:** Si la aplicación admite varios idiomas, menciónalos todos y agrega traducciones de la información de la aplicación. Se recomienda incluir capturas de pantalla e imágenes localizadas.  
+    **- Tipo de aplicación y categorización:** Primero, a través del menú desplegable, selecciona el tipo de aplicación: juego o aplicación. Luego, elije la categoría a la que pertenece tu aplicación.  
+    **- Detalles de contacto:** Proporciona los contactos del servicio de soporte: URL del sitio web, correo electrónico y teléfono.  
     **- Política de privacidad:** Google requiere que se agregue un enlace a la Política de privacidad de la applicación.
 8. Calificación del contenido 💯:  
     Para no ser marcado como una aplicación sin clasificar (que puede llevar a la eliminación de la app), realiza un cuestionario de calificación.  
