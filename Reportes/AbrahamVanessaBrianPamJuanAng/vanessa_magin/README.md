@@ -21,6 +21,7 @@
     - A continuación, habilita la firma automática. En el Editor de proyectos, elije un destino y selecciona General  
     - Desplázate hacia abajo hasta la sección "Firma" y haz clic en el ícono del triángulo para expandir la configuración  
     - Haz clic en la casilla para administrar la firma automáticamente y selecciona tu equipo  
+      
     Cuando conectes un nuevo dispositivo a tu Mac, Xcode lo detectará y lo registrará automáticamente en el perfil de aprovisionamiento de tu equipo. Ten en cuenta que para iniciar tu aplicación en un dispositivo, el dispositivo debe estar registrado en el perfil de aprovisionamiento de tu equipo.
 
 4. Crea un registro de App Store Connect para tu aplicación
