@@ -15,7 +15,10 @@
         <activity android:name=".Oxigeno"></activity>
         <activity android:name=".Hospital" />
         <activity android:name=".Farmacia" />
-        <activity android:name=".MapsActivity" />
+        <activity android:name=".MapsActivity"
+            android:theme="@style/Theme.ProyectoFinalAndroid"
+            android:label="@string/farmacias"
+            />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
