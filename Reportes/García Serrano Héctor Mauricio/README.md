@@ -1,4 +1,3 @@
-Un documento: 🍦 Describa el proceso de publicación de aplicaciones en la App Store (Apple) y en la Play Store (Google) y las reglas (como el copyright) que hay que seguir para que nos las acepten. Esto es importante porque a veces tienen sus apps hechas y nunca llegan a publicarse, ya que no pasan el área de revisión para la mejora de la experiencia de usuario (o tienen código malicioso).
 # Proceso de publicación 📢 de aplicaciones en la App Store (Apple) 🍎 y Play Store (Google) ▶️
 
 <p align = "center">
@@ -8,7 +7,7 @@ Un documento: 🍦 Describa el proceso de publicación de aplicaciones en la App
 ## ***Objetivo***
 Identificar de manera general el proceso a seguir para subir nuestras aplicaciones móviles a las dos plataformas más importantes a nivel mundial de descarga de aplicaciones 🌎.
 
-# Publicación de aplicaciones móviles en la App Store 📱
+# Publicación de aplicaciones móviles en la App Store <img src="apple.jpg"  width="30" height="30"/>📱
 La App Store es la única plataforma para publicación y descarga de aplicaciones móviles iOS. La página oficial de Apple México la define como: 
 <p align="center">
   <img src="apple.jpg"  width="500" height="500"/>
@@ -89,10 +88,48 @@ La app ya ha sido enviada a revisión por una ___persona física___ parte del eq
 
 La Play Store o Google Play es la tienda de aplicaciones por excelencia para usuarios Android, este sitio alberga millones de aplicaciones de diferentes tipos y disponibles para los miles de millones de usuarios que hay en el mundo.
 
-A compración de la App Store, Google nos ofrece una licencia mucho más económica y de un solo pago de $25 dólares para poder ser desarrollador y publicar apps en la Play Store mediante la Google Play Console, la cuál es una herramienta similar a la de Apple para poder realizar lanzamientos, monitoreo de apps y muchas más funciones.
+A compración de la App Store, Google nos ofrece una licencia mucho más económica y de ___un solo pago___ de $25 dólares 😱 para poder ser desarrollador y publicar apps en la Play Store mediante la Google Play Console, la cuál es una herramienta similar a la de Apple para poder realizar lanzamientos, monitoreo de apps y muchas más funciones.📉🔧📊
 
-Al igual que con Apple, hay que crear una cuenta de desarrollador 
+<p align = "center" >
+    <img src="playconsole.jpg"  width="500" height="300"/>
+</p>
+
+Una vez tengamos nuestra cuenta ya podemos mandar aplicaciones a revisión para su posterior publicación en la Play Store, lo único que hay que hacer es dirigirse a la ___"Google Play Console"___ seleccionar "Todas las aplicaciones" del menú de la izquierda y posteriormente "Crear una aplicación", el menú de la izquierda cambiará y nos colocará en la sección de "Ficha de Play Store" y a continuación seguir los pasos:
+
+1. Selecciona un idioma predeterminado, Google selecciona automáticamente el idioma de tu cuenta. 🈵 🆎
+2. Poner un título en la aplicación, éste aparecerá en la Play Store, dar click en "Crear".
+3. Llenar datos de la publicación como descripción, recursos gráficos como capturas de pantalla (por lo menos 2 por dispositivo), videos, íconos, etc.
+4. Categorización y fórmulario, en esta parte es importante dar una clasificación a la aplicación en base a su contenido y lo que muestra a los usuarios. Se selecciona el tipo de app y su categoría además de la necesidad de contestar un cuestionario para que Google le dé un certificado de clasificación, esto para definir el público al que va dirigido, cabe resaltar que por cada versión nueva se tiene que contestar este cuestionario. ©️❌❗️ ✅
+5. Llenar apartado de contacto para darle a Google una manera de comunicarse con nosotros 📞.
+6. Añadir link de sitio de políticas de privacidad, esta parte a diferencia de la App Store es opcional.
+
+En el menú izquierdo ir a la sección de Precios y distribución 💲, aquí hay que seleccionar si la aplicación serpa de pago o gratuita, en caso de seleccioanr "Gratis" esta selección no podrá cambiar. Además, hay que definir los países donde estará disponible 🌎, si está dirigida para niños, si contiene anuncios, categorias de dispositivos, programas de usuarios, y consentimiento, cada parte es importante detenerse a leer a qué se refiere y dependerá del propósito de la aplicación el seleccionar opciones o no 👀.
+
+En el mismo menú de la izquierda se pueden elegir más opciones para la aplicación las cuales son eso, opcionales, pero las más importantes son las que ya mencioné y para decirle a Google cuál es nuestra aplicación nos tenemos que dirigir a la sección de "Versiones de la app":
+1. En esta parte mostrará varias "pistas" las cuales son opciones para subir versiones alfa, beta, etc, si ya es la versión final hay que seleccionar de la "Pista en producción" el botón de "Administrar" y a continuación en "Crear Versión".
+2. Click en "Continuar" y ahora, a diferencia de Apple Store donde se linkeaba desde XCode, aquí nos pedirá subir directamente al sitio desde nuestro equió el archivo "APK", para esta parte es importante que desde ___Android Studio___ a la hora de haber creado el APK, se haya seleccionado de las "Signature Versions" las "V1(Jar Signature)" y la "V2(Full APK Signature").
+3. Una vez subido el APK hay que poner nombre a la versión y novedades de la actualización, ya que este s el mismo proceso para cuando se actualiza una app.
+4. Ya que se haya llenado todo dar click en "Revisar" para que el equipo de la Play Store revise la aplicación y al cabo de unas horas pueda estar lanzada 🚀.
+
+### Google menciona lo siguiente: 
+### Centro de Políticas de Desarrolladores ⚠️⚠️⚠️
+
+Propiedad intelectual
+
+No admitimos aplicaciones ni cuentas de desarrolladores que vulneren los derechos de propiedad intelectual de terceros, incluidos secretos comerciales, patentes, marcas, derechos de autor y otros derechos de propiedad. Tampoco admitimos aplicaciones que animen o induzcan a infringir derechos de propiedad intelectual.
+
+Responderemos a las notificaciones claras de infracción de los derechos de autor. Para obtener más información al respecto o presentar una solicitud basada en la DMCA, consulta los procedimientos relacionados con los derechos de autor.
+
+Para presentar una reclamación por la venta o promoción de productos falsificados en una aplicación, envía un aviso de falsificación.
+
+Si eres el propietario de una marca comercial y crees que una aplicación de Google Play infringe tus derechos, te animamos a que te pongas en contacto directamente con el desarrollador para resolver el asunto. Si no llegáis a un acuerdo, envíanos una reclamación de marca comercial a través de este formulario.
+
+Si tienes información por escrito que demuestre que puedes utilizar la propiedad intelectual de un tercero en tu aplicación o ficha de Play Store (p. ej., nombres de marcas, logotipos o recursos gráficos), ponte en contacto con el equipo de Google Play antes de enviar el contenido para garantizar que tu aplicación no se rechace por infringir la propiedad intelectual.
 
 ## Referencias:
 
-https://www.youtube.com/watch?v=tg6YcD52jNA
+* https://developer.android.com/guide
+* https://help.apple.com/xcode/mac/current/#/dev8b4250b57
+* https://www.youtube.com/watch?v=tg6YcD52jNA
+* https://www.youtube.com/watch?v=EOkKc1Oc92M
+* https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/publicar-una-app-en-la-apple-store-crear-una-app/
