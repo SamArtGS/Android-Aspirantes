@@ -112,7 +112,7 @@ En el mismo menú de la izquierda se pueden elegir más opciones para la aplicac
 4. Ya que se haya llenado todo dar click en "Revisar" para que el equipo de la Play Store revise la aplicación y al cabo de unas horas pueda estar lanzada 🚀.
 
 ### Google menciona lo siguiente: 
-### Centro de Políticas de Desarrolladores ⚠️⚠️⚠️
+### Centro de Políticas de Desarrolladores 
 
 Propiedad intelectual
 
