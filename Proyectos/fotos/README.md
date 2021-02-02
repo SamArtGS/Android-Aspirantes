@@ -1,6 +1,6 @@
-Proyecto Final - Android
+# Proyecto Final - Android
 
-Colaboradores del proyecto:
+### Colaboradores del proyecto:
 
 - Sanabria Mendoza, Isaac Alejandro
 - Ortega Lujano, Conic
