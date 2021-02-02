@@ -2,7 +2,15 @@
 
 ## ✔ Descripción
 
-(Aquí va una descripción del proyecto)
+(Aquí va una descripción del proyecto, debe expresarse la versión de Android que fue elegida al momento de la creación del proyecto)
+
+## Conceptos vistos en clase aplicados en el proyecto
+
+(Para explicar un concepto es requerido también mostrar una captura de pantalla de donde se vea la línea de código en donde se aplica)
+
+## Capturas de funcionamiento
+
+(Son capturas de nuestro TERMINADO donde se vea cómo inicia y qué se puede ver durante la navegación del usaurio, algo así como se ve en la PlayStore)
 
 ## 📚 Accesos directos de imporancia
 
