@@ -2,6 +2,7 @@ package com.proteco.fotos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_perfil_roberto.*
 
 class PerfilRoberto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,13 +10,12 @@ class PerfilRoberto : AppCompatActivity() {
         setContentView(R.layout.activity_perfil_roberto)
 
         /*
-        * Aquí se encontrará el contenido del perfil en donde se podrá ver:
-        *  - Fotografía
-        *  - Nombre
-        *  - Pequeña descripción
-        *  - Perfil de GitHun
-        *  - Correo electrónico
-        *
-        * */
+           Una instrucción que apunta a el fotón que se encuentra dentro del perfil del usuario.
+           Al precionar dicho botón lo que sucederá es terminar la actividad actual y hacer que
+           el usuario vuelva al menú principal.
+        */
+        volverRoberto.setOnClickListener {
+            finish()
+        }
     }
 }
