@@ -9,10 +9,59 @@
     tools:ignore="ExtraText">
 
     <Button
+        android:id="@+id/boton_oxigeno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="OXIGENO"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toEndOf="@+id/boton_farmacia" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="61dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_oxigeno"
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@mipmap/tanque" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_hospital"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@mipmap/hospital" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_farmacia"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/farmacia" />
+
+    <Button
         android:id="@+id/boton_farmacia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="72dp"
         android:background="@drawable/bordes_redondos"
         android:text="Farmacia"
         android:textColor="#000000"
@@ -20,14 +69,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/boton_hospital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="72dp"
         android:background="@drawable/bordes_redondos"
         android:text="HOSPITAL"
         android:textColor="#000000"
@@ -38,26 +87,11 @@
         app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toEndOf="@+id/boton_farmacia" />
 
-    <Button
-        android:id="@+id/boton_oxigeno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
-        android:background="@drawable/bordes_redondos"
-        android:text="OXIGENO"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
-        app:layout_constraintStart_toEndOf="@+id/boton_farmacia" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="24dp"
         android:text="Cruz Roja Mexicana"
         android:textAlignment="center"
         android:textColor="#090909"
@@ -66,20 +100,20 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/boton_farmacia"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         tools:text=" Cruz Roja Mexicana" />
 
     <ImageView
         android:id="@+id/imageView"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/cruz"
         android:layout_width="188dp"
         android:layout_height="132dp"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="34dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761"
+        app:srcCompat="@mipmap/cruz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
