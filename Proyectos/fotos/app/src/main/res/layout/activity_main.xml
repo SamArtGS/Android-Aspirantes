@@ -16,4 +16,44 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+        Boton que permitirá el comienzo de otra actividad
+        que muestre la información.
+    /-->
+    <Button
+        android:id="@+id/boton_verRoberto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver perfil Carrichi"
+        ></Button>
+
+>>>>>>> 298849a02ff943d089e4215c87b7b7126f6d2d2f
 </androidx.constraintlayout.widget.ConstraintLayout>

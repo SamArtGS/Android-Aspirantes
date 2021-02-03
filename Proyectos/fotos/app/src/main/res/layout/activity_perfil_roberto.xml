@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Aquí se encontrará el contenido del perfil en donde se podrá ver:
+    - Fotografía
+    - Nombre
+    - Pequeña descripción
+    - Perfil de GitHun
+    - Correo electrónico
+/-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linerLayout"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="60dp"
+                >
+                <ImageView
+                    android:id="@+id/imgRoberto"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/roberto"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nombreRoberto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roberto Carlos\nCarrichi de la Cruz"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="38sp"
+                android:padding="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:text="Estudiante de en la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en computación."
+                android:textSize="21sp"
+                android:padding="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contáctame"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="38sp"
+                android:padding="16dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Correo electrónico:"
+                    android:textSize="25sp"
+                    android:padding="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="robertocc.proteco@gmail.com"
+                    android:textSize="23sp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GitHub:"
+                    android:textSize="25sp"
+                    android:padding="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="robertocarrichi"
+                    android:textSize="23sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="30dp"
+                >
+                <Button
+                    android:id="@+id/volverRoberto"
+                    android:layout_width="142dp"
+                    android:layout_height="83dp"
+                    android:text="Volver"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
