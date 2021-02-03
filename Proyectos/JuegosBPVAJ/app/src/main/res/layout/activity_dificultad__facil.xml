@@ -83,37 +83,5 @@
         app:layout_constraintTop_toBottomOf="@+id/button3"
         android:background="@drawable/code"/>
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="14dp"
-        android:backgroundTint="#FFFFFF"
-        app:iconTint="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        android:background="@drawable/code"/>
 
-
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/button8"
-        android:layout_marginTop="14dp"
-        app:layout_constraintEnd_toStartOf="@+id/button9"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintStart_toEndOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        android:layout_marginStart="8dp"
-        android:background="@drawable/code"/>
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/button9"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="14dp"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        android:background="@drawable/code"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
