@@ -44,3 +44,8 @@ Es evidente que es necesario tener una forma de poder clasificar las fotografía
 ![ejemplo foto casa 2](imagenes/5.png)
 
 ![ejemplo foto casa 3](imagenes/6.png)
+
+
+## que proyecto harias
+
+Bueno el proyecto que yo haria seria en base a encontrar la mejor forma para hacer un graficador 3d con uso de campos electricos y magneticos.
