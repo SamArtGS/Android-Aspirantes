@@ -13,7 +13,7 @@ class difMedia : AppCompatActivity() {
         setContentView(R.layout.activity_dif_media)
 
         val images: MutableList<Int> =
-                mutableListOf(alien, astronauta, nave, saturno, sol, tierra, alien, astronauta, nave, saturno, sol, tierra)
+                mutableListOf(alien, astronauta, nave, saturno, sol, asteroide, alien, astronauta, nave, saturno, sol, asteroide)
 
         val buttons = arrayOf(btnM1, btnM2, btnM3, btnM4, btnM5, btnM6, btnM7, btnM8, btnM9, btnM10, btnM11, btnM12)
 
