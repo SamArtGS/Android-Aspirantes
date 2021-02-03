@@ -24,151 +24,116 @@
 
     <Button
         android:id="@+id/btnM1"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
+
     <Button
         android:id="@+id/btnM2"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toStartOf="@+id/btnM3"
         app:layout_constraintStart_toEndOf="@+id/btnM1"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
         android:id="@+id/btnM3"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
         android:id="@+id/btnM4"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnM1" />
 
     <Button
         android:id="@+id/btnM5"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toStartOf="@+id/btnM6"
         app:layout_constraintStart_toEndOf="@+id/btnM4"
         app:layout_constraintTop_toBottomOf="@+id/btnM2" />
 
     <Button
         android:id="@+id/btnM6"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnM3" />
 
     <Button
         android:id="@+id/btnM7"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnM4" />
 
     <Button
         android:id="@+id/btnM8"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toStartOf="@+id/btnM6"
         app:layout_constraintStart_toEndOf="@+id/btnM4"
         app:layout_constraintTop_toBottomOf="@+id/btnM5" />
 
     <Button
         android:id="@+id/btnM9"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnM6" />
 
     <Button
         android:id="@+id/btnM10"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnM7" />
 
     <Button
         android:id="@+id/btnM11"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toStartOf="@+id/btnM9"
         app:layout_constraintStart_toEndOf="@+id/btnM7"
         app:layout_constraintTop_toBottomOf="@+id/btnM8" />
 
     <Button
         android:id="@+id/btnM12"
-        style="?android:attr/borderlessButtonStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/transparent"
-        android:drawableTop="@drawable/androide1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnM9" />
 
