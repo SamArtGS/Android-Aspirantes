@@ -35,30 +35,31 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="60dp"
-                >
 
+                >
                 <ImageView
-                    android:id="@+id/imgRoberto"
+                    android:id="@+id/imgConic"
                     android:layout_width="300dp"
                     android:layout_height="300dp"
-                    android:src="@drawable/roberto" />
+                    android:src="@drawable/conic" />
+
             </LinearLayout>
 
             <TextView
-                android:id="@+id/nombreRoberto"
+                android:id="@+id/nombreConic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Roberto Carlos\nCarrichi de la Cruz"
-                android:textAlignment="center"
-                android:textStyle="bold"
-                android:textSize="38sp"
                 android:padding="16dp"
-                />
+                android:text="Conic Ortega Lujano"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:text="Estudiante de en la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en computación."
+                android:text="Estudiante de Informática en la Facultad de Contaduría y Administración"
+                android:textAlignment="center"
                 android:textSize="21sp"
                 android:padding="40dp"
                 />
@@ -89,7 +90,7 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="robertocc.proteco@gmail.com"
+                    android:text="conicol.proteco@gmail.com"
                     android:textSize="23sp"
 
                     />
@@ -101,13 +102,13 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                     android:padding="20dp"
                     />
                 <TextView
-                    android:id="@+id/textViewRoberto"
+                    android:id="@+id/textViewConic"
                     android:autoLink="all"
                     android:clickable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="github.com/RobertoCarrichi"
+                    android:text="github.com/conic-ol"
                     android:textSize="23sp"
                     />
             </LinearLayout>
@@ -115,15 +116,16 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
                 android:layout_margin="30dp"
-                >
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <Button
-                    android:id="@+id/volverRoberto"
-                    android:layout_width="142dp"
+                    android:id="@+id/volverConic"
+                    android:layout_width="match_parent"
                     android:layout_height="83dp"
-                    android:text="Volver"></Button>
+                    android:text="Volver"
+                    android:textSize="20sp"></Button>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fotos">
         <activity android:name=".PerfilRoberto"></activity>
+        <activity android:name=".PerfilConic"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
