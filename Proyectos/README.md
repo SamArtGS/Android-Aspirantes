@@ -22,7 +22,3 @@ EkuipoDinamita_10
 
 
 Pueden hacerlo en equipos de cuantas personas consideren, solo recuerden anotarse todos en su respectivo README y en el nombre de la carpeta en Proyectos/. Obligatorio que usen Git-Github en este tiempo de contingencia para evitar la frase: "¿Ay, cuál era el bueno?" o los archivos: "Final Final", "Final final este sí.".
-
-## IMPORTANTE:
-
-- **Si trabajan en equipo deben aparecer commits de todos los integrantes que estén en el README de la documentación. Así me daré cuenta quién trabaja y quién no. Si NO aparecen commits con cambios considerables de alguna persona, no la tomaré en cuenta en la evaluación. (automáticamente estarían reprobados).**
