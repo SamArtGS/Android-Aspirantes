@@ -27,7 +27,7 @@ Main (Landscape):
 </p>
 Al pulsar el botón deseado, muestra esta pantalla:
 <p align = "center">
-    <img src="pantalla3.png"  width="250" height="600"/>
+    <img src="pant3.png">
 </p>
 
 Posteriormente, al hacer click en "Ver en el mapa" nos llevará a un mapa en tiempo real que nos marcará las ubicaciones de los lugares que se pidió:
