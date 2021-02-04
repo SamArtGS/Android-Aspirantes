@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Dificultad3" />
+        <activity android:name=".dificultad_Facil"/>
     </application>
 
 </manifest>

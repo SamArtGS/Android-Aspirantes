@@ -14,18 +14,12 @@ class juego1 : AppCompatActivity() {
         var tem:Int=0
         var dif:Int=0
 
-        dificultad.text="Facil"
 
         facil.setOnClickListener {
             dif=0
             dificultad.text="Facil"
-
-            var difFacil = Intent(this, dificultad_Facil::class.java)
-            startActivity(difFacil)
-
-            var dificultadFacil= Intent(this,dificultad_Facil::class.java)
-            startActivity(dificultadFacil)
-
+            var diffacil=Intent(this,dificultad_Facil::class.java)
+            startActivity(diffacil)
         }
         medio.setOnClickListener {
             dif=1
