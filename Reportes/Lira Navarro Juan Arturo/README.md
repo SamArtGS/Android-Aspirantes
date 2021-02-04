@@ -1,0 +1,9 @@
+#Proteco
+##Curso de Android
+###Lira Navarro Juan Arturo
+La verdad es que android siempre ha llamado mi atención pero nunca había tomado un curso como tal. En cch un profesor intentó enseñarnos con un entorno de bloques (no recuerdo el nombre) pero no es lo mismo a codificar, las 3 clases que nos dió se tornaron muy aburridas. Después en la facultad *intenté* buscar algún curso pero no encontré y me di por vencido :satisfied:. Pero hace un tiempo, google liberó un curso básico de kotlin en inglés y si bien sé muy poco inglés, le entendí (con ayuda del traductor, claro) y ese curso lo terminé pero realmente era muy básico.
+
+Fue hasta ahora, en Proteco que por fin pude tomar un curso completo y entendible (aunque fue mucha información para el poco tiempo) y ahora, realmente entendí el por qué de cada objeto, atributo o valor que se puede asignar (al menos de los botones, texto e imágenes). De igual forma vimos como manejar los datos que proporciona el giroscopio e hicimos una pequeña aplicación con ello. Conocimos el entorno de Android Studio y como utilizar nuestro celular para probar las aplicaciones sin necesidad de usar el AVD y que mi computadora muera en el intento :neutral_face:.
+
+Pero algo importante que también me dejó este curso fue aprender a usar GitHub porque realmente nunca lo había usado, siempre me salvé de usarlo en algunas materias o con algunos profesores y siempre e utilizado el método *"Este es el bueno"*,*"Ahora sí"*, *"Final final"*, *"Juro que este si es el último"*, etc jaja y además de llegar a un punto en el que el programa ya no hace nada, no recuerdas que le moviste y ya no puedes hacer Ctrl+z para volver :'v git te ayuda con eso y puedes ir subiendo cada que cambias algo en el programa sin tener que guardarlo como un documento diferente. En fin, git es muy fácil de usar y muy pedido en el mundo laboral, agradezco la enseñanza de esta herramienta.
+
