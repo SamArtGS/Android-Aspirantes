@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:visibility="visible"
     tools:context=".Juego2">
 
     <LinearLayout
@@ -21,31 +22,19 @@
             android:layout_height="wrap_content"
             android:background="#9C27B0"
             android:fontFamily="sans-serif-black"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="GATO"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="18dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"/>
+            android:textSize="18dp" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="GATO"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="18dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="10dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="75dp"
         android:layout_marginTop="50dp"
         android:orientation="horizontal"
 
@@ -54,126 +43,133 @@
 
         <Button
             android:id="@+id/boton1"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/boton2"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/boton3"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="75dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/boton4"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/boton5"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/boton6"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="75dp"
         android:orientation="horizontal">
 
 
         <Button
             android:id="@+id/boton7"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/boton8"
-            android:layout_margin="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/boton9"
-            android:layout_margin="1dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textSize="50dp"
+            android:layout_margin="1dp"
             android:background="@color/lila"
+            android:text=""
             android:textColor="@color/red"
-            android:text=""/>
+            android:textSize="50dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button17"
-        android:layout_marginTop="40dp"
+        android:id="@+id/nuevaPartida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nueva partida" />
+        android:layout_marginTop="40dp"
+        android:text="Reset" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:srcCompat="@drawable/feliz" />
 
 
 </LinearLayout>
