@@ -1,51 +1,51 @@
 # Proyecto Android-Aspirantes
 
-### Integrantes: <img src="app/src/main/res/drawable/icons8-team.svg" align = "right"  width="70"/> 
+### Integrantes: <img src="img/icons8-team.svg" align = "right"  width="70"/> 
 
 Galnares Ruiz Diego <br>
 García Miranda Athenas <br>
 Merino Hernández Ailyn  <br>
-# Acerca de esta App. <img src="app/src/main/res/drawable/icons8-android.svg" alt="My cool logo" align = "right"  width="100"/> 
+# Acerca de esta App. <img src="img/icons8-android.svg" alt="My cool logo" align = "right"  width="100"/> 
 
 Check Task es una aplicación móvil que facilita la administración de tus actividades diarias a través de tu correo.
 
-##  ¿Cómo funciona? <img src="app/src/main/res/drawable/icons8-why_quest.svg" align = "right"  width="100"/> 
+##  ¿Cómo funciona? <img src="img/icons8-why_quest.svg" align = "right"  width="100"/> 
 
 ###  1. Autentificación a través de una cuenta
 
 Regístrate mediante un correo y te notificaremos de tus actividades pendientes.
 
-<img src="app/src/main/res/drawable/login.png"  width="30%"/> 
+<img src="img/login.png"  width="30%"/> 
 
 ### 2. Detalles de la tarea
 
 Añade un nombre y los detalles de la tarea por hacer.
 
-<img src="app/src/main/res/drawable/details.png"  width="30%"/> 
+<img src="img/details.png"  width="30%"/> 
 
 ### 3. Tiempo Límite
 
 Check task proporciona un calendario para que el usuario defina una fecha de expiración para la tarea, de esta manera enviaremos un correo al usuario como recordatorio.
 
-<img src="app/src/main/res/drawable/fecha.png"  width="30%"/> 
+<img src="img/fecha.png"  width="30%"/> 
 
 ### 4.  Check Task
 
 ¿Terminaste los deberes? Marca las tareas finalizadas y olvídate de los mensajes por correo.
 
-<img src="app/src/main/res/drawable/check.png"  width="30%"/> 
+<img src="img/check.png"  width="30%"/> 
 
 ### 5. Icono 
 Identifica la app con su característico ícono.
 
-<img src="app/src/main/res/drawable/ic_app_screanshoot.jpg"  width="30%"/> 
+<img src="img/ic_app_screanshoot.jpg"  width="30%"/> 
 
-## Especificaciones  <img src="app/src/main/res/drawable/icons8-find_and_replace.svg" align = "right"  width="60"/> 
+## Especificaciones  <img src="img/icons8-find_and_replace.svg" align = "right"  width="60"/> 
 
 Check Task es una aplicación que se ejecuta en versiones Marshmallow y posteriores.<br>
-Debido a que no se agregó el registro del usuario, este por defecto es Proteco y la contaseña proteco123
+Debido a que no se agregó el registro del usuario, este por defecto es Proteco y la contaseña Proteco123
 
-## ¿Qué aprendimos con este proyecto?  <img src="app/src/main/res/drawable/icons8-learning.svg" align = "right"  width="100"/> 
+## ¿Qué aprendimos con este proyecto?  <img src="img/icons8-learning.svg" align = "right"  width="100"/> 
 
 ### 1. Etiquetas flotantes
 
