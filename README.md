@@ -8,11 +8,11 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 41.
 
 ### 👀 Temario
 
-- Kotlin
-- GUI
-- Actividades e Intents
-- Vistas Dinámicas
-- Fragments
+- Kotlin García Serrano Héctor Mauricio
+- GUI Minero Pineda Erick Rodrigo
+- Actividades e Intents Huarte Nolasco Mario
+- Vistas Dinámicas Lira Navarro Juan Arturo
+- Fragments Pérez Delgado Kevin Uriel
 - API's & Firebase
 
 ### 🐢 Criterio de evaluación 
@@ -41,9 +41,6 @@ Y finalmente, respuestas idénticas entre sus compañeros es anulación de exame
 > Puntaje total: 10 (+ 1)
 
 ##### Que la fuerza los acompañe ⚽️
-
-
-García Miranda Athenas Marlene
 
 
 ### Formato de entrega
@@ -100,17 +97,7 @@ Isaac Alejandro Sanabria Mendoza
 
 Carrichi de la Cruz Roberto Carlos
 
-Ortega Lujano Conic aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-<<<<<<< HEAD
-
-Diego Galnares Ruíz
-
-
-=======
-Merino Hernández Ailyn
->>>>>>> 425e0eb139b23269d34ee2cd3f21453f6df461f2
 - *Aún si calificar
 - +Pendiente
 - -No se aceptan más envíos
@@ -126,9 +113,3 @@ Fecha de límite de entregas: 2021.01.20 11:59 pm
 
 Para más información: [ANDROID DEVELOPERS](https://developer.android.com)
 
-
-
-
-
-
-Angeles Hernández Juan
