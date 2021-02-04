@@ -1,16 +1,16 @@
-#Proyecto Android.
+# Proyecto Android.
 - García Serrano Héctor Mauricio
 - Huarte Nolasco Mario
 - Lira Navarro Juan Arturo
 - Minero Pineda Erick Rodrigo
 - Pérez Delgado Kevin Uriel
 
-##Función.
+## Función.
 Debido a la *no* tan reciente pandemia, hemos observado que la necesidad de conocer la localización de ciertos lugares debe ser más rápido y confiable.
 La función que desempeña esta aplicación básicamente es mostrar puntos de interés relacionados con la actual pandemia: 
--Farmacias
--Hospitales
--Lugares para conseguir oxígeno.
+- Farmacias
+- Hospitales
+- Lugares para conseguir oxígeno.
 
 Con esto, hemos desarrollado una interfaz gráfica agradable con el usuario, solo necesita pulsar el boton de lo que le interesa y lo llevará a otra pantalla para conocer las ubicaciones:
 <p align = "center">
