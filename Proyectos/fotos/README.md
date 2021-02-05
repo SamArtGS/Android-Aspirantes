@@ -14,10 +14,12 @@ Utilizamos API 26: Android 7.0 (Nougat)
 - ![android manifest](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
 
 Se crean elementos de vista para poner imagenes dentro de nuestras vistas de la aplicación, así como el ajuste de su tamaño, y su ubicación en la vista del dispositivo. 
-- ![5mentarios](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layout.jpg)
+- ![5mentarios](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerimagenes.jpg)
 
 - Se insertaron distintas imágenes desde el directorio dawable
 - ![drawable](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/drawable.jpg)
+
+
 ## 📸 Capturas de funcionamiento
 
 ![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion01.jpg)
