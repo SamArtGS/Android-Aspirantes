@@ -1,9 +1,9 @@
 <h1 align="center">Reporte de Android y Kotlin</h1>
-##Introducción
+<h3 align="center">Introducción</h3>
 
-Kotlin es un lenguaje relativamente nuevo a diferencia del mayoritariamente utilizado Java, pero que es mucho mas simple de aprender y utilizar, y tuve la oportunidad de aprender las bases del lenguaje en este curso. Entonces,
+<p>Kotlin es un lenguaje relativamente nuevo a diferencia del mayoritariamente utilizado Java, pero que es mucho mas simple de aprender y utilizar, y tuve la oportunidad de aprender las bases del lenguaje en este curso. Entonces,</p>
 
-![Kotlin](https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin-logo.svg)
+<img  width="20vw"src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin-logo.svg" alt="Italian Trulli">
 
 ##¿Qué aprendí?
 
