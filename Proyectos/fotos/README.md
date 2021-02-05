@@ -11,19 +11,12 @@ Utilizamos API 26: Android 7.0 (Nougat)
 ![Creacion de actividades](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/creacionactivities.jpg)
 
 - Para cada acción realizada dentro de activity.xml es necesario declararlo en el .kt y dentro de AndroidManifest.xml para poder darles funcionalidad a los botones.
--![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
-- Utilizamos distintos layout para modificar el formato de las imágenes, textos y botones.
-<<<<<<< HEAD
-=======
+![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
+
 ![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layaout.jpg)
 
 Se crean elementos de vista para poner imagenes dentro de nuestras vistas de la aplicación, así como el ajuste de su tamaño, y su ubicación en la vista del dispositivo. 
-![Poner imagenes en vista](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerimagenes.jpg)
-
-(Para explicar un concepto es requerido también mostrar una captura de pantalla de donde se vea la línea de código en donde se aplica)
->>>>>>> 210929a10b8a0948ad86d8a9894c8c881e55634c
-
--![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layout.jpg)
+![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layout.jpg)
 
 - Se insertaron distintas imágenes desde el directorio dawable
 -![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/drawable.jpg)
