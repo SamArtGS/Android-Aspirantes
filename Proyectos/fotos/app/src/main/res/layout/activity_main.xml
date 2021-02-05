@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:text="Ver perfil Carrichi"
         tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="191dp"></Button>
+        tools:layout_editor_absoluteY="207dp"></Button>
 
     <Button
         android:id="@+id/boton_verConic"
