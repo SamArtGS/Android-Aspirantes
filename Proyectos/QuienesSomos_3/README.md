@@ -41,7 +41,7 @@ Creación de botones, así como su descripción visual, su  tamaño y posición 
 
 Si es requerido ver la estructura que se implementó para cada una de las actividades, haz click [aquí](app/src/main/res/layout).
 
-Para poder ver el código que le da funcionalidad a las actividades, se encuentra [aquí](app/src/main/java/com/proteco/fotos).
+Para poder ver el código que le da funcionalidad a las actividades, se encuentra [aquí](app/src/main/java/com/proteco/QuienesSomos_3).
 
 ## 🤝 Colaboradores del proyecto
 
