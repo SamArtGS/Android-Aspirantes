@@ -28,10 +28,25 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity(), SensorEventListener {
 
     val CAMERA_REQUEST_CODE:Int=0
+
     private lateinit var mSensorManager: SensorManager
     private lateinit var mAccelerometer : Sensor
     private lateinit var mGyroscope :Sensor
 
+    override fun onDestroy() {
+        super.onDestroy()
+        println("Me morí")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        PintarPantalla()
+    }
+    fun PintarPantalla(){
+        boton7.setOnClickListener {
+
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -40,8 +55,12 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         mAccelerometer = mSensorManager.getDefaultSensor(TYPE_ACCELEROMETER)
         mGyroscope = mSensorManager.getDefaultSensor(TYPE_GYROSCOPE)
 
+
         boton1.setOnClickListener {
             var intent = Intent(this, Actividad2::class.java)
+            val b = Bundle()
+            b.putSerializable("serializable","Hola")
+            intent.putExtra("infoUsuario",b)
             startActivity(intent)
         }
 
@@ -68,15 +87,21 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
 
         boton5.setOnClickListener {
             Toast.makeText(this,"Botón de Toast", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Hola a todos",Toast.LENGTH_SHORT).show()
         }
+
+
         boton6.setOnClickListener {
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) ==
                 PackageManager.PERMISSION_GRANTED){
             val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "9141203710"))
             startActivity(intent)
-        }else{ ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.CALL_PHONE),123)
+        }else{
+                ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.CALL_PHONE),123)
             }
         }
+
+
         boton7.setOnClickListener {
             val i = Intent(Intent.ACTION_SEND)
             i.type = "message/rfc822"
@@ -92,7 +117,13 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 ).show()
             }
         }
+
+
+
         boton8.setOnClickListener {
+
+            var nombreUsuario:String = nombreUsuario.text.toString()
+            println(nombreUsuario)
 
             val lm : LocationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) ==
@@ -153,11 +184,9 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 }
             }
             else -> {
-                Toast.makeText(this,"Cámarauvo problemas para tomar la foto", Toast.LENGTH_SHORT)
+                Toast.makeText(this,"Cámara Tuvo problemas para tomar la foto", Toast.LENGTH_SHORT)
             }
         }
     }
-
-
 
 }

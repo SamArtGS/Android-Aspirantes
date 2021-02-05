@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,7 +18,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-
             >
 
             <TextView
@@ -185,8 +183,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-
                 >
+
                 <TextView
                     android:id="@+id/mGyrox"
                     android:layout_width="match_parent"
@@ -219,6 +217,13 @@
 
             </LinearLayout>
 
+            <EditText
+                android:id="@+id/nombreUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="textPassword" />
+
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
@@ -234,13 +239,20 @@
                 android:textColor="@android:color/background_light"
                 android:text="Botón Otro Activity" />
 
+            <Button
+                android:id="@+id/botonbonito"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#3F51B5"
+                android:textColor="@android:color/background_light"
+                android:text="Botón Otro Activity" />
 
             <Button
                 android:id="@+id/boton2"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:backgroundTint="#E91E63"
-                android:textColor="@android:color/background_light"
+                android:textColor="@color/colorAzul"
                 android:text="Botón Google" />
 
             <Button
@@ -251,12 +263,14 @@
                 android:textColor="@android:color/background_light"
                 android:text="Botón Cámara" />
 
+
+
             <Button
                 android:id="@+id/boton4"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:backgroundTint="@color/colorPrimary"
-                android:textColor="@android:color/background_light"
+                android:backgroundTint="#000000"
+                android:textColor="#2351F9"
                 android:text="Botón Web Link" />
             <Button
                 android:id="@+id/boton5"
@@ -318,6 +332,7 @@
                     android:padding="15dp"
                     android:textSize="13dp"
                     />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

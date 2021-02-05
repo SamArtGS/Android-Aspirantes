@@ -53,7 +53,7 @@ Carpeta/ApellidoPaternoNombre1_ApellidoPaternoNombre2
 Ejemplo:
 
 ```
-Proyectos/GarridoSamuel-GatellHugo
+Proyectos/GarridoSamuel-Gomita
 ```
 
 Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-2/tree/master/tareas/2)
@@ -63,7 +63,7 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 
 | #PB|  Nombre   | Examen|  Proyecto  | Reporte |Calificación|Final|
-|:-:|:----------: |:----------:|:-------: |:-------:|:-------:|:-------:|
+|:--:|:----------: |:----------:|:-------: |:-------:|:-------:|:-------:|
 |**1**|              | 0 | 0 | 0 | 0 | 0
 |**3**|              | 0 | 0 | 0 | 0 | 0
 |**5**|              | 0 | 0 | 0 | 0 | 0
@@ -74,6 +74,10 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 |**15**|             | 0 | 0 | 0 | 0 | 0
 |**17**|             | 0 | 0 | 0 | 0 | 0
 |**19**|             | 0 | 0 | 0 | 0 | 0
+
+
+Samuel Arturo Garrido Sánchez
+
 
 - *Aún si calificar
 - +Pendiente
@@ -91,3 +95,30 @@ Fecha de límite de entregas: 2021.01.20 11:59 pm
 Para más información: [ANDROID DEVELOPERS](https://developer.android.com)
 
 
+Equipo 1: 
+Mario Huarte, 
+Erick Rodrigo,
+Mauricio Garcia, <-Jefe
+Juan Lira
+
+Equipo 2:  
+Isaac Alejandro, <- Jefe
+Conic Ortega, 
+Roberto Carrrichi 
+
+Equipo 3:
+Omar Armando
+Michel Karina <- Jefe
+César Yair
+
+Equipo 4: 
+Brian <- Jefe
+Pamela
+Abraham
+Vanessa
+Juan Ángeles
+
+Equipo 5
+Athenas García <- Jefe
+Ailyn Merino
+Diego Galnares
