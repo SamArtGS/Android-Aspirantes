@@ -35,5 +35,5 @@ Por ejemplo, al crear una diagonal con X o 0 entonces el juego terminará, mient
 - Bautista Pérez Brian Jassiel
 - Espinoza de los Monteros Camarrillo Pamela.
 - Galindo Ruíz Abraham.
-- Hernández Juan Ángeles.
+- Ángeles Hernández Juan.
 - Magín Gómez Nancy Vanessa.
