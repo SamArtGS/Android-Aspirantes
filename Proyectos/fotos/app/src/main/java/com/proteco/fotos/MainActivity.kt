@@ -10,24 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         /*
             Instrucción que está a la espera que un botón sea precionado para que se
             redireccione el usuario.
@@ -35,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         boton_verRoberto.setOnClickListener {
             /*
                 Es creada la "intención" que tendrá como referencia la actividad
-                "PerfilRoberto.
+                "PerfilRoberto".
              */
             var intent = Intent(this, PerfilRoberto::class.java)
 
