@@ -2,6 +2,7 @@ package com.proteco.fotos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_perfil_roberto.*
 
 class PerfilRoberto : AppCompatActivity() {
@@ -15,6 +16,10 @@ class PerfilRoberto : AppCompatActivity() {
            el usuario vuelva al menú principal.
         */
         volverRoberto.setOnClickListener {
+            /*
+                Se hace una llamada a un Toast que permite mostrar un mensaje en pantalla.
+            */
+            Toast.makeText(this,"¡Nos vemos!", Toast.LENGTH_SHORT).show()
             finish()
         }
     }

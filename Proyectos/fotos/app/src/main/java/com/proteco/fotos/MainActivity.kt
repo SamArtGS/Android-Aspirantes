@@ -3,6 +3,7 @@ package com.proteco.fotos
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,10 @@ class MainActivity : AppCompatActivity() {
             redireccione el usuario.
         */
         boton_verRoberto.setOnClickListener {
+            /*
+                Se hace una llamada a un Toast que permite mostrar un mensaje en pantalla.
+            */
+            Toast.makeText(this,"¡Hola!", Toast.LENGTH_SHORT).show()
             /*
                 Es creada la "intención" que tendrá como referencia la actividad
                 "PerfilRoberto".
