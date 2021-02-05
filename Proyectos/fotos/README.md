@@ -7,21 +7,21 @@ Dentro de los perfiles, se encuentra nuestra foto, una pequeña descripción de 
 Utilizamos API 26: Android 7.0 (Nougat)
 
 ## 📲 Conceptos vistos en clase aplicados en el proyecto
--Se crean las actividades del Layout para ser invocadas después en nuestro Main Activity.
-- ![Creacion de actividades](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/creacionactivities.jpg)
+-Se crean las actividades del Layout para ser invocadas después en nuestro Main Activity
+![Creacion de actividades](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/creacionactivities.jpg)
 
 - Para cada acción realizada dentro de activity.xml es necesario declararlo en el .kt y dentro de AndroidManifest.xml para poder darles funcionalidad a los botones.
-- ![android manifest](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
+![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
+- Utilizamos distintos layout para modificar el formato de las imágenes, textos y botones.
+![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layaout.jpg)
 
 Se crean elementos de vista para poner imagenes dentro de nuestras vistas de la aplicación, así como el ajuste de su tamaño, y su ubicación en la vista del dispositivo. 
-- ![5mentarios](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerimagenes.jpg)
+![Poner imagenes en vista](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerimagenes.jpg)
 
-- Se insertaron distintas imágenes desde el directorio dawable.
-- ![drawable](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/drawable.jpg)
+Creación de botones, así como su descripción visual, su  tamaño y posición en el Layout, su color, y demás características. 
+![Poner Botones](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerbotones.jpg)
 
-- Se utilizaron diferentes layout para editar las propiedades de la TextView, ImageView y LinearLayout.
-- ![drawable](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layout.jpg)
-
+(Para explicar un concepto es requerido también mostrar una captura de pantalla de donde se vea la línea de código en donde se aplica)
 
 ## 📸 Capturas de funcionamiento
 
