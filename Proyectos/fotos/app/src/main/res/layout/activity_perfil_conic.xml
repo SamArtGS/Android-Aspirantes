@@ -57,11 +57,11 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:text="Estudiante de Informática en la Facultad de Contaduría y Administración"
-                android:textAlignment="center"
-                android:textSize="21sp"
                 android:padding="40dp"
-                />
+                android:text="Estudiante de Informática en la Facultad de Contaduría y Administración.
+"
+                android:textAlignment="center"
+                android:textSize="21sp" />
 
             <TextView
                 android:layout_width="match_parent"
