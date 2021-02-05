@@ -1,61 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="top"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#222831"
+            android:text="UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Programa de tecnología en cómputo"
+            android:textStyle="bold"
+            android:layout_marginVertical="10dp"
+            />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logounam"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                ></ImageView>
 
-    <!--
-        <<<<<<< HEAD
-       =======
-       -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logoproteco"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                ></ImageView>
+        </LinearLayout>
 
+    </LinearLayout>
 
-
-
-
-       <!--
-           Boton que permitirá el comienzo de otra actividad
-           que muestre la información.
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        >
+        <!--
+           Botones que permitirán el comienzo de otra actividad
+           que muestre la información de uno de los colaboradores.
        /-->
+        <Button
+            android:id="@+id/boton_verRoberto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver perfil carrichi"
+            android:textColor="#214151"
+            android:backgroundTint="#a2d0c1"
+            ></Button>
 
-    <Button
-        android:id="@+id/boton_verRoberto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="102dp"
-        android:text="@string/ver_perfil_carrichi"
-        app:layout_constraintBottom_toTopOf="@+id/boton_verConic"
-        app:layout_constraintEnd_toEndOf="parent"></Button>
+        <Button
+            android:id="@+id/boton_verConic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#a77b81"
+            android:textColor="#6c3c43"
+            android:text="@string/ver_perfil_conic"
+            android:layout_marginVertical="10dp"
+            ></Button>
 
-    <Button
-        android:id="@+id/boton_verConic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="106dp"
-        android:text="@string/ver_perfil_conic"
-        app:layout_constraintBottom_toTopOf="@+id/boton_verIsaac"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_marginHorizontal="-8dp"
-        tools:layout_marginVertical="120dp"></Button>
+        <Button
+            android:id="@+id/boton_verIsaac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#375182"
+            android:text="@string/ver_perfil_isaac"></Button>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/boton_verIsaac"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="121dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="365dp"
-        android:text="@string/ver_perfil_isaac"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_marginHorizontal="-8dp"
-        tools:layout_marginVertical="120dp"></Button>
-
-    <!-- >>>>>>> 298849a02ff943d089e4215c87b7b7126f6d2d2f -->
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

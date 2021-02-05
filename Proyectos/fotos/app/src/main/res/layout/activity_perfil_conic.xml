@@ -35,7 +35,6 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="60dp"
-
                 >
                 <ImageView
                     android:id="@+id/imgConic"
