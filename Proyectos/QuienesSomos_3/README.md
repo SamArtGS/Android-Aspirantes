@@ -8,34 +8,34 @@ Utilizamos API 26: Android 7.0 (Nougat)
 
 ## 📲 Conceptos vistos en clase aplicados en el proyecto
 -Se crean las actividades del Layout para ser invocadas después en nuestro Main Activity
-![Creacion de actividades](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/creacionactivities.jpg)
+![Creacion de actividades](imagenes/creacionactivities.jpg)
 
 - Para cada acción realizada dentro de activity.xml es necesario declararlo en el .kt y dentro de AndroidManifest.xml para poder darles funcionalidad a los botones.
-![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
+![presentación 1](imagenes/androidmanifest.jpg)
 - Utilizamos distintos layout para modificar el formato de las imágenes, textos y botones.
 
 
 - Se utilizaron diferentes layout para editar las propiedades de la TextView, ImageView y LinearLayout.
-- ![drawable](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layout.jpg)
+- ![drawable](imagenes/layout.jpg)
 
 
 - Para cada acción realizada dentro de activity.xml es necesario declararlo en el .kt y dentro de AndroidManifest.xml para poder darles funcionalidad a los botones.
-- ![android manifest](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
+- ![android manifest](imagenes/androidmanifest.jpg)
 
 
 Se crean elementos de vista para poner imagenes dentro de nuestras vistas de la aplicación, así como el ajuste de su tamaño, y su ubicación en la vista del dispositivo. 
-![Poner imagenes en vista](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerimagenes.jpg)
+![Poner imagenes en vista](imagenes/ponerimagenes.jpg)
 
 Creación de botones, así como su descripción visual, su  tamaño y posición en el Layout, su color, y demás características. 
-![Poner Botones](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/ponerbotones.jpg)
+![Poner Botones](imagenes/ponerbotones.jpg)
 
 (Para explicar un concepto es requerido también mostrar una captura de pantalla de donde se vea la línea de código en donde se aplica)
 
 ## 📸 Capturas de funcionamiento
 
-![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion01.jpg)
-![presentación 2](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion02.jpg)
-![presentación 3](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion03.jpg)
+![presentación 1](imagenes/presentacion01.jpg)
+![presentación 2](imagenes/presentacion02.jpg)
+![presentación 3](imagenes/presentacion03.jpg)
 
 ## 📚 Accesos directos de imporancia
 
