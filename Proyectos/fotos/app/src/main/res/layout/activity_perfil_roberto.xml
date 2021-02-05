@@ -56,11 +56,12 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                 />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:text="Estudiante de en la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en computación."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soy estudiante de en la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en computación.\n\nActualmente tengo 19 años y personalmente me considero una persona soñadora que suele ser muy comprometida con sus objetivos. Me gusta jugar balonceso y suelo escuchar Hip-Hop."
                 android:textSize="21sp"
-                android:padding="40dp"
+                android:paddingVertical="40dp"
+                android:paddingHorizontal="30dp"
                 />
 
             <TextView
