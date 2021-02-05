@@ -12,7 +12,7 @@ Lo único diferente en cada dificultad es la cantidad de pares a encontrar. Así
 Así pues, lo que se hizo primero fue implementar una lista mutable que contenga las imágenes que serán parte del juego
 Después, se implementó una iteración que va desde 0 hasta la cantidad máxima de imágenes contenidas en la dificultad. Por ejemplo, en la dificultad difícil tenemos que se trata de un arreglo de 4x4, es decir 16 imágenes en total, de los cuales 8 son pares, así que en este caso la iteración va desde la posición 0 hasta 15 (Cantidad máxima de imágenes). La iteración tiene anidados varios condicionales, los cuales verificarán que las imágenes sean iguales para poder seguir seleccionando más pares, de no ser así, el usuario tendrá que voltear el par nuevamente para seguir jugando.
 
-! [Muestra del juego](C:/Users/bjbp2/Documents/Android-Aspirantes/Proyectos/JuegosBPVAJ/01_Documentacion/Difmedia.jpeg)
+! [Muestra del juego](C:\Users\bjbp2\Documents\Android-Aspirantes\Proyectos\JuegosBPVAJ\01_Documentacion\Difmedia.jpeg)
 
 # Gato
 
