@@ -46,9 +46,20 @@ class MainActivity : AppCompatActivity() {
         boton_verConic.setOnClickListener {
             /*
                 Es creada la "intención" que tendrá como referencia la actividad
-                "PerfilRoberto.
+                "PerfilConic.
              */
             var intent = Intent(this, PerfilConic::class.java)
+
+            // Después de haber creado la "intención", se solicita que la actividad comience.
+            startActivity(intent)
+        }
+
+        boton_verIsaac.setOnClickListener {
+            /*
+                Es creada la "intención" que tendrá como referencia la actividad
+                "PerfilIsaac.
+             */
+            var intent = Intent(this, PerfilIsaac::class.java)
 
             // Después de haber creado la "intención", se solicita que la actividad comience.
             startActivity(intent)
