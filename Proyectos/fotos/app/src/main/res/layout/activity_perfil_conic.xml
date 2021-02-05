@@ -57,8 +57,8 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:padding="40dp"
-                android:text="Estudiante de Informática en la Facultad de Contaduría y Administración.
+                android:padding="18dp"
+                android:text="Estudiante de Informática en la Facultad de Contaduría y Administración. Me gusta mucho la música, bailar, la fotografía y el diseño web. Me quiero especializar en Bases de datos.
 "
                 android:textAlignment="center"
                 android:textSize="21sp" />
