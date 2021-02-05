@@ -59,9 +59,8 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:text="Estudiante de Informática en la Facultad de Contaduría y Administración. Me gusta mucho jargar basket, en general amo los deportes y la musica. Tengo un gran interés en la seguridad informática y por la tecnología en general."
-                android:layout_centerInParent="true"
                 android:layout_gravity="center_vertical|right"
-                android:textSize="16dp"
+                android:textSize="15dp"
                 android:padding="40dp"
                 />
 
