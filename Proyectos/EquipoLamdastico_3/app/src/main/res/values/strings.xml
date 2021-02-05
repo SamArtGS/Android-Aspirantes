@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Block Notas</string>
+    <string name="str_ingresar">ingresar</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="title_activity_list_task">ListTaskActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="str_nombre_de_la_tarea">Nombre de la tarea</string>
+    <string name="str_agregar">Agregar</string>
+</resources>
