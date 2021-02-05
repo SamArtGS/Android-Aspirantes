@@ -13,7 +13,7 @@ Utilizamos API 26: Android 7.0 (Nougat)
 - Para cada acción realizada dentro de activity.xml es necesario declararlo en el .kt y dentro de AndroidManifest.xml para poder darles funcionalidad a los botones.
 ![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/androidmanifest.jpg)
 - Utilizamos distintos layout para modificar el formato de las imágenes, textos y botones.
-![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layaout.jpg)
+
 
 - Se utilizaron diferentes layout para editar las propiedades de la TextView, ImageView y LinearLayout.
 - ![drawable](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/layout.jpg)
