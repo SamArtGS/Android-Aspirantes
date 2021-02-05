@@ -7,7 +7,8 @@ Dentro de los perfiles, se encuentra nuestra foto, una pequeña descripción de 
 Utilizamos API 26: Android 7.0 (Nougat).
 
 ## 📲 Conceptos vistos en clase aplicados en el proyecto
--Se crean las actividades del Layout para ser invocadas después en nuestro Main Activity
+- Se crean las actividades del Layout para ser invocadas después en nuestro Main Activity
+
 ![Creacion de actividades](imagenes/creacionactivities.jpg)
 
 - Para cada acción realizada dentro de activity.xml es necesario declararlo en el .kt y dentro de AndroidManifest.xml para poder darles funcionalidad a los botones.
@@ -27,12 +28,12 @@ Utilizamos API 26: Android 7.0 (Nougat).
 
 
 Se crean elementos de vista para poner imagenes dentro de nuestras vistas de la aplicación, así como el ajuste de su tamaño, y su ubicación en la vista del dispositivo. 
+
 ![Poner imagenes en vista](imagenes/ponerimagenes.jpg)
 
 Creación de botones, así como su descripción visual, su  tamaño y posición en el Layout, su color, y demás características. 
-![Poner Botones](imagenes/ponerbotones.jpg)
 
-(Para explicar un concepto es requerido también mostrar una captura de pantalla de donde se vea la línea de código en donde se aplica)
+![Poner Botones](imagenes/ponerbotones.jpg)
 
 ## 📸 Capturas de funcionamiento
 
