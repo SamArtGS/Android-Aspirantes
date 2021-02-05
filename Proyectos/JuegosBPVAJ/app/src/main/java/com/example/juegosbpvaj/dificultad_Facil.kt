@@ -3,10 +3,8 @@ package com.example.juegosbpvaj
 import androidx.appcompat.app.AppCompatActivity
 
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_dificultad__facil.*
 import com.example.juegosbpvaj.R.drawable.*
-
-
+import kotlinx.android.synthetic.main.activity_dificultad__facil.*
 
 class dificultad_Facil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
