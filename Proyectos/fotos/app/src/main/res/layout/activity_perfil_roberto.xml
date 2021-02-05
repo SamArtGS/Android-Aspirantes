@@ -8,7 +8,6 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
     - Perfil de GitHun
     - Correo electrónico
 /-->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +15,8 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
     android:id="@+id/linerLayout"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -52,18 +52,24 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="38sp"
-                android:padding="16dp"
+                android:paddingVertical="16dp"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Soy estudiante de en la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en computación.\n\nActualmente tengo 19 años y personalmente me considero una persona soñadora que suele ser muy comprometida con sus objetivos. Me gusta jugar balonceso y suelo escuchar Hip-Hop."
-                android:textSize="21sp"
-                android:paddingVertical="40dp"
-                android:paddingHorizontal="30dp"
-                />
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soy estudiante de en la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en computación.\n\nActualmente tengo 19 años y personalmente me considero una persona soñadora que suele ser muy comprometida con sus objetivos. Me gusta jugar balonceso y suelo escuchar Hip-Hop."
+                    android:textSize="21sp"
+                    android:paddingVertical="40dp"
+                    android:paddingHorizontal="30dp"
+                    android:layout_gravity="center_vertical|right"
+                    />
+            </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,7 +130,11 @@ Aquí se encontrará el contenido del perfil en donde se podrá ver:
                     android:id="@+id/volverRoberto"
                     android:layout_width="142dp"
                     android:layout_height="83dp"
-                    android:text="Volver"></Button>
+                    android:textColor="#214151"
+                    android:backgroundTint="#a2d0c1"
+                    android:text="Volver"
+                    android:textSize="18dp"
+                    ></Button>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
