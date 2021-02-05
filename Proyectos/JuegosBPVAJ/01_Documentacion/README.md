@@ -13,7 +13,7 @@ Así pues, lo que se hizo primero fue implementar una lista mutable que contenga
 Después, se implementó una iteración que va desde 0 hasta la cantidad máxima de imágenes contenidas en la dificultad. Por ejemplo, en la dificultad difícil tenemos que se trata de un arreglo de 4x4, es decir 16 imágenes en total, de los cuales 8 son pares, así que en este caso la iteración va desde la posición 0 hasta 15 (Cantidad máxima de imágenes). La iteración tiene anidados varios condicionales, los cuales verificarán que las imágenes sean iguales para poder seguir seleccionando más pares, de no ser así, el usuario tendrá que voltear el par nuevamente para seguir jugando.
 
 <p>
-  <img src="img/Difmedia.jpeg" align = "center"  width="60"/>
+  <img src="img/Difmedia.jpeg" align = "center"  width="100"/>
 </p>
 
 # Gato
@@ -28,7 +28,7 @@ Consiste en una condicional con múltiples alternativas. Dicha condicional irá 
 Por ejemplo, al crear una diagonal con X o 0 entonces el juego terminará, mientras esto no sea así, el juego seguirá corriendo.
 
 <p>
-  <img src="img/gato.jpeg" align = "center"  width="60"/>
+  <img src="img/gato.jpeg" align = "center"  width="100"/>
 </p>
 
 # Creadores:
