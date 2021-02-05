@@ -3,7 +3,7 @@
 El memorama es un juego en el cual nuestra capacidad de memorización
 es el protagonista en este juego.
 
-#Implementación en Android Studio
+# Implementación en Android Studio
 
 Lo primero que se hizo para la creación de este juego fue crear las plantillas del juego: La interfaz inicial para seleccionar el juego a jugar, seleccionar la dificultad del memorama y el memorama en sí. Para esto, se crearon los layouts, en los cuales pusimos los botones e imágenes necesarias para el juego. Una vez diseñada cada parte, procedimos a implementar código en los botones desde el xml.
 
