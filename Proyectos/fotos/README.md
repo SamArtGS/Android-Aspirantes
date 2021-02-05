@@ -12,7 +12,9 @@ Utilizamos API 26: Android 7.0 (Nougat)
 
 ## 📸 Capturas de funcionamiento
 
-![presentación 1](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+![presentación 1](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion01.jpeg)
+![presentación 2](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion02.jpeg)
+![presentación 3](https://github.com/Sportman9x9/Android-Aspirantes/blob/master/Proyectos/fotos/imagenes/presentacion03.jpeg)
 
 ## 📚 Accesos directos de imporancia
 
