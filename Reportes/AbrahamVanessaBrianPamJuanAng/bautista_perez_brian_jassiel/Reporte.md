@@ -6,7 +6,7 @@
 
 Entré a este curso de Android sin saber literalmente nada, lo único que sabía es que su IDE (**Android Studio**) consumía muchos recursos y te trababa la PC y sí, así era, pero al instalarlo me di cuenta que sí, te agota recursos pero no te mata la computadora, igual todo depende del equipo que tengas.
 
-- ### <img src="img/kotlin-logo.png" align = "center"  width="50"> Kotlin 
+- ### <img src="img/kotlin-logo.jpg" align = "center"  width="80"> Kotlin 
 
 Al empezar con Kotlin noté que era como programar en Java, tenía una sintaxis similar, lo cual no se me complicó mucho, incluso tener el compilador en línea hizo mucho más fácil la práctica y eso agilizó más el proceso de aprendizaje.
 Lo que vimos en Kotlin fueron estructuras que hemos estado viendo desde nuestros primeros cursos de programación, por ejemplo:
