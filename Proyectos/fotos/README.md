@@ -2,7 +2,9 @@
 
 ## ✔ Descripción
 
-(Aquí va una descripción del proyecto, debe expresarse la versión de Android que fue elegida al momento de la creación del proyecto)
+En nuestro proyecto realizamos una pequeña presentación de los integrantes que la desarrollamos. En la pantalla principal se pueden observar nuestros nombres con botones en dodne se puede acceder a el perfil de cada uno.
+Dentro de los perfiles, se encuentra nuestra foto, una pequeña descripción de nuestros gustos y un lik a nuestros perfiles de GitHub. 
+Utilizamos API 26: Android 7.0 (Nougat)
 
 ## 📲 Conceptos vistos en clase aplicados en el proyecto
 
@@ -10,7 +12,7 @@
 
 ## 📸 Capturas de funcionamiento
 
-(Son capturas de nuestro TERMINADO donde se vea cómo inicia y qué se puede ver durante la navegación del usaurio, algo así como se ve en la PlayStore)
+![presentación 1](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
 
 ## 📚 Accesos directos de imporancia
 
