@@ -29,7 +29,6 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 41.
 Fecha de límite: 2021.01.20 11:59 pm
 ```
 
-
 URL Formulario de Google: [Examen Android 2021-1](https://forms.gle/sH8ffmCZmMgepsSd6)
 
 
@@ -96,6 +95,7 @@ Isaac Alejandro Sanabria Mendoza
 
 
 Carrichi de la Cruz Roberto Carlos
+
 
 
 - *Aún si calificar
