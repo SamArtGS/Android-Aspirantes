@@ -8,22 +8,22 @@ Curso para aspirantes del Programa de Tecnología en Cómputo, generación 41.
 
 ### 👀 Temario
 
-- Kotlin García Serrano Héctor Mauricio
-- GUI Minero Pineda Erick Rodrigo
-- Actividades e Intents Huarte Nolasco Mario
-- Vistas Dinámicas Lira Navarro Juan Arturo
-- Fragments Pérez Delgado Kevin Uriel
+- Kotlin
+- GUI
+- Actividades e Intents 
+- Vistas Dinámicas
+- Fragments
 - API's & Firebase
 
 ### 🐢 Criterio de evaluación 
 
 |  Criterio   | Porcentaje |
 |:----------: |:----------:|
-|   Examen    |    20 %    |
+|   Git    |    20 %    |
 |  Proyecto   |    50 %    |
 |   Reporte   |    30 %    |
 
-### EXAMEN Nancy Vanessa Magín Gómez
+### EXAMEN (No realizado Gen 41)
 
 ```
 Fecha de límite: 2021.01.20 11:59 pm
@@ -64,53 +64,48 @@ Checar: [SISTOP-2020-2 con Gunnar Wolf](https://github.com/SamArtGS/sistop-2020-
 
 
 
-| #PB|  Nombre   | Examen|  Proyecto  | Reporte |Calificación|Final|
-|:--:|:----------: |:----------:|:-------: |:-------:|:-------:|:-------:|
-|**1**|              | 0 | 0 | 0 | 0 | 0
-|**3**|              | 0 | 0 | 0 | 0 | 0
-|**5**|              | 0 | 0 | 0 | 0 | 0
-|**7**|              | 0 | 0 | 0 | 0 | 0
-|**9**|              | 0 | 0 | 0 | 0 | 0
-|**11**|             | 0 | 0 | 0 | 0 | 0
-|**13**|             | 0 | 0 | 0 | 0 | 0
-|**15**|             | 0 | 0 | 0 | 0 | 0
-|**17**|             | 0 | 0 | 0 | 0 | 0
-|**19**|Abraham Galindo Ruiz | 0 | 0 | 0 | 0 | 0
+| #PB|  Nombre   | Git | Proyecto | Reporte |Calificación|
+|:--:|:----------: |:----------:|:-------: |:-------:|:-------:|
+|**1**| Galnares Ruiz Diego 			  	| 2 | 5 | 3 | 10 |
+|**2**| Merino Hernández Ailyn 			| 2 | 5 | 3 | 10 |
+|**3**| García Miranda Athenas Marlene	| 2 | 5 | 3 | 10 |
+|**4**| García Serrano Héctor Mauricio	| 2 | 5 | 3 | 10 |
+|**5**| Huarte Nolasco Mario				| 2 | 5 | 3 | 10 |
+|**6**| Lira Navarro Juan Arturo			| 2 | 5 | 3 | 10 |
+|**7**| Minero Pineda Erick Rodrigo		| 2 | 5 | 3 | 10 |
+|**8**| Pérez Delgado Kevin Uriel			| 2 | 5 | 3 | 10 |
+|**9**| Bautista Pérez Brian Jassiel 	| 2 | 5 | 3 | 10 | 
+|**10**| Espinoza Camarrillo Pamela		| 2 | 5 | 3 | 10 |
+|**11**| Galindo Ruíz Abraham				| 2 | 5 | 3 | 10 |
+|**12**| Ángeles Hernández Juan			| 2 | 5 | 3 | 10 |
+|**13**| Magín Gómez Nancy Vanessa		| 2 | 5 | 3 | 10 |
+|**14**| Calderón Guevara César Yair		| 1.8 | 4 | 3 | 8.8 |
+|**15**| Olazábal Baquero Omar Armando	| 1.8 | 4 | 3 | 8.8 |
+|**16**| Carrichi de la Cruz Roberto		| 2 | 4.5 | 1* | 7.5 |
+|**17**| Ortega Lujano Conic				| 2 | 4.5 | 1* | 7.5 |
+|**18**| Sanabrina Mendoza	Isaac 			| 2 | 4.5 | 1* | 7.5 |
+|**19**| Eyssautier Hernández Michel		| - | - | - | 0 |
 
 
+Evidencia de trabajo por equipo y **revisión**:
+
+- [Equipo - Hospitales, Farmacias y Oxígeno (Mauricio, Mario, Arturo, Erick, Uriel)](https://github.com/SamArtGS/Android-Aspirantes/pull/22)
+
+- [Equipo - Lista de Tareas (Athenas, Ailyn, Diego)](https://github.com/SamArtGS/Android-Aspirantes/pull/23)
+
+- [Equipo - JuegosBPVAJ (Jassiel, Pamela, Abraham, Juan, Vanessa)](https://github.com/SamArtGS/Android-Aspirantes/pull/25)
 
 
-Espinoza de los Monteros Camarillo Pamela
+- [Equipo - Quiénes somos? (Isaac, Conic, Roberto)](https://github.com/SamArtGS/Android-Aspirantes/pull/27)
 
+- [Equipo - MyApplication 🤨? (César, Omar)](https://github.com/SamArtGS/Android-Aspirantes/pull/28)
 
+\* Condicionado.
 
-Abraham Galindo Ruiz
-
-Bautista Pérez Brian Jassiel
-
-
-Isaac Alejandro Sanabria Mendoza 
-
-
-
-
-Carrichi de la Cruz Roberto Carlos
-
-
-
-
-Samuel Arturo Garrido Sánchez
-
-
-- *Aún si calificar
-- +Pendiente
-- -No se aceptan más envíos
-- ~Con puntos extra
-
-> Importante para las entregas:
+>  Importante para las entregas:
 
 ```
-Fecha de límite de entregas: 2021.01.20 11:59 pm
+Fecha de límite de entregas: 2021.02.04 11:59 pm
 ```
 
 

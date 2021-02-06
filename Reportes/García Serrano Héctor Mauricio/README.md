@@ -7,8 +7,14 @@
 ## ***Objetivo***
 Identificar de manera general el proceso a seguir para subir nuestras aplicaciones móviles a las dos plataformas más importantes a nivel mundial de descarga de aplicaciones 🌎.
 
-# Publicación de aplicaciones móviles en la App Store <img src="apple.jpg"  width="30" height="30"/>📱
+# Publicación de aplicaciones móviles en la App Store 
+
+<img src="apple.jpg"  width="30" height="30"/>📱
+
+
 La App Store es la única plataforma para publicación y descarga de aplicaciones móviles iOS. La página oficial de Apple México la define como: 
+
+
 <p align="center">
   <img src="apple.jpg"  width="500" height="500"/>
 </p>

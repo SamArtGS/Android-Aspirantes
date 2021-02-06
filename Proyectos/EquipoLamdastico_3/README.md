@@ -5,11 +5,15 @@
 Galnares Ruiz Diego <br>
 García Miranda Athenas <br>
 Merino Hernández Ailyn  <br>
-# Acerca de esta App. <img src="img/icons8-android.svg" alt="My cool logo" align = "right"  width="100"/> 
+# Acerca de esta App. 
+
+<img src="img/icons8-android.svg" alt="My cool logo" align = "right"  width="100"/> 
 
 Check Task es una aplicación móvil que facilita la administración de tus actividades diarias a través de tu correo.
 
-##  ¿Cómo funciona? <img src="img/icons8-why_quest.svg" align = "right"  width="100"/> 
+##  ¿Cómo funciona? 
+
+<img src="img/icons8-why_quest.svg" align = "right"  width="100"/> 
 
 ###  1. Autentificación a través de una cuenta
 

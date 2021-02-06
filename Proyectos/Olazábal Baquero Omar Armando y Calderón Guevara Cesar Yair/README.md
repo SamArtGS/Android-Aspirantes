@@ -16,6 +16,7 @@ En un principio se muestra el botón en la parte superior, acompañado de un Ima
 con la foto que nostros eligamos poner, como se muestra a continuación.
 
 <p align="center">
+
 <img src="/images/Vista1.jpg" alt="Vista 1" width="200"/>
 </p>
 
